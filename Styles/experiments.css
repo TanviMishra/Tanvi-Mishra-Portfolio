@@ -108,7 +108,7 @@ menu{
     padding-bottom: var(--default_padding)!important;
     position: sticky ;
     top: calc(2*var(--default_padding));
-    background: -webkit-linear-gradient(top, var(--white) 70%,rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,var(--white) 10%, var(--white) 70%,rgba(255,255,255,0) 100%);
     /* background-color: var(--white); */
     z-index: 6;
 }
@@ -126,5 +126,14 @@ menu{
     }
     .column4{
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #tags{
+        display: none;
+    }
+    main{
+        margin-top: 150px;
     }
 }

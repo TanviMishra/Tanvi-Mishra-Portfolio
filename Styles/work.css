@@ -95,16 +95,16 @@ header div {
   font-size: 0.7em;
 }
 #processVidContainer #video-div {
-  width: 40%;
+  width: 40vw;
 }
 #videos-container{
   display: flex;
   flex-direction: column;
   gap: var(--default_padding);
-  width: 70%;
+  /* width: 70%; */
 }
 #processImgSection #img_div {
-  width: 40%;
+  width: 40vw;
 }
 
 #processImgSection #processImgDiv {
@@ -175,9 +175,21 @@ header div {
       flex-direction: column;
   }
   .featured-image img {
-      width: 100%;
+      width: 40vw;
+      height: auto;
+  }
+  .featured-image h2{
+    font-size: 1em;
   }
   #arrowContainer {
       flex-direction: row;
   }
+  #processImgSection #img_div {
+    width: 80%;
+  }
+  .slide img {
+    width: 100%;
+  }
+
+
 }

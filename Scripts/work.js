@@ -246,6 +246,16 @@ async function loadProjectContent(searchTerm) {
             const videoElement = document.createElement("video");
             videoElement.src = videoItem.url;
             videoElement.alt = videoItem.alt || "";
+            videoElement.controls = true;
+
+            // Add additional attributes for better user experience
+            videoElement.preload = "metadata";
+            videoElement.playsInline = true;
+
+            // Add basic styling
+            videoElement.style.maxWidth = "100%";
+            videoElement.style.height = "auto";
+
             videosContainer.appendChild(videoElement);
           });
         }

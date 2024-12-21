@@ -232,13 +232,6 @@
         "url": "../Assets/imgs/Tridal/working gallery webp/Sketches 2.gif",
         "type": "progress-small"
       }
-    ],
-    "video-description": "This video is the detailed explanation of the game as presented at the Entropy symposium, moderated by Paolo Pedercini (Molleindustria).",
-    "video": [
-      {
-        "alt": "Entropy symposium, moderated by Paolo Pedercini",
-        "url": "https://v5.airtableusercontent.com/v3/u/36/36/1734674400000/BpPg3Xk8hKPZuq-vDgBeGw/icYoVWNEFFei9deZ3DTJcSfEFP9-JMhhTQcanbt7jQx_zDtm_7uCuWkkKh7KZkNcTY-Exjrn1AU6fkrrT38dvfwAUkh5ohjfdLxJ8RjlD5skwgRtfm6bDhq9NPyn4Stf8eVlQOXWwJsxHeL4NGv97z1jBY9OT7o4eA1AKjzQj9QZKv-Lnt5-SzL7RvbUmCuVGHwproMiz0FFWWuKCHcpZw/hf0OGT9cbxavTwqWEotKqpXUo41jAgoJ5oRFNTMg6gc"
-      }
     ]
   },
   {
@@ -441,13 +434,6 @@
         "text": "Sketches of some of the circuits and their working",
         "url": "../Assets/imgs/Sheer Contact/Working Gallery/Sketches - some of the circuits and their working.gif",
         "type": "progress-small"
-      }
-    ],
-    "video-description": "This video is one of the final outputs of the project. As a part of the documentation, we created a surveillance video of two test subjects wearing neoTCH 1.3 for the first time.",
-    "video": [
-      {
-        "alt": "",
-        "url": "https://www.dropbox.com/scl/fi/zca3n4uu2c3xbu222pj9d/opening-scene.mov?rlkey=xm6ek9ovxy9xi8fd7l9qjdv9x&st=z4me4kbn&dl=0"
       }
     ]
   },
