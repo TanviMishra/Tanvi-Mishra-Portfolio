@@ -229,50 +229,17 @@ async function loadProjectContent(searchTerm) {
       processProgressImages(project.images, "progress-small", "progress-small");
     }
 
-    // Add video content
-    const processVidContainer = document.getElementById("processVidContainer");
-    const videosContainer = document.getElementById("videos-container");
+    // Handle video container visibility
     const videoDesc = document.getElementById("video-description");
+    const processVidContainer = document.getElementById("processVidContainer");
 
-    if (!isEmpty(project.video)) {
-      const validVideos = project.video.filter(
-        (v) => !isEmpty(v.url) && v.url !== "../"
-      );
-
-      if (validVideos.length > 0) {
-        if (videosContainer) {
-          videosContainer.innerHTML = "";
-          validVideos.forEach((videoItem) => {
-            const videoElement = document.createElement("video");
-            videoElement.src = videoItem.url;
-            videoElement.alt = videoItem.alt || "";
-            videoElement.controls = true;
-
-            // Add additional attributes for better user experience
-            videoElement.preload = "metadata";
-            videoElement.playsInline = true;
-
-            // Add basic styling
-            videoElement.style.maxWidth = "100%";
-            videoElement.style.height = "auto";
-
-            videosContainer.appendChild(videoElement);
-          });
-        }
-
-        if (videoDesc && !isEmpty(project["video-description"])) {
-          videoDesc.textContent = project["video-description"];
-        }
-      } else {
-        // Remove entire video section if no valid videos
-        if (processVidContainer) {
-          processVidContainer.remove();
-        }
-      }
+    // Update video description if it exists
+    if (videoDesc && !isEmpty(project["video-description"])) {
+      videoDesc.textContent = project["video-description"];
     } else {
-      // Remove entire video section if no video array
+      // Hide the entire video container if there's no description
       if (processVidContainer) {
-        processVidContainer.remove();
+        processVidContainer.style.display = "none";
       }
     }
   } catch (error) {

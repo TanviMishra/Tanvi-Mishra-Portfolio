@@ -97,11 +97,32 @@ header div {
 #processVidContainer #video-div {
   width: 40vw;
 }
-#videos-container{
+
+
+#videos-container {
   display: flex;
   flex-direction: column;
   gap: var(--default_padding);
-  /* width: 70%; */
+  width: 100%;
+  position: relative;
+}
+
+/* Add this new style for the video wrapper */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--small_padding);
 }
 #processImgSection #img_div {
   width: 40vw;
