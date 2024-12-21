@@ -1,0 +1,933 @@
+[
+  {
+    "title": "Bakery Collection",
+    "date": "2024",
+    "classification": ["Fabrication"],
+    "description": "A collection of magnets made using oven-bake clay featuring classic baked goods",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": "Baked Magnet Collection",
+        "url": "../Assets/imgs/Magnets/SFPC-17.webp"
+      },
+      {
+        "alt": "Baked Magnet Collection",
+        "url": "../Assets/imgs/Magnets/SFPC-18.webp"
+      },
+      {
+        "alt": "Baked Magnet Collection",
+        "url": "../Assets/imgs/Magnets/SFPC-19.webp"
+      },
+      {
+        "alt": "Baked Magnet Collection",
+        "url": "../Assets/imgs/Magnets/SFPC-34.webp"
+      },
+      {
+        "alt": "Baked Magnet Collection",
+        "url": "../Assets/imgs/Magnets/SFPC-35.webp"
+      },
+      {
+        "alt": "Baked Magnet Collection",
+        "url": "../Assets/imgs/Magnets/SFPC-37.webp"
+      }
+    ]
+  },
+  {
+    "title": "House Brush",
+    "date": "2024",
+    "classification": ["Creative Coding"],
+    "description": "The brush draws houses as you move your mouse across the screen. It was built as a quick exercise at reacquainting myself with p5.js.",
+    "links": [
+      {
+        "text": "Open Sketch",
+        "url": "https://editor.p5js.org/TanviMishra/sketches/zvzvN-aB1"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": "House brush v1 trials",
+        "url": "../Assets/imgs/House Brush/brush v1 trial 1.webp"
+      },
+      {
+        "alt": "House brush v1 trials",
+        "url": "../Assets/imgs/House Brush/brush v1 trial 3.webp"
+      },
+      {
+        "alt": "House brush tests",
+        "url": "../Assets/imgs/House Brush/Getting started.webp"
+      },
+      {
+        "alt": "House brush v2 trials",
+        "url": "../Assets/imgs/House Brush/brush v2 trial 1.webp"
+      },
+      {
+        "alt": "House brush v2 trials",
+        "url": "../Assets/imgs/House Brush/brush v2 trial 2.webp"
+      },
+      {
+        "alt": "House brush v2 trials",
+        "url": "../Assets/imgs/House Brush/brush v2 trial 3.webp"
+      }
+    ]
+  },
+  {
+    "title": "p5 party workshop",
+    "date": "2024",
+    "classification": ["Workshops"],
+    "description": "Hosted a series of workshop for kids on the javascript library p5 party in Paper Crane Lab in Bangalore, India. Attended by a gaggle of ten year olds, we covered topics like write conflicts and shared variables.",
+    "links": [
+      {
+        "text": "Curriculum",
+        "url": "https://www.notion.so/tanvimishra/Write-conflicts-582b156b37524a9dad743b345b0beeb5?pvs=4"
+      },
+      {
+        "text": "Class promo",
+        "url": "https://www.instagram.com/p/C3Ab8BVy6-f/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+      },
+      {
+        "text": "p5.js sketch",
+        "url": "https://editor.p5js.org/TanviMishra/sketches/gU1wUoO-k"
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Paper Crane Lab",
+        "url": "https://www.instagram.com/papercranelab/?hl=en"
+      }
+    ],
+    "resources": [],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": "Workshop in session",
+        "url": "../Assets/imgs/p5 party workshop/Set Up.webp"
+      },
+      {
+        "alt": "Workshop in session",
+        "url": "../Assets/imgs/p5 party workshop/Shared Host.webp"
+      },
+      {
+        "alt": "Workshop in session",
+        "url": "../Assets/imgs/p5 party workshop/Threads.webp"
+      },
+      {
+        "alt": "Workshop in session",
+        "url": "../Assets/imgs/p5 party workshop/PCL class 1.webp"
+      },
+      {
+        "alt": "Workshop in session",
+        "url": "../Assets/imgs/p5 party workshop/PCL class 2.webp"
+      }
+    ]
+  },
+  {
+    "title": "Shape Generator",
+    "date": "2024",
+    "classification": ["Workshops", "Creative Coding"],
+    "description": "This shape generator was built as a part of a quick workshop on building using random, 2D shapes, colour and bezier curves.",
+    "links": [
+      {
+        "text": "Open Sketch",
+        "url": "https://editor.p5js.org/TanviMishra/sketches/FERdfqYX6"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": "Generative Shapes",
+        "url": "../Assets/imgs/Shape Generator/2.webp"
+      },
+      {
+        "alt": "Generative Shapes",
+        "url": "../Assets/imgs/Shape Generator/4.webp"
+      },
+      {
+        "alt": "Generative Shapes",
+        "url": "../Assets/imgs/Shape Generator/1.webp"
+      },
+      {
+        "alt": "Generative Shapes",
+        "url": "../Assets/imgs/Shape Generator/7.webp"
+      },
+      {
+        "alt": "Generative Shapes",
+        "url": "../Assets/imgs/Shape Generator/6.webp"
+      },
+      {
+        "alt": "Generative Shapes",
+        "url": "../Assets/imgs/Shape Generator/shape gen.gif"
+      }
+    ]
+  },
+
+  {
+    "title": "Entropy Reader",
+    "date": "2023",
+    "classification": ["Graphic Design", "Publication"],
+    "description": "I was co-editor and did the layout design for Entropy Reader, a publication in my final year at Parsons.",
+    "links": [
+      {
+        "text": "Tridal: Game Mechanics and Climate Science",
+        "url": "https://parsons.edu/dt-2023/publication_entry/tridal/"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "double",
+    "images": [
+      {
+        "alt": " ",
+        "url": "../Assets/imgs/Entropy Book.webp"
+      }
+    ]
+  },
+  {
+    "title": "Landscapes",
+    "date": "2023",
+    "classification": ["Illustration"],
+    "description": "Learning how to use procreate with these landscapes.",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": "Landscape 1",
+        "url": "../Assets/imgs/Illustrations/Landscapes 1.webp"
+      },
+      {
+        "alt": "Landscape 2",
+        "url": "../Assets/imgs/Illustrations/Landscapes 2.webp"
+      },
+      {
+        "alt": "Landscape 3",
+        "url": "../Assets/imgs/Illustrations/Landscapes 3.webp"
+      },
+      {
+        "alt": "Landscape 4",
+        "url": "../Assets/imgs/Illustrations/Landscapes 4.webp"
+      }
+    ]
+  },
+  {
+    "title": "Grapple",
+    "date": "2023",
+    "classification": ["Illustration"],
+    "description": "'Grapple juice' illustrations",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": "Grapples",
+        "url": "../Assets/imgs/Illustrations/Grapple.webp"
+      },
+      {
+        "alt": "Grapple Juice",
+        "url": "../Assets/imgs/Illustrations/Grapple juice.webp"
+      },
+      {
+        "alt": "Grapple Factory",
+        "url": "../Assets/imgs/Illustrations/Grapple Factory.webp"
+      }
+    ]
+  },
+
+  {
+    "title": "Responsive Landscapes",
+    "date": "2022",
+    "classification": ["Web Design", "Creative Coding"],
+    "description": "Responsive Landscapes was a quick, playful website I built using basic DOM elements. The site's responsiveness changes the generated scene. Watch the clouds drift by as you resize the website.",
+    "links": [
+      {
+        "text": "Visit Site",
+        "url": "https://tanvimishra.github.io/net-art-0101/projects/reponsiveSite/ex2.html"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "double",
+    "images": [
+      {
+        "alt": "Responsive Landscape Site",
+        "url": "../Assets/imgs/Responsive landscapes/Responsive landscape 1.webp"
+      },
+      {
+        "alt": "Responsive Landscape Site",
+        "url": "../Assets/imgs/Responsive landscapes/Responsive landscape 2.webp"
+      },
+      {
+        "alt": "Responsive Landscape Site",
+        "url": "../Assets/imgs/Responsive landscapes/Responsive landscape 3.webp"
+      },
+      {
+        "alt": "Responsive Landscape Site",
+        "url": "../Assets/imgs/Responsive landscapes/Responsive landscape 4.webp"
+      },
+      {
+        "alt": "Responsive Landscape Site",
+        "url": "../Assets/imgs/Responsive landscapes/Responsive site.gif"
+      }
+    ]
+  },
+  {
+    "title": "Sheepish",
+    "date": "2022",
+    "classification": ["Game Design"],
+    "description": "You are a border collie (woof) and you have only one job: herd all the sheep back into the pen! Call your other border collie friends to help you out and try to get all them sheeps fenced before the time runs out.",
+    "links": [
+      {
+        "text": "Play Sheepish",
+        "url": "https://tanvimishra.github.io/gameB/"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": "Final Interface",
+        "url": "../Assets/imgs/Sheepish/Final interface 2.webp"
+      },
+      {
+        "alt": "Game Screengrab",
+        "url": "../Assets/imgs/Sheepish/Game screengrab 1.webp"
+      },
+      {
+        "alt": "Game Screengrab",
+        "url": "../Assets/imgs/Sheepish/Game screengrab 2.webp"
+      },
+      {
+        "alt": "Win Condition",
+        "url": "../Assets/imgs/Sheepish/win condition.webp"
+      },
+      {
+        "alt": "Instructions Callout",
+        "url": "../Assets/imgs/Sheepish/Instruction callout.webp"
+      }
+    ]
+  },
+  {
+    "title": "Silver Lining",
+    "date": "2022",
+    "classification": ["Game Design"],
+    "description": "In Silver Lining, players had to draw non-intersecting lines. It is an abstraction of simple paper games I played in school while pretending to take notes.",
+    "links": [
+      {
+        "text": "Play Silver Lining",
+        "url": "https://tanvimishra.github.io/p5_party_classwork/silver_lining_code/"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": "Silver Lining Game",
+        "url": "../Assets/imgs/Silver Lining/final interface 1.png"
+      },
+      {
+        "alt": "Silver Lining Game",
+        "url": "../Assets/imgs/Silver Lining/game in progress.webp"
+      },
+      {
+        "alt": "Silver Lining instructions",
+        "url": "../Assets/imgs/Silver Lining/instructions.webp"
+      },
+      {
+        "alt": "Silver Lining lose condition screen",
+        "url": "../Assets/imgs/Silver Lining/lose condition.webp"
+      },
+      {
+        "alt": "Silver Lining ",
+        "url": "../Assets/imgs/Silver Lining/paper_prototype.webp"
+      }
+    ]
+  },
+  {
+    "title": "Rolling Stones",
+    "date": "2022",
+    "classification": ["Web Design"],
+    "description": "Prompt: Create a website that is a proverb. Project: 'A rolling stone gathers no moss' <br>The website is the rolling stone within this metaphor, when you stop rolling, aka scrolling, some moss appears on the screen and the content fades away.The website content chronicles the usage of the proverb in rock music.",
+    "links": [
+      {
+        "text": "Visit website",
+        "url": "https://tanvimishra.github.io/Core_Studio_Systems/Extra_Credit_Website/"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "double",
+    "images": [
+      {
+        "alt": "Rolling Stones Site Landing",
+        "url": "../Assets/imgs/Rolling Stones/Landing.webp"
+      },
+      {
+        "alt": "Rolling Stones Site Screengrab",
+        "url": "../Assets/imgs/Rolling Stones/Screengrab 1.webp"
+      },
+      {
+        "alt": "Rolling Stones Site Screengrab",
+        "url": "../Assets/imgs/Rolling Stones/Screengrab 2.webp"
+      },
+      {
+        "alt": "Rolling Stones Site Callout",
+        "url": "../Assets/imgs/Rolling Stones/Callout.webp"
+      },
+      {
+        "alt": "Rolling Stones Site Design",
+        "url": "../Assets/imgs/Rolling Stones/Design.webp"
+      }
+    ]
+  },
+  {
+    "title": "Q-sweeper",
+    "date": "2022",
+    "classification": ["Game Design"],
+    "description": "Q-sweeper (quantum minesweeper) applies quantum concepts (noise and entanglement) and visualises data from the Bernstein-Vazirani algorithm to enhance the player's understanding of quantum mechanics.",
+    "links": [
+      {
+        "text": "Play Q-sweeper",
+        "url": "https://studio-degen.github.io/q-sweeper/"
+      },
+      {
+        "text": "Further Documentation",
+        "url": "https://studio-degen.github.io/studio-degen/projects/q-sweeper.html"
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Apurv Rayate",
+        "url": "https://apurvrayate.com/"
+      },
+
+      { "name": "Hyacinth Weng", "url": "https://www.hyacinthweng.com" },
+
+      {
+        "name": "Yiping Dong",
+        "url": "https://wuyuyipi.github.io/portfolio/index.html"
+      },
+      { "name": "Shangshang Li", "url": "https://shangshangli.com/" }
+    ],
+    "resources": [],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": "q-sweeper screengrabs",
+        "url": "../Assets/imgs/q-sweeper/ent1.webp"
+      },
+      {
+        "alt": "q-sweeper screengrabs",
+        "url": "../Assets/imgs/q-sweeper/ent2.webp"
+      },
+      {
+        "alt": "q-sweeper screengrabs",
+        "url": "../Assets/imgs/q-sweeper/flag1.webp"
+      },
+      {
+        "alt": "q-sweeper screengrabs",
+        "url": "../Assets/imgs/q-sweeper/noiseNew.gif"
+      },
+      {
+        "alt": "q-sweeper screengrabs",
+        "url": "../Assets/imgs/q-sweeper/players5.webp"
+      }
+    ]
+  },
+  {
+    "title": "b[q]attleship",
+    "date": "2022",
+    "classification": ["Game Design"],
+    "description": "B[q]attleship is a quantum version of the traditional board game battleship. It builds upon the ideas of Q-sweeper in a multiplayer context using the p5.party library to create a two-player game played across computers.",
+    "links": [
+      {
+        "text": "Play B[q]attlesihip",
+        "url": "https://studio-degen.github.io/q-battleship/"
+      },
+      {
+        "text": "Further Documentation",
+        "url": "https://studio-degen.github.io/studio-degen/projects/battleship.html"
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Apurv Rayate",
+        "url": "https://apurvrayate.com/"
+      },
+      { "name": "Hyacinth Weng", "url": "https://www.hyacinthweng.com" }
+    ],
+    "resources": [],
+    "image_gallery": "double",
+    "images": [
+      {
+        "alt": "q-sweeper screengrabs",
+        "url": "../Assets/imgs/b[q]attleship/entangled.webp"
+      },
+      {
+        "alt": "q-sweeper screengrabs",
+        "url": "../Assets/imgs/b[q]attleship/regularboard.webp"
+      },
+      {
+        "alt": "q-sweeper screengrabs",
+        "url": "../Assets/imgs/b[q]attleship/keyboard.webp"
+      },
+      {
+        "alt": "q-sweeper screengrabs",
+        "url": "../Assets/imgs/b[q]attleship/gameplay.webp"
+      }
+    ]
+  },
+
+  {
+    "title": "Animals",
+    "date": "2021",
+    "classification": ["Illustration"],
+    "description": "These illustrations are inspired by imagery found in a story about Buddhist teachings, titled 'Roaring Bulls With No Fight'. Both illustrations highlight the unthinking consumption of one's surrounding. They chronicle living on a damaged land and being in a perpetuating, vicious cycle of harm.",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": "Horse Final",
+        "url": "../Assets/imgs/Illustrations/HorseFInal.webp"
+      },
+      {
+        "alt": "Cow Final",
+        "url": "../Assets/imgs/Illustrations/CowsFinal.webp"
+      }
+    ]
+  },
+  {
+    "title": "Tetris -2.0",
+    "date": "2021",
+    "classification": ["Game Design"],
+    "description": "Tetris -2.0 is a typographic reimagining of the classic Tetris game, where letterforms serve as the falling blocks. The letters were constructed from a 9x9 matrix system, allowing for rotation and movement while stacking them.",
+    "links": [
+      {
+        "text": "Play Tetris -2.0",
+        "url": "https://editor.p5js.org/TanviMishra/embed/FofmFQ3K6"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": " ",
+        "url": "../Assets/imgs/tetris/tetris 2.jpg"
+      },
+      {
+        "alt": " ",
+        "url": "../Assets/imgs/tetris/tetris 3.jpg"
+      },
+      {
+        "alt": " ",
+        "url": "../Assets/imgs/tetris/tetris 4.gif"
+      },
+      {
+        "alt": " ",
+        "url": "../Assets/imgs/tetris/tetris 1.gif"
+      },
+      {
+        "alt": " ",
+        "url": "../Assets/imgs/tetris/letter b.png"
+      },
+      {
+        "alt": " ",
+        "url": "../Assets/imgs/tetris/letter x.png"
+      }
+    ]
+  },
+  {
+    "title": "Validata.js",
+    "date": "2021",
+    "classification": ["Creative Coding"],
+    "description": "Validata.js is a data visualisation library that easily creates charts from CSV files. It is built as an add-on to p5.js to help new coders quickly make fun data-viz.",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": "",
+        "url": "../Assets/imgs/validata.js/abstract-1.webp"
+      },
+      {
+        "alt": "",
+        "url": "../Assets/imgs/validata.js/abstract-2.webp"
+      },
+      {
+        "alt": "",
+        "url": "../Assets/imgs/validata.js/abstract-3.webp"
+      },
+      {
+        "alt": "",
+        "url": "../Assets/imgs/validata.js/abstract-4.webp"
+      },
+      {
+        "alt": "",
+        "url": "../Assets/imgs/validata.js/abstract-5.webp"
+      },
+      {
+        "alt": "",
+        "url": "../Assets/imgs/validata.js/abstract-6.webp"
+      },
+      {
+        "alt": "",
+        "url": "../Assets/imgs/validata.js/sketchbook.webp"
+      }
+    ]
+  },
+  {
+    "title": "Night Sky",
+    "date": "2021",
+    "classification": ["Fine Art"],
+    "description": "This was a personal project and an introduction to animation. I created this animation loop to celebrate a friend's birthday using after-effects for the first time.",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": "Night Sky scenes",
+        "url": "../Assets/imgs/Fine Art/Night sky 1.webp"
+      },
+      {
+        "alt": "Night Sky scenes",
+        "url": "../Assets/imgs/Fine Art/Night sky 2.webp"
+      },
+      {
+        "alt": "Night Sky scenes",
+        "url": "../Assets/imgs/Fine Art/Night sky 3.webp"
+      },
+      {
+        "alt": "Leaves floating",
+        "url": "../Assets/imgs/Fine Art/leaves floating.gif"
+      },
+      {
+        "alt": "Crow flying",
+        "url": "../Assets/imgs/Fine Art/crow flying.gif"
+      }
+    ]
+  },
+  {
+    "title": "Wordplay",
+    "date": "2021",
+    "classification": ["Creative Coding"],
+    "description": "This is a collection of interactive words animated using p5.js. Interactions reflect the meaning of the specific word.",
+    "links": [
+      {
+        "text": "p5 sketches collection",
+        "url": "https://editor.p5js.org/TanviMishra/collections/Va791Qe5b"
+      }
+    ],
+    "collaborators": [],
+    "resources": [
+      {
+        "text": "Coding Train: Steering Behaviours",
+        "url": "https://www.youtube.com/watch?v=4hA7G3gup-4"
+      },
+      {
+        "text": "textToPoints(), classes and objects by Xin Xin",
+        "url": "https://editor.p5js.org/xinxin/sketches/4nfqUfNC"
+      }
+    ],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": "Jump",
+        "url": "../Assets/imgs/Wordplay/jump.gif"
+      },
+      {
+        "alt": "Atom",
+        "url": "../Assets/imgs/Wordplay/atom.gif"
+      },
+      {
+        "alt": "Wire",
+        "url": "../Assets/imgs/Wordplay/wire.gif"
+      },
+      {
+        "alt": "Jump 2",
+        "url": "../Assets/imgs/Wordplay/game 1.gif"
+      },
+      {
+        "alt": "Game wordplay",
+        "url": "../Assets/imgs/Wordplay/game 2.gif"
+      },
+      {
+        "alt": "Game wordplay",
+        "url": "../Assets/imgs/Wordplay/wire 2.gif"
+      }
+    ]
+  },
+
+  {
+    "title": "Touch me not",
+    "date": "2020",
+    "classification": ["Fabrication"],
+    "description": "The 'Touch me not' is something enticing that you want to touch, even though you probably should not. It emphasises how we can reach out to someone/thing, against their wishes, just because it elicits a response.",
+    "links": [],
+    "collaborators": [],
+    "resources": [
+      {
+        "text": "Nitinol Wire",
+        "url": "https://makezine.com/article/craft/skill-builder-working-with-shape-memory-alloy/"
+      }
+    ],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": " ",
+        "url": "../Assets/imgs/Touch me not/Concept.webp"
+      },
+      {
+        "alt": " ",
+        "url": "../Assets/imgs/Touch me not/Engineering diagram.webp"
+      },
+      {
+        "alt": " ",
+        "url": "../Assets/imgs/Touch me not/Final.webp"
+      }
+    ]
+  },
+  {
+    "title": "ID Card",
+    "date": "2020",
+    "classification": ["Graphic Design"],
+    "description": "This project was my introduction to working with typography. The monogram manipulates the typeface Vortice to form my initials: TM. Using a light colour palette and sharp geometric lines, I made a student ID card that seamlessly incorporated the monogram. ",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "double",
+    "images": [
+      {
+        "alt": "Sketchbook pages",
+        "url": "../Assets/imgs/ID Card/sketchbook1.webp"
+      },
+      {
+        "alt": "Sketchbook pages",
+        "url": "../Assets/imgs/ID Card/sketchbook2.webp"
+      },
+      {
+        "alt": "ID Card mockup",
+        "url": "../Assets/imgs/ID Card/ID Card Mockup.webp"
+      }
+    ]
+  },
+  {
+    "title": "Taskmaster Newsletter",
+    "date": "2020",
+    "classification": ["Graphic Design", "Publication"],
+    "description": "Taskmaster is a British panel show that has 5 comedians participate in a series of absurd tasks. The show's tone is nonsensical. For my newsletter, I wanted to pay homage to the show.",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": " ",
+        "url": "../Assets/imgs/Taskmaster/tm concept.webp"
+      },
+      {
+        "alt": " ",
+        "url": "../Assets/imgs/Taskmaster/tm front 1.webp"
+      },
+      {
+        "alt": " ",
+        "url": "../Assets/imgs/Taskmaster/tm front 2.webp"
+      },
+      {
+        "alt": " ",
+        "url": "../Assets/imgs/Taskmaster/tm front 3.webp"
+      }
+    ]
+  },
+
+  {
+    "title": "Beta Game",
+    "date": "2020",
+    "classification": ["Game Design"],
+    "description": "Beta is an autobiographical story based on a picturebook collection.",
+    "links": [
+      {
+        "text": "Play Beta Game",
+        "url": "https://tanvimishra.github.io/betagame.github.io/BitMapGame/"
+      },
+      {
+        "text": "Game Walkthrough",
+        "url": "https://vimeo.com/manage/videos/531037459"
+      }
+    ],
+    "collaborators": [],
+    "resources": [
+      {
+        "text": "Article by Paolo Pedercini",
+        "url": "https://www.molleindustria.org/blog/videogames-and-the-spirit-of-capitalism/"
+      }
+    ],
+    "image_gallery": "double",
+    "images": [
+      {
+        "alt": "Game Scene 1",
+        "url": "../Assets/imgs/Beta Game/Scene 1.webp"
+      },
+      {
+        "alt": "Game Scene 1",
+        "url": "../Assets/imgs/Beta Game/Scene 2.webp"
+      },
+      {
+        "alt": "Game Scene 1",
+        "url": "../Assets/imgs/Beta Game/Scene 3.webp"
+      },
+      {
+        "alt": "Grey Boxing",
+        "url": "../Assets/imgs/Beta Game/Grey boxing.gif"
+      }
+    ]
+  },
+  {
+    "title": "Manifesto design",
+    "date": "2020",
+    "classification": ["Graphic Design"],
+    "description": "For a class on typography, I had to select a manifesto and design an all typographical poster, that interprets the text and amplifies the text’s voice, tone, and word selection.",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": "Final Poster",
+        "url": "../Assets/imgs/Manifesto/Final Poster.webp"
+      },
+      {
+        "alt": "Portfolio Version 1",
+        "url": "../Assets/imgs/Manifesto/Portfolio Version 1.webp"
+      },
+      {
+        "alt": "Portfolio Version 2",
+        "url": "../Assets/imgs/Manifesto/Portfolio Version 2.webp"
+      },
+      {
+        "alt": "Sketchbook pages",
+        "url": "../Assets/imgs/Manifesto/sketchbook.webp"
+      }
+    ]
+  },
+
+  {
+    "title": "Central Park Paintings",
+    "date": "2019",
+    "classification": ["Fine Art"],
+    "description": "A series of watercolor paintings focussing on textures I saw at Central Park",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": "Central Park Paintings",
+        "url": "../Assets/imgs/Fine Art/Central Park Painting 1.webp"
+      },
+      {
+        "alt": "Central Park Paintings",
+        "url": "../Assets/imgs/Fine Art/Central Park Painting 3.webp"
+      },
+      {
+        "alt": "Central Park Paintings",
+        "url": "../Assets/imgs/Fine Art/Central Park Painting 4.webp"
+      },
+      {
+        "alt": "Central Park Paintings",
+        "url": "../Assets/imgs/Fine Art/Central Park Painting 5.webp"
+      },
+      {
+        "alt": "Central Park Paintings",
+        "url": "../Assets/imgs/Fine Art/Central Park Painting 6.webp"
+      }
+    ]
+  },
+  {
+    "title": "Central Park Collage",
+    "date": "2019",
+    "classification": ["Fine Art"],
+    "description": "In New York, we are surrounded by buildings, pollution, people and constructions. Amongst this construction, finding a natural spot seems like a breath of fresh air. However, these spots, like parks and gardens, have also been constructed.' My project focussed on Central Park: a seemingly untainted natural space that's a product of intense construction and gentrification.",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "double",
+    "images": [
+      {
+        "alt": "Central Park Collage",
+        "url": "../Assets/imgs/Fine Art/Collage 2.webp"
+      },
+      {
+        "alt": "Central Park Collage",
+        "url": "../Assets/imgs/Fine Art/Collage 1.webp"
+      },
+      {
+        "alt": "Central Park Collage",
+        "url": "../Assets/imgs/Fine Art/Collage 3.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Project Last Straw",
+    "date": "2019",
+    "classification": ["Graphic Design", "Illustration"],
+    "description": "Project Last Straw is a zine that imagines the tenth avatar of Vishnu. In the zine, his last avatar is in the form of an AI virus using technological interfaces to control and communicate with us. Vishnu’s pessimism and resigned tone in the zine mirror a bleak world. Writing this zine was my reckoning with how pervasive and god-like technology is becoming.",
+    "links": [
+      {
+        "text": "Zine PDF",
+        "url": "https://www.dropbox.com/s/o6wn1r834ns2odz/ProjectLastStraw.pdf?dl=0"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "images": [
+      {
+        "alt": "Project Last Straw Digital Spreads",
+        "url": "../Assets/imgs/Project Last Straw/Project Last Straw 1.webp"
+      },
+      {
+        "alt": "Project Last Straw Digital Spreads",
+        "url": "../Assets/imgs/Project Last Straw/Project Last Straw 2.webp"
+      },
+      {
+        "alt": "Project Last Straw Digital Spreads",
+        "url": "../Assets/imgs/Project Last Straw/Project Last Straw 3.webp"
+      },
+      {
+        "alt": "Project Last Straw Digital Spreads",
+        "url": "../Assets/imgs/Project Last Straw/Project Last Straw Overall.webp"
+      }
+    ]
+  },
+  {
+    "title": "Mapping Time",
+    "date": "2019",
+    "classification": ["Fine Art"],
+    "description": "The time I spend during the night seems elastic, stretching for hours before I go to sleep. I wanted to capture the stillness of the night as it defied all logical forms of time-keeping.",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "double",
+    "images": [
+      {
+        "alt": "Mapping Time Painting",
+        "url": "../Assets/imgs/Fine Art/Mapping TIme.webp"
+      }
+    ]
+  }
+]

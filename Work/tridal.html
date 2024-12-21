@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tanvi Mishra Portfolio</title>
+   <link rel="stylesheet" href="../Styles/style.css">
+   <link rel="stylesheet" href="../Styles/work.css">
+   <link rel="icon" type="image/x-icon" href="../Assets/imgs/favicon.png">
+</head>
+<body>
+   <menu>
+       <object>
+           <h1><a href="../index.html">Tanvi Mishra</a></h1>
+       </object>  
+       <div>
+           <a href="../Pages/experiments.html">Experiments</a>
+           <a href="../Pages/about.html">About</a>
+       </div>
+   </menu>
+
+   <main>
+       <header class="flex-column">
+           <h1 id="title"></h1>
+           <div>
+              <p id="classification"></p>
+              <p id="date"></p> 
+           </div> 
+       </header>
+       
+       <section class="flex-responsive">
+           <div id="brief" class="flex-column">
+               <h2 id="links"></h2>
+               <p id="collaborators"></p>
+               <p id="role"></p>
+           </div> 
+           <p id="description"></p>
+       </section>
+       <section class="featured-image flex-responsive">
+
+       </section>
+       <section class="flex-column">
+           <section id="arrowContainer">
+               <button class="arrow left" id="prev">&#8592;</button>
+               <h2>Final Images</h2>
+               <button class="arrow right" id="next">&#8594;</button>
+           </section>
+           <section class="sliderContainer">
+               <div class="slider" id="final-images">
+                   <!-- Images will be inserted here -->
+               </div>
+           </section>
+       </section>
+
+       <section id="processVidContainer" class="flex-responsive">
+           <div id="video-div" class="flex-column">
+               <h2>Video Documentation  &#8594;</h2>
+               <p id="video-description"></p>
+           </div>
+           <div id="videos-container">
+               <!-- Videos will be inserted here -->
+           </div>
+       </section>
+
+       <section id="processImgSection" class="flex-responsive">
+           <div id="img_div" class="flex-column">
+               <h2>Progress Gallery  &#8594;</h2>
+               <p id="image-description"></p>
+           </div>
+           <div id="processImgDiv" class="flex-column">
+               <div id="progress-big">
+                   <!-- Big progress image will be inserted here -->
+               </div>
+               <div id="progress-small">
+                   <!-- Small progress images will be inserted here -->
+               </div>
+           </div>
+       </section>
+   </main>
+
+   <footer>
+       <div>
+           <a href="https://www.linkedin.com/in/tanvimishra/">LinkedIn &#8599;</a>
+           <a href="https://github.com/TanviMishra">Github &#8599;</a>
+           <a href="https://www.instagram.com/tanvimishra5786/">Instagram &#8599;</a>
+       </div>
+   </footer>
+
+   <button id="toTop">&#8648;</button>
+
+   <script src="../Scripts/scrollToTop.js"></script>
+   <script src="../Scripts/slider.js"></script>
+   <script src="../Scripts/work.js"></script>
+   <script>
+       document.addEventListener('DOMContentLoaded', async () => {
+           await loadProjectContent("tridal");
+       });
+   </script>
+</body>
+</html>

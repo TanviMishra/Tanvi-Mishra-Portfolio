@@ -1,0 +1,779 @@
+[
+  {
+    "search": "xrrnd",
+    "title": "Mixed Reality R&D: Lab @ Rockwell",
+    "date": "blank",
+    "role": "blank",
+    "classification": ["blank"],
+    "description": "blank",
+    "links": [
+      {
+        "text": "blank",
+        "url": "blank"
+      }
+    ],
+    "collaborators": [
+      {
+        "text": "blank",
+        "url": "blank"
+      }
+    ],
+    "image-description": "blank",
+    "images": [
+      {
+        "alt": "",
+        "text": "",
+        "url": "../",
+        "type": "featured"
+      },
+      {
+        "alt": "",
+        "text": "",
+        "url": "../",
+        "type": "final"
+      },
+      {
+        "alt": "",
+        "text": "",
+        "url": "../",
+        "type": "progress-big"
+      },
+      {
+        "alt": "",
+        "text": "",
+        "url": "../",
+        "type": "progress-small"
+      }
+    ],
+    "video-description": "blank",
+    "video": [
+      {
+        "alt": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "search": "tridal",
+    "title": "Tridal: A multiplayer collaborative game",
+    "date": "2023",
+    "role": "Project management, prototyping user testing,  coding, fabrication, academic writing",
+    "classification": ["Game Design"],
+    "description": "Tridal is a multiplayer, cooperative environment that advocates responsible land use. The game is built with socket.io and vanilla javascript using the FAO's statistical database across categories like 'Forestry Production and Trade’, and ‘Temperature change on land’. Tridal reprioritises current resources– forests, farms, urban land, etc. – using mechanics that shift thinking paradigms. Every in-game action has multitudinous consequences, illustrating the scale of human damage. This project was supported by Rhizome Microgrants 2023.",
+    "links": [
+      {
+        "text": "Further Documentation",
+        "url": "https://parsons.edu/dt-2023/tridal/"
+      },
+      {
+        "text": "Publication",
+        "url": "https://parsons.edu/dt-2023/publication_entry/tridal/"
+      }
+    ],
+    "collaborators": [],
+    "image-description": "The game was formed from multiple stages of user testing, development and recalibration using low-fidelity, physical, grey box and high-fidelity prototypes.",
+    "images": [
+      {
+        "alt": "Exhibit - audience playing tridal",
+        "text": "Playing Tridal at Entropy: BFA/MFA Design & Technology Thesis Show.",
+        "url": "../Assets/imgs/Tridal/featured webp/Exhibit.webp",
+        "type": "featured"
+      },
+      {
+        "alt": "Tridal game",
+        "text": "Each in-game action has multiple repurcussions.",
+        "url": "../Assets/imgs/Tridal/featured webp/Tridal game.webp",
+        "type": "featured"
+      },
+      {
+        "alt": "Tridal game",
+        "text": "The land data was drawn from FAO's statistical database and players have to try and beat the rising sea levels",
+        "url": "../Assets/imgs/Tridal/featured webp/Land transformation.gif",
+        "type": "featured"
+      },
+
+      {
+        "alt": "Altitude view close up",
+        "text": "Altitude view close up",
+        "url": "../Assets/imgs/Tridal/final images webp/Altitude view close up.webp",
+        "type": "final"
+      },
+      {
+        "alt": "Altitude view",
+        "text": "Altitude view",
+        "url": "../Assets/imgs/Tridal/final images webp/Altitude view.webp",
+        "type": "final"
+      },
+      {
+        "alt": "Board game close up",
+        "text": "Board game close up",
+        "url": "../Assets/imgs/Tridal/final images webp/Board game close up.webp",
+        "type": "final"
+      },
+      {
+        "alt": "Board game",
+        "text": "Board game",
+        "url": "../Assets/imgs/Tridal/final images webp/Board game.webp",
+        "type": "final"
+      },
+      {
+        "alt": "Game map close up",
+        "text": "Game map close up",
+        "url": "../Assets/imgs/Tridal/final images webp/Game map close up.webp",
+        "type": "final"
+      },
+
+      {
+        "alt": "Features - water levels rising",
+        "text": "Features - water levels rising",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Features - water levels rising.gif",
+        "type": "progress-big"
+      },
+      {
+        "alt": "Features - altitude view",
+        "text": "Features - altitude view",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Features - altitude view.webp",
+        "type": "progress-big"
+      },
+      {
+        "alt": "Features - each player accesses only one landform",
+        "text": "Features - each player accesses only one landform",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Features - each player accesses only one landform.gif",
+        "type": "progress-big"
+      },
+      {
+        "alt": "Features - map generation",
+        "text": "Features - map generation",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Features - map generation.gif",
+        "type": "progress-big"
+      },
+
+      {
+        "alt": "Features - land information",
+        "text": "Features - land information",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Features - land information.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Features - land type",
+        "text": "Features - land type",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Features - land type.gif",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Interface - close up",
+        "text": "Interface - close up",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Interface - close up.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Interface design",
+        "text": "Interface design",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Interface - design setup.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Game map - bug",
+        "text": "Game map - bug",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Game map - bug.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Game map - bug",
+        "text": "Game map - bug",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Game map - bug 2.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Game map - colour tests",
+        "text": "Game map - colour tests",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Game map - colour tests.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Game map - colour tests",
+        "text": "Game map - colour tests",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Game map - colour tests 2.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Playtesting - board game",
+        "text": "Playtesting - board game",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Playtesting - board game 2.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Playtesting - board game",
+        "text": "Playtesting - board game",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Playtesting - board game.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Playtesting - video game",
+        "text": "Playtesting - video game",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Playtesting - video game  2.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Playtesting - video game",
+        "text": "Playtesting - video game",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Playtesting - video game 1.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Sketchbook pages",
+        "text": "Sketchbook pages",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Sketches 1.gif",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Sketchbook pages",
+        "text": "Sketchbook pages",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Sketches 2.gif",
+        "type": "progress-small"
+      }
+    ],
+    "video-description": "This video is the detailed explanation of the game as presented at the Entropy symposium, moderated by Paolo Pedercini (Molleindustria).",
+    "video": [
+      {
+        "alt": "Entropy symposium, moderated by Paolo Pedercini",
+        "url": "https://v5.airtableusercontent.com/v3/u/36/36/1734674400000/BpPg3Xk8hKPZuq-vDgBeGw/icYoVWNEFFei9deZ3DTJcSfEFP9-JMhhTQcanbt7jQx_zDtm_7uCuWkkKh7KZkNcTY-Exjrn1AU6fkrrT38dvfwAUkh5ohjfdLxJ8RjlD5skwgRtfm6bDhq9NPyn4Stf8eVlQOXWwJsxHeL4NGv97z1jBY9OT7o4eA1AKjzQj9QZKv-Lnt5-SzL7RvbUmCuVGHwproMiz0FFWWuKCHcpZw/hf0OGT9cbxavTwqWEotKqpXUo41jAgoJ5oRFNTMg6gc"
+      }
+    ]
+  },
+  {
+    "search": "neo",
+    "title": "Neo-TCH 1.3: Wearable Technology",
+    "date": "2022",
+    "role": "Project development, circuit testing & coding, website development",
+    "classification": ["Physical Computation"],
+    "description": "Neo-TCH 1.3 uses wearable tech to build a tactile, experimental, and performative installation piece. With soft sensors and found materials, we created a garment that was an intervention model in a speculative future. This piece challenges the importance of touch to the human experience and considers different ways of reimagining connection. Visit the website for an in-depth explanation and further documentation.",
+    "links": [
+      {
+        "text": "Further Documentation",
+        "url": "https://tanvimishra.github.io/neoTCH_1.3/"
+      }
+    ],
+    "collaborators": [
+      {
+        "text": "Krithi Nalla",
+        "url": "https://krithinalla.com/"
+      },
+      {
+        "text": "Anna Pragman",
+        "url": "https://www.instagram.com/annapragman/"
+      }
+    ],
+    "image-description": "The fabrication of the project involved lots of sewing, crocheting and stitching both conductive and not conductive materials to form the garment. We also need to do a lot of soldering, circuit testing and debugging to build the computational aspects.",
+    "images": [
+      {
+        "alt": "Stroke Sensor",
+        "text": "Sensors built with conductive thread and foraged waste materials to encourage subjects to touch one another",
+        "url": "../Assets/imgs/Sheer Contact/Featured/Gif1.gif",
+        "type": "featured"
+      },
+      {
+        "alt": "IR Transmission",
+        "text": "Garments were built as an intervention model to improve non-verbal communication",
+        "url": "../Assets/imgs/Sheer Contact/Featured/Gif2.gif",
+        "type": "featured"
+      },
+      {
+        "alt": "Pixelmouth Exhbition",
+        "text": "The project was exhibited at enter here_ exhibition at the Pixelmouth gallery in NYC (2024)",
+        "url": "../Assets/imgs/Sheer Contact/Featured/IMG_0161.webp",
+        "type": "featured"
+      },
+
+      {
+        "alt": "Test Subjects Views",
+        "text": "Test Subjects Views",
+        "url": "../Assets/imgs/Sheer Contact/Final/testSubjects.gif",
+        "type": "final"
+      },
+      {
+        "alt": "Test Subject Reaching Out",
+        "text": "Test Subject Reaching Out",
+        "url": "../Assets/imgs/Sheer Contact/Final/reaching.webp",
+        "type": "final"
+      },
+      {
+        "alt": "Push Sensor",
+        "text": "Push Sensor",
+        "url": "../Assets/imgs/Sheer Contact/Final/push.webp",
+        "type": "final"
+      },
+      {
+        "alt": "Test Subject Interactions",
+        "text": "Test Subject Interactions",
+        "url": "../Assets/imgs/Sheer Contact/Final/pose2.webp",
+        "type": "final"
+      },
+      {
+        "alt": "Exhibtion Views",
+        "text": "Exhibtion Views",
+        "url": "../Assets/imgs/Sheer Contact/Final/Exhibition 1.webp",
+        "type": "final"
+      },
+      {
+        "alt": "Exhibtion Views",
+        "text": "Exhibtion Views",
+        "url": "../Assets/imgs/Sheer Contact/Final/Exhibition 2.webp",
+        "type": "final"
+      },
+      {
+        "alt": "Exhibtion Views",
+        "text": "Exhibtion Views",
+        "url": "../Assets/imgs/Sheer Contact/Final/Exhibition 3.webp",
+        "type": "final"
+      },
+
+      {
+        "alt": "Close up - neopixels under crochet flowers",
+        "text": "Close up - neopixels under crochet flowers.webp",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Close up - neopixels under crochet flowers.webp",
+        "type": "progress-big"
+      },
+      {
+        "alt": "Close up - stroke sensor with white conductive thread",
+        "text": "Close up - stroke sensor with white conductive thread",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Close up - stroke sensor with white conductive thread.webp",
+        "type": "progress-big"
+      },
+      {
+        "alt": "Close up - resistor detailing",
+        "text": "Close up - resistor detailing",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Close up - resistor detailing.webp",
+        "type": "progress-big"
+      },
+      {
+        "alt": "Close up - some details",
+        "text": "Close up - some details",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Close up - some details.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Close up - detachable components to hide wiring underneath",
+        "text": "Close up - detachable components to hide wiring underneath",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Close up - detachable components to hide wiring underneath.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Pixelmouth Exhibtion",
+        "text": "Pixelmouth Exhibtion",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/IMG_0176.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Pixelmouth Exhibtion",
+        "text": "Pixelmouth Exhibtion",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/IMG_0314.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Parts - custom bendable safety pin wires",
+        "text": "Parts - custom bendable safety pin wires",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Parts - custom bendable safety pin wires.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Parts - custom wires and crocheted casing",
+        "text": "Parts - custom wires and crocheted casing",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Parts - custom wires and crocheted casing.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Fabrication - building on a dress form",
+        "text": "Fabrication - building on a dress form",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Fabrication - building on a dress form.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Fabrication - template for the garment",
+        "text": "Fabrication - template for the garment",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Fabrication - template for the garment.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Workstation for building",
+        "text": "Workstation for building",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Workstation for building 1.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Workstation for building",
+        "text": "Workstation for building",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Workstation for building 1.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Disassembly of printer part",
+        "text": "Disassembly of printer part",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Disassembly of printer parts 1.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Disassembly of printer part",
+        "text": "Disassembly of printer part",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Disassembly of printer parts 2.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Testing the ciruit",
+        "text": "Testing the ciruit",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Testing the ciruit 1.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Testing the ciruit",
+        "text": "Testing the ciruit",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Testing the ciruit 1.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Sketches of all the sensors across the two garment",
+        "text": "Sketches of all the sensors across the two garment",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Sketches - of all the sensors across the two garments.gif",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Sketches of some of the circuits and their working",
+        "text": "Sketches of some of the circuits and their working",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Sketches - some of the circuits and their working.gif",
+        "type": "progress-small"
+      }
+    ],
+    "video-description": "This video is one of the final outputs of the project. As a part of the documentation, we created a surveillance video of two test subjects wearing neoTCH 1.3 for the first time.",
+    "video": [
+      {
+        "alt": "",
+        "url": "https://www.dropbox.com/scl/fi/zca3n4uu2c3xbu222pj9d/opening-scene.mov?rlkey=xm6ek9ovxy9xi8fd7l9qjdv9x&st=z4me4kbn&dl=0"
+      }
+    ]
+  },
+  {
+    "search": "sfpc",
+    "title": "I'm not sure how to name home anymore",
+    "date": "2024",
+    "role": "game design, writing, fabrication",
+    "classification": ["Game Design"],
+    "description": "While attending Worlds in Conversation, I was at a crossroads in my personal life. Within three weeks I had to pinpoint wether to move back to my Bangalore or not. Suffice it to say, I was thinking about home a lot. Specifically, I was thinking about how most of us live across many homes, tiny bits of our souls traced back to each place. I wanted to converse about the many homes we've inhabited and the stories we carry. This game also, more crucially, reflected the wayfinding once you've outgrown a home. It embodied my decision-making and my steps to a new home.",
+    "links": [
+      {
+        "text": "Game Presskit",
+        "url": "https://drive.google.com/drive/u/0/folders/1w3KmOOHTRvFzQBMsAxqABRiWlMYDaKVg"
+      }
+    ],
+    "image-description": "blank",
+    "images": [
+      {
+        "alt": "stitching peices",
+        "text": "Making something tactile was important since I was tired of pixel pushing and staring at a screen. Constructing this game was a labour of love.",
+        "url": "../Assets/imgs/SFPC/featured/IMG_9454.webp",
+        "type": "featured"
+      },
+      {
+        "alt": "PLayers looking over the game",
+        "text": "This game is a worldbuilding game with a small ruleset. Players should feel free to make it their own.",
+        "url": "../Assets/imgs/SFPC/featured/Photo Sept 1 2024.webp",
+        "type": "featured"
+      },
+      {
+        "alt": "I'm not sure how to name home anymore documentation",
+        "text": "",
+        "url": "../Assets/imgs/SFPC/final/IMG_9441.webp",
+        "type": "final"
+      },
+      {
+        "alt": "I'm not sure how to name home anymore documentation",
+        "text": "",
+        "url": "../Assets/imgs/SFPC/final/IMG_9445.webp",
+        "type": "final"
+      },
+      {
+        "alt": "I'm not sure how to name home anymore documentation",
+        "text": "",
+        "url": "../Assets/imgs/SFPC/final/IMG_9446.webp",
+        "type": "final"
+      },
+      {
+        "alt": "I'm not sure how to name home anymore documentation",
+        "text": "",
+        "url": "../Assets/imgs/SFPC/final/IMG_9448.webp",
+        "type": "final"
+      },
+      {
+        "alt": "I'm not sure how to name home anymore documentation",
+        "text": "",
+        "url": "../Assets/imgs/SFPC/final/IMG_9450.webp",
+        "type": "final"
+      },
+      {
+        "alt": "Collation of many templates, tests and failed tiles",
+        "text": "Collation of many templates, tests and failed tiles",
+        "url": "../Assets/imgs/SFPC/working/test peices.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Countless tiles to test magnet placement and stitching",
+        "text": "Countless tiles to test magnet placement and stitching",
+        "url": "../Assets/imgs/SFPC/working/samples.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Initial prototype with tiles closed",
+        "text": "Initial prototype with tiles closed",
+        "url": "../Assets/imgs/SFPC/working/proto1.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Initial prototype with tiles open",
+        "text": "Initial prototype with tiles open",
+        "url": "../Assets/imgs/SFPC/working/proto2.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Figuring out the mechanism to make tiles rotate",
+        "text": "Figuring out the mechanism to make tiles rotate",
+        "url": "../Assets/imgs/SFPC/working/test peices.webp",
+        "type": "progress-small"
+      }
+    ]
+  },
+  {
+    "search": "cons",
+    "title": "Consilience: AI Driven Learning Tool",
+    "date": "blank",
+    "role": "blank",
+    "classification": ["blank"],
+    "description": "blank",
+    "links": [
+      {
+        "text": "blank",
+        "url": "blank"
+      }
+    ],
+    "collaborators": [
+      {
+        "text": "blank",
+        "url": "blank"
+      }
+    ],
+    "image-description": "blank",
+    "images": [
+      {
+        "alt": "",
+        "text": "",
+        "url": "../",
+        "type": "featured"
+      },
+      {
+        "alt": "",
+        "text": "",
+        "url": "../",
+        "type": "final"
+      },
+      {
+        "alt": "",
+        "text": "",
+        "url": "../",
+        "type": "progress-big"
+      },
+      {
+        "alt": "",
+        "text": "",
+        "url": "../",
+        "type": "progress-small"
+      }
+    ],
+    "video-description": "blank",
+    "video": [
+      {
+        "alt": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "search": "forestclearing",
+    "title": "Forest Clearing",
+    "date": "2022",
+    "role": "Game development, front-end development, asset creation",
+    "classification": ["Multiplayer Experience"],
+    "description": "A Forest Clearing is a collaborative multiplayer experience built using the p5 party library where players grow and maintain their forest. In this gamified view on deforestation, players are challenged by an increasing number of NPC lumberjacks that cut down the trees. The code is open-source and the game can be played in the browser.",
+    "links": [
+      {
+        "text": "Play Forest Clearing",
+        "url": "https://studio-degen.github.io/deforestation/"
+      },
+      {
+        "text": "Presskit",
+        "url": "https://www.notion.so/A-Forest-Clearing-Press-Kit-070bbdd4d91f4024a956e42bbb46eec2"
+      }
+    ],
+    "collaborators": [
+      {
+        "text": "Apurv Rayate",
+        "url": "https://apurvrayate.com/"
+      },
+      { "text": "Hyacinth Weng", "url": "https://www.hyacinthweng.com" }
+    ],
+    "image-description": "Some of the challenges of building this game involved making sure all the player were on the same page - this required multiple iterations of how we were conveying information and instruction. These are some of the final screens of the game. ",
+    "images": [
+      {
+        "alt": "Forest Clearing Game Screengrab",
+        "text": "Forest Clearing Game Screengrab",
+        "url": "../Assets/imgs/Forest Clearing/final/Screenshot page 1.webp",
+        "type": "final"
+      },
+      {
+        "alt": "Forest Clearing Game Screengrab",
+        "text": "Forest Clearing Game Screengrab",
+        "url": "../Assets/imgs/Forest Clearing/final/Screenshot 2.webp",
+        "type": "final"
+      },
+      {
+        "alt": "Forest Clearing Game Screengrab",
+        "text": "Forest Clearing Game Screengrab",
+        "url": "../Assets/imgs/Forest Clearing/final/Screenshot 3.webp",
+        "type": "final"
+      },
+      {
+        "alt": "Forest Clearing Waiting Screen",
+        "text": "Forest Clearing Waiting Screen",
+        "url": "../Assets/imgs/Forest Clearing/final/players.webp",
+        "type": "final"
+      },
+      {
+        "alt": "Forest Clearing End Screen",
+        "text": "Forest Clearing End Screen",
+        "url": "../Assets/imgs/Forest Clearing/final/game end.webp",
+        "type": "final"
+      },
+      {
+        "alt": "Forest assets",
+        "text": "Forest assets",
+        "url": "../Assets/imgs/Forest Clearing/Working gallery/featured-working copy.webp",
+        "type": "progress-big"
+      },
+      {
+        "alt": "Planting Seeds",
+        "text": "Planting Seeds",
+        "url": "../Assets/imgs/Forest Clearing/Working gallery/ins_1.gif",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Apples grow slowly",
+        "text": "Apples grow slowly",
+        "url": "../Assets/imgs/Forest Clearing/Working gallery/ins_2.gif",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Plant more trees and grow the forest",
+        "text": "Plant more trees and grow the forest",
+        "url": "../Assets/imgs/Forest Clearing/Working gallery/ins_3.gif",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Loggers attack the trees",
+        "text": "Loggers attack the trees",
+        "url": "../Assets/imgs/Forest Clearing/Working gallery/ins_4_crop.gif",
+        "type": "progress-small"
+      },
+      {
+        "alt": "Sketchbook pages",
+        "text": "Sketchbook pages",
+        "url": "../Assets/imgs/Forest Clearing/Working gallery/sketchbook.webp",
+        "type": "progress-small"
+      }
+    ]
+  },
+  {
+    "search": "cssoch",
+    "title": "C S Soch: Visual Identity",
+    "date": "2021",
+    "role": "Visual assets development",
+    "classification": ["Illustration"],
+    "description": "CS Soch is an online program for primary school children to develop computational thinking skills through coding games, stories and puzzles. My brief was to create visual assets featuring quintessential Indian animals and landscapes familiar to young users. I worked with the company early on to build their visuals– game elements, character designs and the mascot. My illustrations informed the brand identity and company design system.",
+    "links": [{ "text": "Visit C S Soch", "url": "https://cssoch.in" }],
+    "collaborators": [
+      {
+        "text": "Priyanka Thaker",
+        "url": "https://www.linkedin.com/in/priyanka-thaker-40168323/"
+      },
+      {
+        "text": "Sidharth Roy",
+        "url": "https://www.linkedin.com/in/sidharth-roy-0169ba1b3/"
+      }
+    ],
+    "image-description": "These are some of the assets I worked on for games and puzzles.",
+    "images": [
+      {
+        "alt": "website screenshot",
+        "text": "website screenshot",
+        "url": "../Assets/imgs/cssoch/website screenshot.webp",
+        "type": "progress-big"
+      },
+      {
+        "alt": "wallpapers",
+        "text": "wallpapers",
+        "url": "../Assets/imgs/cssoch/Final wallpaper 1.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "wallpapers",
+        "text": "wallpapers",
+        "url": "../Assets/imgs/cssoch/Final wallpaper 2.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "fox character design",
+        "text": "fox character design",
+        "url": "../Assets/imgs/cssoch/Fox design.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "sheep character design",
+        "text": "sheep character design",
+        "url": "../Assets/imgs/cssoch/Sheep design.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "game overview",
+        "text": "game overview",
+        "url": "../Assets/imgs/cssoch/Game 2 overview.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "game overview",
+        "text": "game overview",
+        "url": "../Assets/imgs/cssoch/Game overview.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "company mascot",
+        "text": "company masco",
+        "url": "../Assets/imgs/cssoch/Mascot.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "space themed game assets",
+        "text": "space themed game assets",
+        "url": "../Assets/imgs/cssoch/Space Themed Game Assets.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "train puzzle",
+        "text": "train puzzle",
+        "url": "../Assets/imgs/cssoch/Puzzle 1.webp",
+        "type": "progress-small"
+      },
+      {
+        "alt": "bead pattern puzzle",
+        "text": "bead pattern puzzle",
+        "url": "../Assets/imgs/cssoch/Puzzle 3.webp",
+        "type": "progress-small"
+      }
+    ]
+  }
+]

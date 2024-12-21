@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@font-face {
+    font-family: "Eiko";
+    src: url('/Assets/PPEiko-LightItalic.otf') format('opentype');
+    font-weight: lighter;
+}
+:root {
+    --black: #212122;
+    --white: #fffdf6;
+    --primary:#499254;
+    --secondary:#c3da2e;
+    --border: 2px;
+    --default_margin: 100px;
+    --default_padding: 30px;
+    --small_padding: 15px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+    /* border: 1px solid var(--black); */
+}
+
+body {
+    background-color: var(--white);
+    /* #f5f5f5; */
+    color: var(--black);
+    /* padding: var(--default_margin); */
+    padding-bottom: var(--default_padding);
+    overflow-x: hidden;
+}
+
+h1{
+    font-family: "Eiko";
+    font-weight: lighter;
+    font-size: 2em;
+}
+h2{
+    font-family: "Eiko";
+    font-weight: lighter;
+    font-size: 1.3em;
+}
+h3{
+    font-family: "Eiko";
+    font-weight: lighter;
+    font-size: 1em;
+}
+p{
+    font-size: 1em;
+}
+a{
+    all: unset;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+a:hover{
+    color: var(--primary);
+}
+
+li{
+    list-style: square;
+}
+caption{
+    font-size: 0.7em;
+}
+
+button{
+    all: unset;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 7px;
+    background-color: transparent;
+    border: var(--border) solid var(--primary);
+    border-radius: var(--small_padding);
+    cursor: pointer;
+}
+button:hover{
+    background-color: var(--primary);
+    color: var(--white);
+}
+#tags button:focus{
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+video{
+    border: var(--border) solid var(--primary);
+    border-radius: var(--small_padding);
+}
+img{
+    border: var(--border) solid var(--primary);
+    border-radius: var(--small_padding);
+    width: 100%;
+    height: auto;
+}
+hr {
+    /* display: block;
+    height: 1px; */
+    border: 1px dashed var(--primary);
+}
+
+menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--default_padding);
+    /* background-color: var(--white); */
+    background: -webkit-linear-gradient(top, var(--white) 30%,rgba(255,255,255,0) 100%);
+    z-index: 5;
+}
+menu div{
+    height: fit-content;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    gap: calc(1.5*var(--small_padding));
+}
+menu object {
+    height: fit-content;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    gap: var(--small_padding);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: var(--default_margin);
+    margin: calc(2*var(--default_margin));
+
+}
+menu a{
+    font-size: 0.8em;
+}
+
+footer{
+    /* padding: var(--default_padding); */
+    width: 100%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: var(--default_padding);
+}
+footer div{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: var(--default_padding);
+    display: flex;
+    flex-direction: row;
+    gap: var(--default_padding);
+}
+footer div a{
+    font-size: 0.7em; /*same as caption*/
+}
+
+.flex-responsive{
+    display: flex;
+    gap: var(--default_padding);
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: var(--default_padding);
+}
+.underline{
+    text-decoration: underline;
+}
+.classification{
+    color: var(--primary);
+}
+#favicon{
+    border: none;
+    width: 50px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
+}
+#display-text{
+    width: 75%;
+    text-align: center;
+    margin: 10px auto;
+}
+#toTop{
+    position: fixed;
+    right: var(--default_padding);
+    bottom: calc(1.5*var(--default_padding));
+    padding: var(--small_padding);
+    border: none;
+    font-size: 2em;
+}
+#toTop:hover{
+    background-color: transparent;
+    color: var(--primary);
+}
+
+@media only screen and (max-width: 900px) {
+    :root{
+        --default_margin: 70px;
+    }
+    article{
+        flex-direction: column;
+    }
+    article img{
+        width: 100%;
+        height: auto;
+    }
+    .flex-responsive{
+        flex-direction: column;
+        gap: var(--default_padding);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    :root{
+        --default_margin: 15px;
+    }
+    menu{
+        flex-direction: column;
+    }
+    menu div{
+        align-self:normal;
+    }
+}

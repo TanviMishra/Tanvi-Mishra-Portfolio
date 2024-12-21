@@ -1,0 +1,45 @@
+main{
+    gap: var(--default_padding);
+}
+.flex-responsive {
+    display: flex;
+    gap: var(--default_margin);
+  }
+  
+  /* Target the first div in the section (the image container) */
+  .flex-responsive > div:first-child {
+    flex: 0 0 50%;  /* Don't grow, don't shrink, base width 50% */
+    display: flex;
+    flex-direction: column;
+    gap: var(--default_padding);
+  }
+  
+  /* Target the second div (the text container) */
+  .flex-responsive > div:last-child {
+    flex: 1;  /* Take up remaining space */
+    display: flex;
+    flex-direction: column;
+    gap: var(--default_padding);
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.resume-spread{
+    width: 30vw;
+    background-color: aqua;
+}
+#resumeAlteration{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+@media only screen and (max-width: 900px) {
+    .flex-responsive{
+        gap: var(--default_padding);
+    }
+}

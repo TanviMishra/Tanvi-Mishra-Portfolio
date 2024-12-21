@@ -1,0 +1,130 @@
+body{
+    /* padding: 70px; */
+}
+p{
+    font-size: 0.8em;
+}
+button{
+    font-size: 0.8em;
+}
+a{
+    font-size: 0.8em;
+}
+main{
+    margin-top: var(--default_padding);
+}
+#projects-container{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.column1{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--small_padding);
+}
+.column2{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--small_padding);
+}
+.column3{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--small_padding);
+}
+.column4{
+    width: 45%; /*make all image changes in .img-gallery*/
+}
+.img-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: min-content;
+    gap: var(--small_padding);
+}
+.double-grid{
+    grid-template-columns: repeat(2, 1fr) !important;
+}
+.no-grid{
+    grid-template-columns: repeat(1, 1fr) !important;
+}
+.img-gallery img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1.5px solid var(--primary);
+    cursor: zoom-in;
+}
+
+/* .img-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    gap: var(--small_padding);
+    
+}
+.img-gallery img{
+    flex: 0 0 calc(30%);
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    border-radius: 5px;
+    cursor: zoom-in;
+} */
+.fullscreen-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: zoom-out;
+    backdrop-filter: blur(10px);
+}
+
+.fullscreen-image {
+    max-height: 60vh;
+    width: auto;
+    object-fit: cover;
+}
+
+menu{
+    background-color: var(--white);
+}
+#tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--default_padding);
+    /* width: 80%; */
+    padding-right: var(--default_margin)!important;
+    padding-top: var(--default_padding)!important;
+    padding-bottom: var(--default_padding)!important;
+    position: sticky ;
+    top: calc(2*var(--default_padding));
+    background: -webkit-linear-gradient(top, var(--white) 70%,rgba(255,255,255,0) 100%);
+    /* background-color: var(--white); */
+    z-index: 6;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .column1 {
+        width: 100%;
+    }
+    .column2 {
+        width: 100%;
+    }
+    .column3 {
+        width: 100%;
+    }
+    .column4{
+        width: 100%;
+    }
+}
