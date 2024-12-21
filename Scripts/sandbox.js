@@ -3,7 +3,7 @@ let projectsData = [];
 
 async function loadProjectData() {
   try {
-    const response = await fetch("../data/sandbox.json");
+    const response = await fetch("../Data/sandbox.json");
     const data = await response.json();
     projectsData = data; // Store data globally
     return data;
