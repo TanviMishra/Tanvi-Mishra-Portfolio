@@ -36,6 +36,31 @@
     ]
   },
   {
+    "title": "Cellular Automata Workshop",
+    "date": "2024",
+    "classification": ["Workshops", "Creative Coding"],
+    "description": "Hosted a workshop on Cellular Automata for high schoolers at Lower East Side Girls Club.",
+    "links": [
+      {
+        "text": "Slides",
+        "url": "https://www.figma.com/deck/om1eez8WZ2E6Jv3Jinm3HF/Cellular-Automata-Workshop?node-id=1-25&viewport=52%2C-39%2C0.32&t=cDrykoiHWxiKGxD7-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
+      },
+      {
+        "text": "p5.js sketch",
+        "url": "https://editor.p5js.org/TanviMishra5786/sketches/fmlHxjLVz"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "double",
+    "images": [
+      {
+        "alt": "Cellular Automata ",
+        "url": "../Assets/imgs/LESGC/Cellular Automata Workshop.gif"
+      }
+    ]
+  },
+  {
     "title": "House Brush",
     "date": "2024",
     "classification": ["Creative Coding"],

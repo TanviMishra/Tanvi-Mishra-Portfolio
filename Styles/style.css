@@ -21,6 +21,9 @@
     font-family: "Space Grotesk", sans-serif;
     /* border: 1px solid var(--black); */
 }
+::selection{
+    background-color: var(--secondary);
+}
 
 body {
     background-color: var(--white);
@@ -160,7 +163,27 @@ footer div{
 footer div a{
     font-size: 0.7em; /*same as caption*/
 }
-
+.column1{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--small_padding);
+}
+.column2{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--small_padding);
+}
+.column3{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--small_padding);
+}
+.column4{
+    width: 45%; /*make all image changes in .img-gallery*/
+}
 .flex-responsive{
     display: flex;
     gap: var(--default_padding);
