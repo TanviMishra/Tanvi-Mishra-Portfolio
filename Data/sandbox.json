@@ -39,7 +39,7 @@
     "title": "Cellular Automata Workshop",
     "date": "2024",
     "classification": ["Workshops", "Creative Coding"],
-    "description": "Hosted a workshop on Cellular Automata for high schoolers at Lower East Side Girls Club.",
+    "description": "Hosted a workshop on Cellular Automata for high schoolers at Lower Eastside Girls Club.",
     "links": [
       {
         "text": "Slides",
@@ -50,13 +50,58 @@
         "url": "https://editor.p5js.org/TanviMishra5786/sketches/fmlHxjLVz"
       }
     ],
-    "collaborators": [],
+    "collaborators": [
+      {
+        "name": "Lower Eastside Girls Club",
+        "url": "https://www.girlsclub.org/"
+      }
+    ],
     "resources": [],
     "image_gallery": "double",
     "images": [
       {
         "alt": "Cellular Automata ",
         "url": "../Assets/imgs/LESGC/Cellular Automata Workshop.gif"
+      }
+    ]
+  },
+  {
+    "title": "Creative Tech Almanac",
+    "date": "2024",
+    "classification": ["Web Design"],
+    "description": "The Creative Tech Almanac  was created for the Creative Tech vertical for LAB @ Rockwell Group. This involved collating documentation, creating notes and forming the structure of the website. The notes are written in Obsidian and the site is built with Quartz.",
+    "links": [],
+    "collaborators": [
+      {
+        "name": "LAB @ Rockwell Group",
+        "url": "https://www.labatrockwellgroup.com/"
+      }
+    ],
+    "resources": [],
+    "image_gallery": "double",
+    "images": [
+      {
+        "alt": "Almanac tags",
+        "url": "../Assets/imgs/Almanac/AR Toolkit 3.webp"
+      },
+      {
+        "alt": "Almanac tags",
+        "url": "../Assets/imgs/Almanac/AR Toolkit 4.webp"
+      },
+      {
+        "alt": "Almanac local graph",
+        "url": "../Assets/imgs/Almanac/Graph1.webp"
+      },
+      {
+        "alt": "Almanac styling",
+        "url": "../Assets/imgs/Almanac/Tags1.webp"
+      }
+    ],
+    "videos": [
+      {
+        "alt": "Almanac styling",
+        "url": "../Assets/videos/almanac/AR Toolkit.mov",
+        "type": "video"
       }
     ]
   },

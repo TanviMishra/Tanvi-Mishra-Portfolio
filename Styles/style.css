@@ -84,6 +84,7 @@ button:hover{
     color: var(--white);
 }
 
+
 #tags button:focus{
     background-color: var(--primary);
     color: var(--white);
@@ -98,11 +99,16 @@ img{
     border-radius: var(--small_padding);
     width: 100%;
     height: auto;
+    background-color: var(--secondary)
 }
 hr {
     /* display: block;
     height: 1px; */
     border: 1px dashed var(--primary);
+}
+canvas {
+    width: 100%;
+    height: 100vh;
 }
 
 menu{
@@ -163,6 +169,18 @@ footer div{
 footer div a{
     font-size: 0.7em; /*same as caption*/
 }
+.shapes{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 80%;
+    z-index: -1;
+  }
+  .shapes canvas{
+    background-color: transparent !important;
+  } 
 .column1{
     width: 15%;
     display: flex;
