@@ -2,20 +2,24 @@
   {
     "search": "xrrnd",
     "title": "Mixed Reality R&D: Lab @ Rockwell",
-    "date": "blank",
-    "role": "blank",
-    "classification": ["blank"],
-    "description": "blank",
+    "date": "2024",
+    "role": "Rnd development, unity game development, programming, testing",
+    "classification": ["Mixed Reality Experience"],
+    "description": "My work on rnd at the LAB @ Rockwell Group culminated in building a mixed reality multiplayer, colocated experience",
     "links": [
       {
-        "text": "blank",
-        "url": "blank"
+        "text": "Lab @ Rockwell Group",
+        "url": "https://www.labatrockwellgroup.com/"
       }
     ],
     "collaborators": [
       {
-        "text": "blank",
-        "url": "blank"
+        "text": "Andrew Cotter",
+        "url": "https://andrewcotter.io/"
+      },
+      {
+        "text": " Jeff Barbieris",
+        "url": "https://www.linkedin.com/in/jeffbarbieri"
       }
     ],
     "image-description": "blank",
