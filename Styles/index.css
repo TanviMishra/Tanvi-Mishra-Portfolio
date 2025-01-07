@@ -47,6 +47,9 @@ h2{
     section img{
         width: 100%;
     }
+    .columnImg{
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
