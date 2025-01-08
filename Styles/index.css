@@ -25,8 +25,18 @@ h2{
     width: 100%;
     padding-top: 56.25%;
     position: relative;
-    background-color: var(--light);
+    background-color: var(--primary);
     overflow: hidden;  /* Contains the iframe within the banner */
+}
+
+#banner .banner-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
 }
 
 #banner iframe {
@@ -35,6 +45,7 @@ h2{
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: 2;
 }
 #display-text{
     margin-top: var(--default_margin);
