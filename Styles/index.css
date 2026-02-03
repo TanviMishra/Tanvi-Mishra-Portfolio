@@ -65,7 +65,8 @@ h2 {
 
 /* Project Gallery Styles (from sandbox.css) */
 
-#projects-container {
+#projects-container,
+#featured-projects-container {
   gap: calc(2*var(--default_padding));
   display: flex;
   flex-direction: column;
@@ -136,45 +137,52 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   gap: calc(var(--default_padding)/2);
-  padding-bottom: calc(2*var(--default_padding));
-  padding-right: calc(var(--default_margin));
+  padding: calc(var(--default_padding));
+  padding-left: 0;
   position: sticky;
-  top: calc(var(--default_padding));
-  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,var(--white) 10%, var(--white) 70%,rgba(255,255,255,0) 100%);
+  top: 0;
+  background-color: var(--white);
+  /* background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,var(--white) 10%, var(--white) 70%,rgba(255,255,255,0) 100%); */
   z-index: 6;
 }
 
-/* Archived Projects Section */
-.archived-section {
-  margin-top: calc(3*var(--default_padding));
-  padding-top: calc(2*var(--default_padding));
-  border-top: 1px dashed var(--primary);
+/* Experiments and Archived Projects Sections */
+
+.project-type-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: var(--default_margin) 0;
 }
 
+.project-type-container hr {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  border: 1px dashed var(--primary);
+}
+
+.toggle-experiments,
 .toggle-archived {
-  all: unset;
-  width: fit-content;
-  height: fit-content;
-  padding: 5px 7px;
-  background-color: transparent;
-  border: var(--border) solid var(--primary);
-  border-radius: var(--detail_padding);
-  cursor: pointer;
-  font-size: 0.9em;
-  margin-bottom: var(--default_padding);
+  background-color: var(--white);
+  z-index: 5;
 }
 
-.toggle-archived:hover {
+.toggle-experiments:focus,
+.toggle-archived:focus {
   background-color: var(--primary);
   color: var(--white);
 }
 
+.experiments-projects,
 .archived-projects {
   gap: calc(2*var(--default_padding));
   display: flex;
   flex-direction: column;
 }
 
+.experiments-projects.hidden,
 .archived-projects.hidden {
   display: none;
 }

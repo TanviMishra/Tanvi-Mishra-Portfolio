@@ -46,12 +46,27 @@
         <section id="tags">
             <!-- Tags will be dynamically populated -->
         </section>
-        <section id="projects-container">
-            <!-- Projects will be populated here (Work first, then Sandbox) -->
+        <section id="featured-projects-container">
+            <!-- Featured projects will be populated here -->
+        </section>
+
+        <section id="experiments-section" class="experiments-section">
+            <div class="project-type-container">
+                <hr>
+                <button id="toggle-experiments" class="toggle-experiments">Experiments</button>
+            </div>
+            
+            <div id="experiments-projects-container" class="experiments-projects">
+                <!-- Experiment projects will be populated here -->
+            </div>
         </section>
 
         <section id="archived-section" class="archived-section">
-            <button id="toggle-archived" class="toggle-archived">Show Archived</button>
+            <div class="project-type-container">
+                <hr>
+                <button id="toggle-archived" class="toggle-archived">Archive</button>
+            </div>
+            
             <div id="archived-projects-container" class="archived-projects hidden">
                 <!-- Archived projects will be populated here -->
             </div>

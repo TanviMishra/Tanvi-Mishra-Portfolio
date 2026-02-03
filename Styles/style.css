@@ -70,7 +70,7 @@ button{
     all: unset;
     width: fit-content;
     height: fit-content;
-    padding: 5px 7px;
+    padding: 3px var(--detail_padding);
     background-color: transparent;
     border: var(--border) solid var(--primary);
     border-radius: var(--detail_padding);
@@ -142,9 +142,9 @@ menu a{
 }
 
 footer{
-    position: fixed;
+    /* position: fixed;
     bottom: 0;
-    left: 0;
+    left: 0; */
     width: 100%;
     height: 40px; /* adjust blocks.js values if you change this*/
     padding: calc(var(--default_padding)/2) calc(var(--default_padding)*2);

@@ -30,6 +30,8 @@ function normalizeProjectForCard(project, workDetailHrefBySearch) {
     })
     .slice(0, 12);
 
+  const projectType = project["project type"] || "experiment";
+  
   return {
     source: detailHref ? "work" : "sandbox",
     title: project.title || "",
@@ -41,10 +43,10 @@ function normalizeProjectForCard(project, workDetailHrefBySearch) {
     resources: safeArray(project.resources),
     image_gallery: project.image_gallery || "triple",
     images,
-    detailHref: project.featured === true ? detailHref : null, // Only allow links if featured
+    detailHref: projectType === "featured" ? detailHref : null, // Only allow links if featured
     search,
-    featured: project.featured === true,
-    archived: project.archived === true,
+    projectType: projectType,
+    archived: projectType === "archived",
   };
 }
 
@@ -86,7 +88,7 @@ function createProjectSection(project) {
 
   const titleHtml = isNonEmptyString(project.title) ? project.title : "";
   const titleSection = titleHtml
-    ? project.featured && project.detailHref
+    ? project.projectType === "featured" && project.detailHref
       ? `<h2><a href="${project.detailHref}">${titleHtml} &#8594;</a></h2>`
       : `<h2>${titleHtml}</h2>`
     : "";
@@ -115,7 +117,6 @@ function createProjectSection(project) {
             ${mediaContent}
         </div>
     </article>
-    <hr>
   `;
 
   // Lightbox behavior for images
@@ -151,12 +152,12 @@ function createTags(projects) {
   tagsSection.innerHTML = "";
 
   const allButton = document.createElement("button");
-  allButton.textContent = "Show All";
+  allButton.textContent = "All Work";
   allButton.addEventListener("click", () => filterProjects("all"));
   tagsSection.appendChild(allButton);
 
-  // Only include tags from non-archived projects
-  const activeProjects = projects.filter((p) => !p.archived);
+  // Include tags from featured and experiment projects
+  const activeProjects = projects.filter((p) => p.projectType === "featured" || p.projectType === "experiment");
   const uniqueTags = [
     ...new Set(safeArray(activeProjects).flatMap((project) => safeArray(project.tags))),
   ].filter(isNonEmptyString);
@@ -173,29 +174,58 @@ function createTags(projects) {
 }
 
 function filterProjects(tag) {
-  const projectsContainer = document.getElementById("projects-container");
+  const featuredContainer = document.getElementById("featured-projects-container");
+  const experimentsContainer = document.getElementById("experiments-projects-container");
+  const experimentsSection = document.getElementById("experiments-section");
   const archivedContainer = document.getElementById("archived-projects-container");
   const archivedSection = document.getElementById("archived-section");
-  if (!projectsContainer) return;
+  if (!featuredContainer) return;
   
-  projectsContainer.innerHTML = "";
+  featuredContainer.innerHTML = "";
+  if (experimentsContainer) experimentsContainer.innerHTML = "";
   if (archivedContainer) archivedContainer.innerHTML = "";
 
-  // Filter active projects based on tag
-  const activeProjects =
+  // Filter projects based on tag
+  const allFilteredProjects =
     tag === "all"
-      ? projectsData.filter((project) => !project.archived)
-      : projectsData.filter((project) => !project.archived && safeArray(project.tags).includes(tag));
+      ? projectsData
+      : projectsData.filter((project) => safeArray(project.tags).includes(tag));
 
-  // Only show archived projects when "Show All" is selected
+  // Separate by project type
+  const featuredProjects = allFilteredProjects.filter((project) => project.projectType === "featured");
+  const experimentProjects = allFilteredProjects.filter((project) => project.projectType === "experiment");
   const archivedProjects = tag === "all" 
-    ? projectsData.filter((project) => project.archived)
+    ? allFilteredProjects.filter((project) => project.projectType === "archived")
     : [];
 
-  // Display active projects
-  activeProjects.forEach((project) =>
-    projectsContainer.appendChild(createProjectSection(project))
+  // Display featured projects
+  featuredProjects.forEach((project) =>
+    featuredContainer.appendChild(createProjectSection(project))
   );
+
+  // Show/hide experiments section based on filter
+  if (experimentsSection) {
+    if (experimentProjects.length > 0) {
+      experimentsSection.style.display = "block";
+      // Keep experiments visible by default (don't hide when switching filters)
+      if (experimentsContainer) {
+        experimentsContainer.classList.remove("hidden");
+        const toggleButton = document.getElementById("toggle-experiments");
+        if (toggleButton) {
+          toggleButton.textContent = "Experiments";
+        }
+      }
+    } else {
+      experimentsSection.style.display = "none";
+    }
+  }
+
+  // Display experiment projects if container exists
+  if (experimentsContainer && experimentProjects.length > 0) {
+    experimentProjects.forEach((project) =>
+      experimentsContainer.appendChild(createProjectSection(project))
+    );
+  }
 
   // Show/hide archived section based on filter
   if (archivedSection) {
@@ -205,7 +235,10 @@ function filterProjects(tag) {
       if (archivedContainer) {
         archivedContainer.classList.add("hidden");
         const toggleButton = document.getElementById("toggle-archived");
-        if (toggleButton) toggleButton.textContent = "Show Archived";
+        if (toggleButton) {
+          toggleButton.textContent = "Archive";
+          toggleButton.blur();
+        }
       }
     } else {
       archivedSection.style.display = "none";
@@ -220,6 +253,21 @@ function filterProjects(tag) {
   }
 }
 
+function toggleExperimentsProjects() {
+  const experimentsContainer = document.getElementById("experiments-projects-container");
+  const toggleButton = document.getElementById("toggle-experiments");
+  if (!experimentsContainer || !toggleButton) return;
+
+  const isHidden = experimentsContainer.classList.contains("hidden");
+  if (isHidden) {
+    experimentsContainer.classList.remove("hidden");
+    toggleButton.focus();
+  } else {
+    experimentsContainer.classList.add("hidden");
+    toggleButton.blur();
+  }
+}
+
 function toggleArchivedProjects() {
   const archivedContainer = document.getElementById("archived-projects-container");
   const toggleButton = document.getElementById("toggle-archived");
@@ -228,16 +276,16 @@ function toggleArchivedProjects() {
   const isHidden = archivedContainer.classList.contains("hidden");
   if (isHidden) {
     archivedContainer.classList.remove("hidden");
-    toggleButton.textContent = "Hide Archived";
+    toggleButton.focus();
   } else {
     archivedContainer.classList.add("hidden");
-    toggleButton.textContent = "Show Archived";
+    toggleButton.blur();
   }
 }
 
 async function initHome() {
-  const projectsContainer = document.getElementById("projects-container");
-  if (!projectsContainer) return;
+  const featuredContainer = document.getElementById("featured-projects-container");
+  if (!featuredContainer) return;
 
   // Map work "search" keys to existing detail HTML pages.
   // (These are the pages in `/Work/*.html` that call `loadProjectContent("<search>")`.)
@@ -261,8 +309,8 @@ async function initHome() {
     // Also separate archived projects to the end
     projectsData = normalized.sort((a, b) => {
       // Archived projects go to the end
-      if (a.archived && !b.archived) return 1;
-      if (!a.archived && b.archived) return -1;
+      if (a.projectType === "archived" && b.projectType !== "archived") return 1;
+      if (a.projectType !== "archived" && b.projectType === "archived") return -1;
       // Within same archive status, work projects first
       const aIsWork = !isBlank(a.search) && !!a.detailHref;
       const bIsWork = !isBlank(b.search) && !!b.detailHref;
@@ -272,21 +320,36 @@ async function initHome() {
     createTags(projectsData);
     filterProjects("all");
 
+    // Set up experiments toggle button
+    const experimentsToggleButton = document.getElementById("toggle-experiments");
+    const experimentsSection = document.getElementById("experiments-section");
+    if (experimentsToggleButton) {
+      experimentsToggleButton.addEventListener("click", toggleExperimentsProjects);
+      // Check if there are any experiment projects
+      const hasExperiments = projectsData.some((p) => p.projectType === "experiment");
+      if (!hasExperiments && experimentsSection) {
+        experimentsSection.style.display = "none";
+      }
+    }
+
     // Set up archived toggle button
-    const toggleButton = document.getElementById("toggle-archived");
+    const archivedToggleButton = document.getElementById("toggle-archived");
     const archivedSection = document.getElementById("archived-section");
-    if (toggleButton) {
-      toggleButton.addEventListener("click", toggleArchivedProjects);
+    if (archivedToggleButton) {
+      archivedToggleButton.addEventListener("click", toggleArchivedProjects);
       // Check if there are any archived projects
-      const hasArchived = projectsData.some((p) => p.archived);
+      const hasArchived = projectsData.some((p) => p.projectType === "archived");
       if (!hasArchived && archivedSection) {
         archivedSection.style.display = "none";
       }
     }
   } catch (e) {
     console.error("Failed to render home projects:", e);
-    projectsContainer.innerHTML =
-      "<p>Sorry—projects couldn't be loaded right now. Please refresh.</p>";
+    const featuredContainer = document.getElementById("featured-projects-container");
+    if (featuredContainer) {
+      featuredContainer.innerHTML =
+        "<p>Sorry—projects couldn't be loaded right now. Please refresh.</p>";
+    }
   }
 }
 

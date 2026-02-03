@@ -1,15 +1,14 @@
 [
   {
-    "featured": true,
+    "project type": "featured",
     "search": "xrrnd",
     "title": "Mixed Reality R&D: Lab @ Rockwell",
-    "year": "2024",
+    "year": "2025",
     "tags": [
-      "Mixed Reality Experience"
+      "Multiplayer"
     ],
-    "short description": "My work on rnd at the LAB @ Rockwell Group culminated in building a mixed reality multiplayer, colocated experience",
-    "long description": "My work on rnd at the LAB @ Rockwell Group culminated in building a mixed reality multiplayer, colocated experience",
-    "brief": "My work on rnd at the LAB @ Rockwell Group culminated in building a mixed reality multiplayer, colocated experience",
+    "short description": "I worked on many collocated, multiplayer mixed reality experiences",
+    "long description": "I worked on many collocated, multiplayer mixed reality experiences",
     "links": [
       {
         "text": "Lab @ Rockwell Group",
@@ -27,14 +26,14 @@
       }
     ],
     "role": "Rnd development, unity game development, programming, testing",
-    "image description": "blank",
+    "image description": "",
     "image": [
       {
         "alt": "",
         "text": "",
-        "url": "../",
+        "url": "../Assets/imgs/Thumbnails/mr.webp",
         "type": [
-          "featured"
+          "gallery"
         ]
       },
       {
@@ -62,26 +61,25 @@
         ]
       }
     ],
-    "video description": "blank",
+    "video description": "",
     "video": [
       {
         "alt": "",
         "url": ""
       }
     ],
-    "image_gallery": "triple"
+    "image_gallery": "single"
   },
   {
-    "featured": true,
+    "project type": "featured",
     "search": "tridal",
     "title": "Tridal: A multiplayer collaborative game",
     "year": "2023",
     "tags": [
-      "Game Design"
+      "Game Design", "Multiplayer", "Climate Crisis"
     ],
-    "short description": "Tridal is a multiplayer, cooperative environment that advocates responsible land use. The game is built with socket.io and vanilla javascript using the FAO's statistical database across categories like 'Forestry Production and Trade’, and ‘Temperature change on land’. Tridal reprioritises current resources– forests, farms, urban land, etc. – using mechanics that shift thinking paradigms. Every in-game action has multitudinous consequences, illustrating the scale of human damage. This project was supported by Rhizome Microgrants 2023.",
+    "short description": "Tridal is a multiplayer, cooperative game that advocates for responsible land use.",
     "long description": "Tridal is a multiplayer, cooperative environment that advocates responsible land use. The game is built with socket.io and vanilla javascript using the FAO's statistical database across categories like 'Forestry Production and Trade’, and ‘Temperature change on land’. Tridal reprioritises current resources– forests, farms, urban land, etc. – using mechanics that shift thinking paradigms. Every in-game action has multitudinous consequences, illustrating the scale of human damage. This project was supported by Rhizome Microgrants 2023.",
-    "brief": "Tridal is a multiplayer, cooperative environment that advocates responsible land use. The game is built with socket.io and vanilla javascript using the FAO's statistical database across categories like 'Forestry Production and Trade’, and ‘Temperature change on land’. Tridal reprioritises current resources– forests, farms, urban land, etc. – using mechanics that shift thinking paradigms. Every in-game action has multitudinous consequences, illustrating the scale of human damage. This project was supported by Rhizome Microgrants 2023.",
     "links": [
       {
         "text": "Further Documentation",
@@ -157,7 +155,8 @@
         "text": "Game map close up",
         "url": "../Assets/imgs/Tridal/final images webp/Game map close up.webp",
         "type": [
-          "final"
+          "final",
+          "gallery"
         ]
       },
       {
@@ -307,19 +306,18 @@
     ],
     "video description": "This video is the detailed explanation of the game as presented at the Entropy symposium, moderated by Paolo Pedercini (Molleindustria).",
     "video": [],
-    "image_gallery": "triple"
+    "image_gallery": "single"
   },
   {
-    "featured": true,
+    "project type": "featured",
     "search": "neo",
     "title": "Neo-TCH 1.3: Wearable Technology",
     "year": "2022",
     "tags": [
-      "Physical Computation"
+      "Fabrication"
     ],
-    "short description": "Neo-TCH 1.3 uses wearable tech to build a tactile, experimental, and performative installation piece. With soft sensors and found materials, we created a garment that was an intervention model in a speculative future. This piece challenges the importance of touch to the human experience and considers different ways of reimagining connection. Visit the website for an in-depth explanation and further documentation.",
+    "short description": "Neo-TCH 1.3 uses wearable tech to build a tactile, experimental, and performative installation piece.",
     "long description": "Neo-TCH 1.3 uses wearable tech to build a tactile, experimental, and performative installation piece. With soft sensors and found materials, we created a garment that was an intervention model in a speculative future. This piece challenges the importance of touch to the human experience and considers different ways of reimagining connection. Visit the website for an in-depth explanation and further documentation.",
-    "brief": "Neo-TCH 1.3 uses wearable tech to build a tactile, experimental, and performative installation piece. With soft sensors and found materials, we created a garment that was an intervention model in a speculative future. This piece challenges the importance of touch to the human experience and considers different ways of reimagining connection. Visit the website for an in-depth explanation and further documentation.",
     "links": [
       {
         "text": "Further Documentation",
@@ -368,7 +366,7 @@
         "text": "Test Subjects Views",
         "url": "../Assets/imgs/Sheer Contact/Final/testSubjects.gif",
         "type": [
-          "final"
+          "final", "gallery"
         ]
       },
       {
@@ -574,19 +572,18 @@
     ],
     "video description": "This video is one of the final outputs of the project. As a part of the documentation, we created a surveillance video of two test subjects wearing neoTCH 1.3 for the first time.",
     "video": [],
-    "image_gallery": "triple"
+    "image_gallery": "single"
   },
   {
-    "featured": true,
+    "project type": "experiment",
     "search": "sfpc",
     "title": "I'm not sure how to name home anymore",
     "year": "2024",
     "tags": [
-      "Game Design"
+      "Game Design", "Multiplayer"
     ],
-    "short description": "While attending Worlds in Conversation, I was at a crossroads in my personal life. Within three weeks I had to pinpoint wether to move back to Bangalore or not. Suffice it to say, I was thinking about home a lot. Specifically, I was thinking about how most of us live across many homes, tiny bits of our souls traced back to each place. I wanted to converse about the many homes we've inhabited and the stories we carry. This game also, more crucially, reflected the wayfinding once you've outgrown a home. It embodied my decision-making and my steps to a new home.",
+    "short description": "'I'm not sure how to name home anymore' is about how most of us live across many homes, tiny bits of our souls traced back to each place.",
     "long description": "While attending Worlds in Conversation, I was at a crossroads in my personal life. Within three weeks I had to pinpoint wether to move back to Bangalore or not. Suffice it to say, I was thinking about home a lot. Specifically, I was thinking about how most of us live across many homes, tiny bits of our souls traced back to each place. I wanted to converse about the many homes we've inhabited and the stories we carry. This game also, more crucially, reflected the wayfinding once you've outgrown a home. It embodied my decision-making and my steps to a new home.",
-    "brief": "While attending Worlds in Conversation, I was at a crossroads in my personal life. Within three weeks I had to pinpoint wether to move back to Bangalore or not. Suffice it to say, I was thinking about home a lot. Specifically, I was thinking about how most of us live across many homes, tiny bits of our souls traced back to each place. I wanted to converse about the many homes we've inhabited and the stories we carry. This game also, more crucially, reflected the wayfinding once you've outgrown a home. It embodied my decision-making and my steps to a new home.",
     "links": [
       {
         "text": "Game Presskit",
@@ -595,7 +592,7 @@
     ],
     "collaborators": [],
     "role": "game design, writing, fabrication",
-    "image description": "blank",
+    "image description": "",
     "image": [
       {
         "alt": "stitching peices",
@@ -610,7 +607,7 @@
         "text": "This game is a worldbuilding game with a small ruleset. Players should feel free to make it their own.",
         "url": "../Assets/imgs/SFPC/featured/Photo Sept 1 2024.webp",
         "type": [
-          "featured"
+          "featured", "gallery"
         ]
       },
       {
@@ -634,7 +631,7 @@
         "text": "",
         "url": "../Assets/imgs/SFPC/final/IMG_9446.webp",
         "type": [
-          "final"
+          "final", "gallery"
         ]
       },
       {
@@ -642,7 +639,7 @@
         "text": "",
         "url": "../Assets/imgs/SFPC/final/IMG_9448.webp",
         "type": [
-          "final"
+          "final", "gallery"
         ]
       },
       {
@@ -666,7 +663,8 @@
         "text": "Countless tiles to test magnet placement and stitching",
         "url": "../Assets/imgs/SFPC/working/samples.webp",
         "type": [
-          "progress-small"
+          "progress-small",
+          "gallery"
         ]
       },
       {
@@ -682,7 +680,8 @@
         "text": "Initial prototype with tiles open",
         "url": "../Assets/imgs/SFPC/working/proto2.webp",
         "type": [
-          "progress-small"
+          "progress-small",
+          "gallery"
         ]
       },
       {
@@ -690,7 +689,8 @@
         "text": "Figuring out the mechanism to make tiles rotate",
         "url": "../Assets/imgs/SFPC/working/test peices.webp",
         "type": [
-          "progress-small"
+          "progress-small",
+          "gallery"
         ]
       }
     ],
@@ -699,82 +699,54 @@
     "image_gallery": "triple"
   },
   {
-    "featured": true,
+    "project type": "experiment",
     "search": "cons",
     "title": "Consilience: AI Driven Learning Tool",
-    "year": "blank",
-    "tags": [],
-    "short description": "blank",
-    "long description": "blank",
-    "brief": "blank",
+    "year": "2025",
+    "tags": ["Web Design"],
+    "short description": "A Question-first AI canvas tool that uses interconnected fields of study to enable exploring, falling into rabbit holes and associative learning.",
+    "long description": "A Question-first AI canvas tool that uses interconnected fields of study to enable exploring, falling into rabbit holes and associative learning.",
+    "brief": "",
     "links": [
       {
-        "text": "blank",
-        "url": "blank"
+        "text": "",
+        "url": ""
       }
     ],
     "collaborators": [
       {
-        "name": "blank",
-        "url": "blank"
+        "name": "Malavika Srinivasan",
+        "url": "https://notes.malavikainmotion.com/about/"
+      },
+      {
+        "name": "Krithi Nalla",
+        "url": "https://krithinalla.com/"
       }
     ],
-    "role": "blank",
-    "image description": "blank",
+    "role": "",
+    "image description": "",
     "image": [
       {
         "alt": "",
         "text": "",
-        "url": "../",
+        "url": "../Assets/imgs/Thumbnails/Consilience.gif",
         "type": [
-          "featured"
-        ]
-      },
-      {
-        "alt": "",
-        "text": "",
-        "url": "../",
-        "type": [
-          "final"
-        ]
-      },
-      {
-        "alt": "",
-        "text": "",
-        "url": "../",
-        "type": [
-          "progress-big"
-        ]
-      },
-      {
-        "alt": "",
-        "text": "",
-        "url": "../",
-        "type": [
-          "progress-small"
+          "gallery"
         ]
       }
     ],
-    "video description": "blank",
-    "video": [
-      {
-        "alt": "",
-        "url": ""
-      }
-    ],
-    "image_gallery": "triple"
+    "image_gallery": "single"
   },
   {
-    "featured": true,
+    "project type": "featured",
     "search": "forestclearing",
     "title": "Forest Clearing",
     "year": "2022",
     "tags": [
-      "Multiplayer Experience"
+      "Multiplayer", "Climate Crisis", "Game Design"
     ],
-    "short description": "A Forest Clearing is a collaborative multiplayer experience built using the p5 party library where players grow and maintain their forest. In this gamified view on deforestation, players are challenged by an increasing number of NPC lumberjacks that cut down the trees. The code is open-source and the game can be played in the browser.",
+    "short description": "A Forest Clearing is a collaborative multiplayer game where players grow and maintain their forest.",
     "long description": "A Forest Clearing is a collaborative multiplayer experience built using the p5 party library where players grow and maintain their forest. In this gamified view on deforestation, players are challenged by an increasing number of NPC lumberjacks that cut down the trees. The code is open-source and the game can be played in the browser.",
-    "brief": "A Forest Clearing is a collaborative multiplayer experience built using the p5 party library where players grow and maintain their forest. In this gamified view on deforestation, players are challenged by an increasing number of NPC lumberjacks that cut down the trees. The code is open-source and the game can be played in the browser.",
     "links": [
       {
         "text": "Play Forest Clearing",
@@ -851,23 +823,23 @@
         "text": "Planting Seeds",
         "url": "../Assets/imgs/Forest Clearing/Working gallery/ins_1.gif",
         "type": [
-          "progress-small"
+          "progress-small", "gallery"
         ]
       },
       {
         "alt": "Apples grow slowly",
         "text": "Apples grow slowly",
-        "url": "../Assets/imgs/Forest Clearing/Working gallery/ins_2.gif",
+        "url": "../Assets/imgs/Forest Clearing/Working gallery/ins_3.gif",
         "type": [
-          "progress-small"
+          "progress-small", "gallery"
         ]
       },
       {
         "alt": "Plant more trees and grow the forest",
         "text": "Plant more trees and grow the forest",
-        "url": "../Assets/imgs/Forest Clearing/Working gallery/ins_3.gif",
+        "url": "../Assets/imgs/Forest Clearing/Working gallery/ins_2.gif",
         "type": [
-          "progress-small"
+          "progress-small", "gallery" 
         ]
       },
       {
@@ -875,7 +847,7 @@
         "text": "Loggers attack the trees",
         "url": "../Assets/imgs/Forest Clearing/Working gallery/ins_4_crop.gif",
         "type": [
-          "progress-small"
+          "progress-small", "gallery"
         ]
       },
       {
@@ -892,16 +864,15 @@
     "image_gallery": "triple"
   },
   {
-    "featured": true,
+    "project type": "experiment",
     "search": "cssoch",
     "title": "C S Soch: Visual Identity",
     "year": "2021",
     "tags": [
       "Illustration"
     ],
-    "short description": "CS Soch is an online program for primary school children to develop computational thinking skills through coding games, stories and puzzles. My brief was to create visual assets featuring quintessential Indian animals and landscapes familiar to young users. I worked with the company early on to build their visuals– game elements, character designs and the mascot. My illustrations informed the brand identity and company design system.",
+    "short description": "Visual assets for an online program for primary school children to develop computational thinking skills through coding games, stories and puzzles.",
     "long description": "CS Soch is an online program for primary school children to develop computational thinking skills through coding games, stories and puzzles. My brief was to create visual assets featuring quintessential Indian animals and landscapes familiar to young users. I worked with the company early on to build their visuals– game elements, character designs and the mascot. My illustrations informed the brand identity and company design system.",
-    "brief": "CS Soch is an online program for primary school children to develop computational thinking skills through coding games, stories and puzzles. My brief was to create visual assets featuring quintessential Indian animals and landscapes familiar to young users. I worked with the company early on to build their visuals– game elements, character designs and the mascot. My illustrations informed the brand identity and company design system.",
     "links": [
       {
         "text": "Visit C S Soch",
@@ -934,7 +905,7 @@
         "text": "wallpapers",
         "url": "../Assets/imgs/cssoch/Final wallpaper 1.webp",
         "type": [
-          "progress-small"
+          "progress-small", "gallery"
         ]
       },
       {
@@ -942,7 +913,7 @@
         "text": "wallpapers",
         "url": "../Assets/imgs/cssoch/Final wallpaper 2.webp",
         "type": [
-          "progress-small"
+          "progress-small", "gallery"
         ]
       },
       {
@@ -1012,10 +983,10 @@
     ],
     "video description": "",
     "video": [],
-    "image_gallery": "triple"
+    "image_gallery": "double"
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Bakery Collection",
     "year": "2024",
@@ -1082,7 +1053,7 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Cellular Automata Workshop",
     "year": "2024",
@@ -1124,7 +1095,7 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Creative Tech Almanac",
     "year": "2024",
@@ -1186,7 +1157,7 @@
     ]
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "House Brush",
     "year": "2024",
@@ -1258,7 +1229,7 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "p5 party workshop",
     "year": "2024",
@@ -1335,7 +1306,7 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Shape Generator",
     "year": "2024",
@@ -1408,13 +1379,11 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Entropy Reader",
     "year": "2023",
-    "tags": [
-      "Graphic Design",
-      "Publication"
+    "tags": [ "Climate Crisis"
     ],
     "short description": "I was co-editor and did the layout design for Entropy Reader, a publication in my final year at Parsons.",
     "long description": "I was co-editor and did the layout design for Entropy Reader, a publication in my final year at Parsons.",
@@ -1441,7 +1410,7 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Landscapes",
     "year": "2023",
@@ -1492,7 +1461,7 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Grapple",
     "year": "2023",
@@ -1535,7 +1504,7 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Responsive Landscapes",
     "year": "2022",
@@ -1600,12 +1569,12 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Sheepish",
     "year": "2022",
     "tags": [
-      "Game Design"
+      "Game Design", "Multiplayer"
     ],
     "short description": "You are a border collie (woof) and you have only one job: herd all the sheep back into the pen! Call your other border collie friends to help you out and try to get all them sheeps fenced before the time runs out.",
     "long description": "You are a border collie (woof) and you have only one job: herd all the sheep back into the pen! Call your other border collie friends to help you out and try to get all them sheeps fenced before the time runs out.",
@@ -1664,12 +1633,12 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Silver Lining",
     "year": "2022",
     "tags": [
-      "Game Design"
+      "Game Design","Multiplayer"
     ],
     "short description": "In Silver Lining, players had to draw non-intersecting lines. It is an abstraction of simple paper games I played in school while pretending to take notes.",
     "long description": "In Silver Lining, players had to draw non-intersecting lines. It is an abstraction of simple paper games I played in school while pretending to take notes.",
@@ -1728,7 +1697,7 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Rolling Stones",
     "year": "2022",
@@ -1737,7 +1706,6 @@
     ],
     "short description": "Prompt: Create a website that is a proverb. Project: 'A rolling stone gathers no moss' <br>The website is the rolling stone within this metaphor, when you stop rolling, aka scrolling, some moss appears on the screen and the content fades away.The website content chronicles the usage of the proverb in rock music.",
     "long description": "Prompt: Create a website that is a proverb. Project: 'A rolling stone gathers no moss' <br>The website is the rolling stone within this metaphor, when you stop rolling, aka scrolling, some moss appears on the screen and the content fades away.The website content chronicles the usage of the proverb in rock music.",
-    "brief": "Prompt: Create a website that is a proverb. Project: 'A rolling stone gathers no moss' <br>The website is the rolling stone within this metaphor, when you stop rolling, aka scrolling, some moss appears on the screen and the content fades away.The website content chronicles the usage of the proverb in rock music.",
     "links": [
       {
         "text": "Visit website",
@@ -1792,16 +1760,15 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Q-sweeper",
     "year": "2022",
     "tags": [
-      "Game Design"
+      "Game Design", "Multiplayer"
     ],
     "short description": "Q-sweeper (quantum minesweeper) applies quantum concepts (noise and entanglement) and visualises data from the Bernstein-Vazirani algorithm to enhance the player's understanding of quantum mechanics.",
     "long description": "Q-sweeper (quantum minesweeper) applies quantum concepts (noise and entanglement) and visualises data from the Bernstein-Vazirani algorithm to enhance the player's understanding of quantum mechanics.",
-    "brief": "Q-sweeper (quantum minesweeper) applies quantum concepts (noise and entanglement) and visualises data from the Bernstein-Vazirani algorithm to enhance the player's understanding of quantum mechanics.",
     "links": [
       {
         "text": "Play Q-sweeper",
@@ -1877,16 +1844,15 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "archived",
     "search": "",
     "title": "b[q]attleship",
     "year": "2022",
     "tags": [
-      "Game Design"
+      "Game Design", "Multiplayer"
     ],
     "short description": "B[q]attleship is a quantum version of the traditional board game battleship. It builds upon the ideas of Q-sweeper in a multiplayer context using the p5.party library to create a two-player game played across computers.",
     "long description": "B[q]attleship is a quantum version of the traditional board game battleship. It builds upon the ideas of Q-sweeper in a multiplayer context using the p5.party library to create a two-player game played across computers.",
-    "brief": "B[q]attleship is a quantum version of the traditional board game battleship. It builds upon the ideas of Q-sweeper in a multiplayer context using the p5.party library to create a two-player game played across computers.",
     "links": [
       {
         "text": "Play B[q]attlesihip",
@@ -1946,7 +1912,7 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Animals",
     "year": "2021",
@@ -1955,7 +1921,6 @@
     ],
     "short description": "These illustrations are inspired by imagery found in a story about Buddhist teachings, titled 'Roaring Bulls With No Fight'. Both illustrations highlight the unthinking consumption of one's surrounding. They chronicle living on a damaged land and being in a perpetuating, vicious cycle of harm.",
     "long description": "These illustrations are inspired by imagery found in a story about Buddhist teachings, titled 'Roaring Bulls With No Fight'. Both illustrations highlight the unthinking consumption of one's surrounding. They chronicle living on a damaged land and being in a perpetuating, vicious cycle of harm.",
-    "brief": "These illustrations are inspired by imagery found in a story about Buddhist teachings, titled 'Roaring Bulls With No Fight'. Both illustrations highlight the unthinking consumption of one's surrounding. They chronicle living on a damaged land and being in a perpetuating, vicious cycle of harm.",
     "links": [],
     "collaborators": [],
     "resources": [],
@@ -1981,7 +1946,7 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "archived",
     "search": "",
     "title": "Tetris -2.0",
     "year": "2021",
@@ -1990,7 +1955,6 @@
     ],
     "short description": "Tetris -2.0 is a typographic reimagining of the classic Tetris game, where letterforms serve as the falling blocks. The letters were constructed from a 9x9 matrix system, allowing for rotation and movement while stacking them.",
     "long description": "Tetris -2.0 is a typographic reimagining of the classic Tetris game, where letterforms serve as the falling blocks. The letters were constructed from a 9x9 matrix system, allowing for rotation and movement while stacking them.",
-    "brief": "Tetris -2.0 is a typographic reimagining of the classic Tetris game, where letterforms serve as the falling blocks. The letters were constructed from a 9x9 matrix system, allowing for rotation and movement while stacking them.",
     "links": [
       {
         "text": "Play Tetris -2.0",
@@ -2053,7 +2017,7 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Validata.js",
     "year": "2021",
@@ -2062,7 +2026,6 @@
     ],
     "short description": "Validata.js is a data visualisation library that easily creates charts from CSV files. It is built as an add-on to p5.js to help new coders quickly make fun data-viz.",
     "long description": "Validata.js is a data visualisation library that easily creates charts from CSV files. It is built as an add-on to p5.js to help new coders quickly make fun data-viz.",
-    "brief": "Validata.js is a data visualisation library that easily creates charts from CSV files. It is built as an add-on to p5.js to help new coders quickly make fun data-viz.",
     "links": [],
     "collaborators": [],
     "resources": [],
@@ -2128,16 +2091,15 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "archived",
     "search": "",
     "title": "Night Sky",
     "year": "2021",
     "tags": [
-      "Fine Art"
+      "Illustration"
     ],
     "short description": "This was a personal project and an introduction to animation. I created this animation loop to celebrate a friend's birthday using after-effects for the first time.",
     "long description": "This was a personal project and an introduction to animation. I created this animation loop to celebrate a friend's birthday using after-effects for the first time.",
-    "brief": "This was a personal project and an introduction to animation. I created this animation loop to celebrate a friend's birthday using after-effects for the first time.",
     "links": [],
     "collaborators": [],
     "resources": [],
@@ -2187,8 +2149,8 @@
     "video": []
   },
   {
-    "featured": false,
-    "search": "",
+    "project type": "experiment",
+    "search": "archived",
     "title": "Wordplay",
     "year": "2021",
     "tags": [
@@ -2196,12 +2158,11 @@
     ],
     "short description": "This is a collection of interactive words animated using p5.js. Interactions reflect the meaning of the specific word.",
     "long description": "This is a collection of interactive words animated using p5.js. Interactions reflect the meaning of the specific word.",
-    "brief": "This is a collection of interactive words animated using p5.js. Interactions reflect the meaning of the specific word.",
     "links": [
       {
         "text": "p5 sketches collection",
         "url": "https://editor.p5js.org/TanviMishra/collections/Va791Qe5b"
-      }
+      } 
     ],
     "collaborators": [],
     "resources": [
@@ -2268,7 +2229,7 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Touch me not",
     "year": "2020",
@@ -2277,7 +2238,6 @@
     ],
     "short description": "The 'Touch me not' is something enticing that you want to touch, even though you probably should not. It emphasises how we can reach out to someone/thing, against their wishes, just because it elicits a response.",
     "long description": "The 'Touch me not' is something enticing that you want to touch, even though you probably should not. It emphasises how we can reach out to someone/thing, against their wishes, just because it elicits a response.",
-    "brief": "The 'Touch me not' is something enticing that you want to touch, even though you probably should not. It emphasises how we can reach out to someone/thing, against their wishes, just because it elicits a response.",
     "links": [],
     "collaborators": [],
     "resources": [
@@ -2316,7 +2276,7 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "archived",
     "search": "",
     "title": "ID Card",
     "year": "2020",
@@ -2325,8 +2285,6 @@
     ],
     "short description": "This project was my introduction to working with typography. The monogram manipulates the typeface Vortice to form my initials: TM. Using a light colour palette and sharp geometric lines, I made a student ID card that seamlessly incorporated the monogram. ",
     "long description": "This project was my introduction to working with typography. The monogram manipulates the typeface Vortice to form my initials: TM. Using a light colour palette and sharp geometric lines, I made a student ID card that seamlessly incorporated the monogram. ",
-    "brief": "This project was my introduction to working with typography. The monogram manipulates the typeface Vortice to form my initials: TM. Using a light colour palette and sharp geometric lines, I made a student ID card that seamlessly incorporated the monogram. ",
-    "links": [],
     "collaborators": [],
     "resources": [],
     "image_gallery": "double",
@@ -2359,17 +2317,15 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "archived",
     "search": "",
     "title": "Taskmaster Newsletter",
     "year": "2020",
     "tags": [
-      "Graphic Design",
-      "Publication"
+      "Graphic Design"
     ],
     "short description": "Taskmaster is a British panel show that has 5 comedians participate in a series of absurd tasks. The show's tone is nonsensical. For my newsletter, I wanted to pay homage to the show.",
     "long description": "Taskmaster is a British panel show that has 5 comedians participate in a series of absurd tasks. The show's tone is nonsensical. For my newsletter, I wanted to pay homage to the show.",
-    "brief": "Taskmaster is a British panel show that has 5 comedians participate in a series of absurd tasks. The show's tone is nonsensical. For my newsletter, I wanted to pay homage to the show.",
     "links": [],
     "collaborators": [],
     "resources": [],
@@ -2411,7 +2367,7 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Beta Game",
     "year": "2020",
@@ -2420,7 +2376,6 @@
     ],
     "short description": "Beta is an autobiographical story based on a picturebook collection.",
     "long description": "Beta is an autobiographical story based on a picturebook collection.",
-    "brief": "Beta is an autobiographical story based on a picturebook collection.",
     "links": [
       {
         "text": "Play Beta Game",
@@ -2476,7 +2431,7 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "archived",
     "search": "",
     "title": "Manifesto design",
     "year": "2020",
@@ -2485,7 +2440,6 @@
     ],
     "short description": "For a class on typography, I had to select a manifesto and design an all typographical poster, that interprets the text and amplifies the text’s voice, tone, and word selection.",
     "long description": "For a class on typography, I had to select a manifesto and design an all typographical poster, that interprets the text and amplifies the text’s voice, tone, and word selection.",
-    "brief": "For a class on typography, I had to select a manifesto and design an all typographical poster, that interprets the text and amplifies the text’s voice, tone, and word selection.",
     "links": [],
     "collaborators": [],
     "resources": [],
@@ -2527,17 +2481,15 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Central Park Paintings",
     "year": "2019",
     "tags": [
-      "Fine Art"
+      "Illustration"
     ],
     "short description": "A series of watercolor paintings focussing on textures I saw at Central Park",
     "long description": "A series of watercolor paintings focussing on textures I saw at Central Park",
-    "brief": "A series of watercolor paintings focussing on textures I saw at Central Park",
-    "links": [],
     "collaborators": [],
     "resources": [],
     "image_gallery": "default",
@@ -2586,17 +2538,15 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "archived",
     "search": "",
     "title": "Central Park Collage",
     "year": "2019",
     "tags": [
-      "Fine Art"
+      "Illustration"
     ],
     "short description": "In New York, we are surrounded by buildings, pollution, people and constructions. Amongst this construction, finding a natural spot seems like a breath of fresh air. However, these spots, like parks and gardens, have also been constructed.' My project focussed on Central Park: a seemingly untainted natural space that's a product of intense construction and gentrification.",
     "long description": "In New York, we are surrounded by buildings, pollution, people and constructions. Amongst this construction, finding a natural spot seems like a breath of fresh air. However, these spots, like parks and gardens, have also been constructed.' My project focussed on Central Park: a seemingly untainted natural space that's a product of intense construction and gentrification.",
-    "brief": "In New York, we are surrounded by buildings, pollution, people and constructions. Amongst this construction, finding a natural spot seems like a breath of fresh air. However, these spots, like parks and gardens, have also been constructed.' My project focussed on Central Park: a seemingly untainted natural space that's a product of intense construction and gentrification.",
-    "links": [],
     "collaborators": [],
     "resources": [],
     "image_gallery": "double",
@@ -2629,17 +2579,15 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "archived",
     "search": "",
     "title": "Project Last Straw",
     "year": "2019",
     "tags": [
-      "Graphic Design",
-      "Illustration"
+      "Graphic Design"
     ],
     "short description": "Project Last Straw is a zine that imagines the tenth avatar of Vishnu. In the zine, his last avatar is in the form of an AI virus using technological interfaces to control and communicate with us. Vishnu’s pessimism and resigned tone in the zine mirror a bleak world. Writing this zine was my reckoning with how pervasive and god-like technology is becoming.",
     "long description": "Project Last Straw is a zine that imagines the tenth avatar of Vishnu. In the zine, his last avatar is in the form of an AI virus using technological interfaces to control and communicate with us. Vishnu’s pessimism and resigned tone in the zine mirror a bleak world. Writing this zine was my reckoning with how pervasive and god-like technology is becoming.",
-    "brief": "Project Last Straw is a zine that imagines the tenth avatar of Vishnu. In the zine, his last avatar is in the form of an AI virus using technological interfaces to control and communicate with us. Vishnu’s pessimism and resigned tone in the zine mirror a bleak world. Writing this zine was my reckoning with how pervasive and god-like technology is becoming.",
     "links": [
       {
         "text": "Zine PDF",
@@ -2686,20 +2634,19 @@
     "video": []
   },
   {
-    "featured": false,
+    "project type": "experiment",
     "search": "",
     "title": "Mapping Time",
     "year": "2019",
     "tags": [
-      "Fine Art"
+      "Illustration"
     ],
     "short description": "The time I spend during the night seems elastic, stretching for hours before I go to sleep. I wanted to capture the stillness of the night as it defied all logical forms of time-keeping.",
     "long description": "The time I spend during the night seems elastic, stretching for hours before I go to sleep. I wanted to capture the stillness of the night as it defied all logical forms of time-keeping.",
-    "brief": "The time I spend during the night seems elastic, stretching for hours before I go to sleep. I wanted to capture the stillness of the night as it defied all logical forms of time-keeping.",
     "links": [],
     "collaborators": [],
     "resources": [],
-    "image_gallery": "double",
+    "image_gallery": "single",
     "image": [
       {
         "alt": "Mapping Time Painting",
