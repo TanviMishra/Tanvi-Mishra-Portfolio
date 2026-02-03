@@ -1,0 +1,169 @@
+/* Consolidated Responsive Styles */
+
+/* Large screens (min-width: 1800px) */
+@media only screen and (min-width: 1800px) {
+    main {
+        margin: calc(4*var(--default_margin))!important;
+        margin-top: calc(var(--default_margin) * 1.5)!important;
+        
+    }
+}
+
+/* Medium screens (max-width: 1400px) */
+@media only screen and (max-width: 1400px) {
+    :root {
+        --default_margin: 75px;
+        --default_padding: 20px;
+        --detail_padding: 10px;
+    }
+}
+
+/* Tablet and smaller (max-width: 900px) */
+@media only screen and (max-width: 900px) {
+    :root {
+        --default_margin: 40px;
+    }
+    
+    /* General layout */
+    article {
+        flex-direction: column;
+    }
+    article img {
+        width: 100%;
+        height: auto;
+    }
+    .flex-responsive {
+        flex-direction: column;
+        gap: var(--default_padding);
+    }
+    
+    /* Column widths */
+    .column1 {
+        width: 100%;
+    }
+    .column2 {
+        width: 100%;
+    }
+    .column3 {
+        width: 100%;
+    }
+    .project-card .column4 {
+        width: 100%!important;
+    }
+    
+    /* General main styles */
+    main {
+        margin: calc(4*var(--default_margin));
+        margin-top: calc(var(--default_margin)*2) !important;
+    }
+    
+    /* Index page specific - target by #projects-container */
+    main:has(#projects-container) h2 {
+        max-width: 100%;
+    }
+    main:has(#projects-container) section img {
+        width: 100%;
+    }
+    main:has(#projects-container) .columnImg {
+        width: 80%;
+    }
+    main#about-page .left-content{
+        width: calc((100vw - 5*var(--default_margin)) * 0.5) !important;
+        left: calc(2.5*var(--default_margin)) !important;
+    }
+
+    
+    /* About page specific - target by .left-content */
+    /* main:has(.left-content) {
+        grid-template-columns: 1fr;
+        gap: var(--default_padding);
+        margin: var(--default_margin);
+        margin-top: calc(1.5*var(--default_margin));
+    }
+    main:has(.left-content) .left-content {
+        max-width: 100%;
+        position: relative;
+        top: 0;
+        margin-bottom: var(--default_padding);
+    }
+    main:has(.left-content) .right-content {
+        padding-top: 0;
+    } */
+    
+    /* Featured project pages specific - target by #title */
+    main:has(#title) .flex-div {
+        flex-direction: column;
+    }
+    main:has(#title) #description {
+        width: 100%;
+    }
+}
+
+/* Mobile (max-width: 500px) */
+@media only screen and (max-width: 600px) {
+    :root {
+        --default_margin: 15px;
+    }
+    menu{
+        background-color: var(--white);
+    }
+    
+    #display-text {
+        text-align: left;
+        margin: var(--small_padding) 0;
+    }
+    #tags {
+        padding-right: 0 !important;
+    }
+    
+    /* Index page specific - target by #projects-container */
+    main{
+        margin: calc(var(--default_margin)*2);
+        margin-top: 150px!important;
+    }
+    main:has(#projects-container) #tags {
+        display: none;
+    }
+    
+    /* Featured project pages specific - target by #title */
+    main:has(#title) {
+        margin-top: 130px !important;
+    }
+    main:has(#title) section {
+        flex-direction: column;
+    }
+    main:has(#title) .featured-image img {
+        width: 40vw;
+        height: auto;
+    }
+    main:has(#title) .featured-image h2 {
+        font-size: 1em;
+    }
+    main:has(#title) #arrowContainer {
+        flex-direction: row;
+    }
+    main:has(#title) #processImgSection #img_div {
+        width: 80%;
+    }
+    main:has(#title) .slide img {
+        width: 100%;
+    }
+    
+    /* About page specific - make flex column for small screens */
+    main#about-page {
+        display: flex !important;
+        flex-direction: column;
+        gap: var(--default_padding);
+        grid-template-columns: none !important;
+    }
+    main#about-page .left-content {
+        width: calc((100vw - 5*var(--default_margin)) * 0.5) !important;
+        position: relative !important;
+        left: 0 !important;
+        top: 0 !important;
+        margin-bottom: var(--default_padding);
+    }
+    main#about-page .right-content {
+        padding-top: 0;
+    }
+}
