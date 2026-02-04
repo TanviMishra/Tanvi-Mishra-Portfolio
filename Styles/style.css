@@ -70,8 +70,8 @@ button{
     all: unset;
     width: fit-content;
     height: fit-content;
-    padding: 3px var(--detail_padding);
-    background-color: transparent;
+    padding: 5px var(--detail_padding);
+    background-color: var(--white);
     border: var(--border) solid var(--primary);
     border-radius: var(--detail_padding);
     cursor: pointer;
@@ -111,10 +111,10 @@ menu{
     justify-content: space-between;
     align-items: flex-start;
     /* height: calc(var(--default_margin)*1.5); */
-    padding: var(--default_padding);
+    padding: var(--default_padding) calc(var(--default_padding)*2);
     /* background-color: var(--secondary); */
     /* background: -webkit-linear-gradient(top, var(--white) 30%,rgba(255,255,255,0) 100%); */
-    z-index: 5;
+    /* z-index: 1; */
 }
 menu div{
     height: fit-content;
@@ -135,7 +135,7 @@ main{
     flex-direction: column;
     gap: var(--default_margin);
     margin: calc(2.5*var(--default_margin));
-    margin-top: calc(var(--default_margin)*1.5)!important;
+    margin-top: calc(var(--default_margin)*2)!important;
 }
 menu a{
     font-size: 0.8em;
@@ -148,7 +148,7 @@ footer{
     width: 100%;
     height: 40px; /* adjust blocks.js values if you change this*/
     padding: calc(var(--default_padding)/2) calc(var(--default_padding)*2);
-    background-color: var(--white);
+    /* background-color: var(--white); */
     display: flex;
     flex-direction: column;
 }

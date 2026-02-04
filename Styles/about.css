@@ -1,12 +1,12 @@
 /* About Page Specific Styles */
 
 .left-content {
-  width: calc((100vw - 5*var(--default_margin)) * 0.5);
+  width: calc((100vw - 5*var(--default_margin)) * 0.45);
   display: flex;
   flex-direction: column;
   position: fixed;
   left: calc(2.5*var(--default_margin));
-  top: calc(2*var(--default_margin));
+  /* top: calc(2*var(--default_margin)); */
   align-self: flex-start;
   height: fit-content;
 }

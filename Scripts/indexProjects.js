@@ -93,8 +93,15 @@ function createProjectSection(project) {
       : `<h2>${titleHtml}</h2>`
     : "";
 
+  // For featured projects with detailHref, wrap images in links
   const mediaContent = (project.images || [])
-    .map((img) => `<img src="${img.url}" alt="${img.alt || ""}" class="gallery-img">`)
+    .map((img) => {
+      const imgTag = `<img src="${img.url}" alt="${img.alt || ""}" class="gallery-img">`;
+      if (project.projectType === "featured" && project.detailHref) {
+        return `<a href="${project.detailHref}" style="display: block; width: 100%; height: 100%;">${imgTag}</a>`;
+      }
+      return imgTag;
+    })
     .join("");
 
   const galleryClass = project.image_gallery === "single" ? "single-grid" : 
@@ -119,19 +126,22 @@ function createProjectSection(project) {
     </article>
   `;
 
-  // Lightbox behavior for images
+  // Lightbox behavior for images - but skip for featured projects (they're already linked)
   const images = section.querySelectorAll(".gallery-img");
   images.forEach((img) => {
-    img.addEventListener("click", () => {
-      const fullscreenContainer = document.createElement("div");
-      fullscreenContainer.className = "fullscreen-container";
-      const fullscreenImage = document.createElement("img");
-      fullscreenImage.src = img.src;
-      fullscreenImage.className = "fullscreen-image";
-      fullscreenContainer.addEventListener("click", () => fullscreenContainer.remove());
-      fullscreenContainer.appendChild(fullscreenImage);
-      document.body.appendChild(fullscreenContainer);
-    });
+    // Only add lightbox if image is not already inside a link (featured projects)
+    if (!img.closest("a")) {
+      img.addEventListener("click", () => {
+        const fullscreenContainer = document.createElement("div");
+        fullscreenContainer.className = "fullscreen-container";
+        const fullscreenImage = document.createElement("img");
+        fullscreenImage.src = img.src;
+        fullscreenImage.className = "fullscreen-image";
+        fullscreenContainer.addEventListener("click", () => fullscreenContainer.remove());
+        fullscreenContainer.appendChild(fullscreenImage);
+        document.body.appendChild(fullscreenContainer);
+      });
+    }
   });
 
   return section;
@@ -175,10 +185,14 @@ function createTags(projects) {
 
 function filterProjects(tag) {
   const featuredContainer = document.getElementById("featured-projects-container");
+  const featuredSection = document.getElementById("featured-projects-section");
+  const featuredProjectTypeContainer = featuredSection?.querySelector(".project-type-container");
   const experimentsContainer = document.getElementById("experiments-projects-container");
   const experimentsSection = document.getElementById("experiments-section");
+  const experimentsProjectTypeContainer = experimentsSection?.querySelector(".project-type-container");
   const archivedContainer = document.getElementById("archived-projects-container");
   const archivedSection = document.getElementById("archived-section");
+  const archivedProjectTypeContainer = archivedSection?.querySelector(".project-type-container");
   if (!featuredContainer) return;
   
   featuredContainer.innerHTML = "";
@@ -198,15 +212,32 @@ function filterProjects(tag) {
     ? allFilteredProjects.filter((project) => project.projectType === "archived")
     : [];
 
-  // Display featured projects
-  featuredProjects.forEach((project) =>
-    featuredContainer.appendChild(createProjectSection(project))
-  );
+  // Show/hide featured projects section and project-type-container
+  if (featuredSection) {
+    if (featuredProjects.length > 0) {
+      featuredSection.style.display = "block";
+      if (featuredProjectTypeContainer) {
+        featuredProjectTypeContainer.style.display = "flex";
+      }
+      // Display featured projects
+      featuredProjects.forEach((project) =>
+        featuredContainer.appendChild(createProjectSection(project))
+      );
+    } else {
+      featuredSection.style.display = "none";
+      if (featuredProjectTypeContainer) {
+        featuredProjectTypeContainer.style.display = "none";
+      }
+    }
+  }
 
-  // Show/hide experiments section based on filter
+  // Show/hide experiments section and project-type-container based on filter
   if (experimentsSection) {
     if (experimentProjects.length > 0) {
       experimentsSection.style.display = "block";
+      if (experimentsProjectTypeContainer) {
+        experimentsProjectTypeContainer.style.display = "flex";
+      }
       // Keep experiments visible by default (don't hide when switching filters)
       if (experimentsContainer) {
         experimentsContainer.classList.remove("hidden");
@@ -215,22 +246,25 @@ function filterProjects(tag) {
           toggleButton.textContent = "Experiments";
         }
       }
+      // Display experiment projects
+      experimentProjects.forEach((project) =>
+        experimentsContainer.appendChild(createProjectSection(project))
+      );
     } else {
       experimentsSection.style.display = "none";
+      if (experimentsProjectTypeContainer) {
+        experimentsProjectTypeContainer.style.display = "none";
+      }
     }
   }
 
-  // Display experiment projects if container exists
-  if (experimentsContainer && experimentProjects.length > 0) {
-    experimentProjects.forEach((project) =>
-      experimentsContainer.appendChild(createProjectSection(project))
-    );
-  }
-
-  // Show/hide archived section based on filter
+  // Show/hide archived section and project-type-container based on filter
   if (archivedSection) {
     if (tag === "all" && archivedProjects.length > 0) {
       archivedSection.style.display = "block";
+      if (archivedProjectTypeContainer) {
+        archivedProjectTypeContainer.style.display = "flex";
+      }
       // Reset archived container to hidden state when switching filters
       if (archivedContainer) {
         archivedContainer.classList.add("hidden");
@@ -240,16 +274,16 @@ function filterProjects(tag) {
           toggleButton.blur();
         }
       }
+      // Display archived projects
+      archivedProjects.forEach((project) =>
+        archivedContainer.appendChild(createProjectSection(project))
+      );
     } else {
       archivedSection.style.display = "none";
+      if (archivedProjectTypeContainer) {
+        archivedProjectTypeContainer.style.display = "none";
+      }
     }
-  }
-
-  // Display archived projects if container exists and we're showing all
-  if (archivedContainer && archivedProjects.length > 0) {
-    archivedProjects.forEach((project) =>
-      archivedContainer.appendChild(createProjectSection(project))
-    );
   }
 }
 
@@ -279,6 +313,21 @@ function toggleArchivedProjects() {
     toggleButton.focus();
   } else {
     archivedContainer.classList.add("hidden");
+    toggleButton.blur();
+  }
+}
+
+function toggleFeaturedProjects() {
+  const featuredContainer = document.getElementById("featured-projects-container");
+  const toggleButton = document.getElementById("toggle-featured-projects");
+  if (!featuredContainer || !toggleButton) return;
+
+  const isHidden = featuredContainer.classList.contains("hidden");
+  if (isHidden) {
+    featuredContainer.classList.remove("hidden");
+    toggleButton.focus();
+  } else {
+    featuredContainer.classList.add("hidden");
     toggleButton.blur();
   }
 }
@@ -319,6 +368,18 @@ async function initHome() {
 
     createTags(projectsData);
     filterProjects("all");
+
+    // Set up featured projects toggle button
+    const featuredToggleButton = document.getElementById("toggle-featured-projects");
+    const featuredSection = document.getElementById("featured-projects-section");
+    if (featuredToggleButton) {
+      featuredToggleButton.addEventListener("click", toggleFeaturedProjects);
+      // Check if there are any featured projects
+      const hasFeatured = projectsData.some((p) => p.projectType === "featured");
+      if (!hasFeatured && featuredSection) {
+        featuredSection.style.display = "none";
+      }
+    }
 
     // Set up experiments toggle button
     const experimentsToggleButton = document.getElementById("toggle-experiments");

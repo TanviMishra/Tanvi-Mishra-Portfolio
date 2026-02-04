@@ -305,7 +305,7 @@
       }
     ],
     "video description": "This video is the detailed explanation of the game as presented at the Entropy symposium, moderated by Paolo Pedercini (Molleindustria).",
-    "video": [],
+    "video": ["https://vimeo.com/930839412?fl=pl&fe=sh"],
     "image_gallery": "single"
   },
   {
@@ -571,8 +571,169 @@
       }
     ],
     "video description": "This video is one of the final outputs of the project. As a part of the documentation, we created a surveillance video of two test subjects wearing neoTCH 1.3 for the first time.",
-    "video": [],
+    "video": ["https://vimeo.com/710274684?fl=pl&fe=sh"],
     "image_gallery": "single"
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Glistening Flats",
+    "year": "2025",
+    "tags": [
+      "Fabrication"
+    ],
+    "short description": "Experiments in the poetics of display technology: Esoteric explorations of screens that enable unexpected and tactile encounters with rivers.",
+    "long description": "Experiments in the poetics of display technology: Esoteric explorations of screens that enable unexpected and tactile encounters with rivers.",
+    "links": [
+      {
+        "text": "",
+        "url": ""
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Vedika Modi",
+        "url": "https://vedikamodistudio.com/"
+      }
+    ],
+    "role": "Conceptual, Fabrication, Programming",
+    "image description": "",
+    "image": [
+      {
+        "alt": "gif -Mesh hanging from above with projections of rivers across the surface",
+        "text": "gif - Mesh hanging from above with projections of rivers across the surface",
+        "url": "../Assets/imgs/Glistening Flats/xx.jpg",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Mesh hanging from above with projections of rivers across the surface",
+        "text": "Mesh hanging from above with projections of rivers across the surface",
+        "url": "../Assets/imgs/Glistening Flats/DSCF0061.jpg",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Mesh hanging from above with projections of rivers across the surface",
+        "text": "Mesh hanging from above with projections of rivers across the surface",
+        "url": "../Assets/imgs/Glistening Flats/DSCF0069.jpg",
+        "type": [
+          "gallery"
+        ]
+      },{
+        "alt": "Mesh hanging tests",
+        "text": "Mesh hanging tests",
+        "url": "../Assets/imgs/Glistening Flats/PXL_20251126_213910138.jpg",
+        "type": [
+          "gallery"
+        ]
+      },{
+        "alt": "Mesh projection studies",
+        "text": "Mesh projection studies",
+        "url": "../Assets/imgs/Glistening Flats/Metallic Fabric Large.jpg",
+        "type": [
+          "gallery"
+        ]
+      },{
+        "alt": "Mesh material studies",
+        "text": "Mesh material studies",
+        "url": "../Assets/imgs/Glistening Flats/Material Test.jpg",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video description": "",
+    "video": [],
+    "image_gallery": "triple"
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Reservoirs",
+    "year": "2025",
+    "tags": [
+      "Fabrication"
+    ],
+    "short description": "Experiments in the poetics of display technology: Esoteric explorations of screens that enable unexpected and tactile encounters with rivers. Exploring embedded screens in objects, viewers can peer into a river within a vase to have an intimate encounter with the water.",
+    "long description": "Experiments in the poetics of display technology: Esoteric explorations of screens that enable unexpected and tactile encounters with rivers. Exploring embedded screens in objects, viewers can peer into a river within a vase to have an intimate encounter with the water.",
+    "links": [
+      {
+        "text": "",
+        "url": ""
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Vedika Modi",
+        "url": "https://vedikamodistudio.com/"
+      }
+    ],
+    "role": "Conceptual, Fabrication, Programming",
+    "image description": "",
+    "image": [
+      {
+        "alt": "Vase 1",
+        "text": "Vase 1",
+        "url": "../Assets/imgs/Reservoirs/DSCF0085.jpg",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Vase 1 Detail",
+        "text": "Vase 1 Detail",
+        "url": "../Assets/imgs/Reservoirs/DSCF0086.jpg",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Vase 2",
+        "text": "Vase 2",
+        "url": "../Assets/imgs/Reservoirs/DSCF0094.jpg",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Vase 2 Detail",
+        "text": "Vase 2 Detail",
+        "url": "../Assets/imgs/Reservoirs/DSCF0099.jpg",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Vase Progress",
+        "text": "Vase Progress",
+        "url": "../Assets/imgs/Reservoirs/PXL_20251205_172949784.jpg",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Vase Being Made",
+        "text": "Vase Being Made",
+        "url": "../Assets/imgs/Reservoirs/xx.jpg",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Vase Content",
+        "text": "Vase Content",
+        "url": "../Assets/imgs/Reservoirs/xx.jpg",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video description": "",
+    "video": [],
+    "image_gallery": "triple"
   },
   {
     "project type": "experiment",

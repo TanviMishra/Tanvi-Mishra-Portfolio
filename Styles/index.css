@@ -4,6 +4,9 @@ main {
   gap: 50px;
   margin-top: var(--default_padding);
 }
+main {
+  margin-top: var(--default_padding);
+}
 
 /* Keep home page styling from leaking into the Sandbox-style project gallery */
 main > section.flex-responsive div {
@@ -107,6 +110,43 @@ h2 {
   cursor: zoom-in;
 }
 
+/* Featured project images (inside links) should show arrow on hover */
+.img-gallery a {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.img-gallery a img {
+  cursor: pointer;
+}
+
+.img-gallery a::after {
+  content: "→";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1em;
+  opacity: 0;
+  background-color: var(--primary);
+  color: var(--white);
+  border: var(--border) solid var(--primary);
+  border-radius: var(--detail_padding);
+  padding: 5px var(--detail_padding);
+  width: fit-content;
+  height: fit-content;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.img-gallery a:hover::after {
+  opacity: 1;
+  background-color: var(--primary);
+  color: var(--white);
+}
+
 .fullscreen-container {
   position: fixed;
   top: 0;
@@ -153,7 +193,8 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: var(--default_margin) 0;
+  /* margin: var(--default_margin) 0; */
+  margin-bottom: var(--default_margin);
 }
 
 .project-type-container hr {
@@ -163,14 +204,23 @@ h2 {
   border: 1px dashed var(--primary);
 }
 
+.toggle-featured-projects,
 .toggle-experiments,
 .toggle-archived {
-  background-color: var(--white);
+  /* background-color: var(--white); */
   z-index: 5;
 }
 
+.toggle-featured-projects:focus,
 .toggle-experiments:focus,
 .toggle-archived:focus {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.toggle-featured-projects:hover,
+.toggle-experiments:hover,
+.toggle-archived:hover {
   background-color: var(--primary);
   color: var(--white);
 }
@@ -182,8 +232,13 @@ h2 {
   flex-direction: column;
 }
 
+#featured-projects-container.hidden,
 .experiments-projects.hidden,
 .archived-projects.hidden {
   display: none;
+}
+
+.no-grid {
+  grid-template-columns: repeat(1, 1fr) !important;
 }
 
