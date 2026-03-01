@@ -1,14 +1,26 @@
-# Tanvi-Mishra-Portfolio
-to do:
-1. index - check responsiveness
-2. index - check bottom of page
-3. index- don't lightbox featured images
-4. index - focus working properly
-5. index - light green hr
-6. index - combine sandbox css and js
-7. index - add MR, glistening flats, reservoirs
-8. project page - make the page work
-9. project page - move the brief and links
-10. about page - image size changes
-11. about page - footer ( footer in general )
-12. RESPONSIVENESS
+# Tanvi Mishra
+
+Hi! I'm Tanvi Mishra, a technologist based in NY whose practice is centered around multiplayer games, interactive installations, [web experiences](https://tanvimishra.github.io/websitesite/) and [writing](https://sillygoose.bearblog.dev/) about them. Currently working at [Lab @ Rockwell Group](https://www.rockwellgroup.com/lab), trying to make technology feel magical again.
+
+**Link:** [tanvimishra.xyz](https://tanvimishra.xyz)
+
+---
+
+## To do
+
+- [x] Index — check responsiveness
+- [x] Index — check bottom of page
+- [x] Index — don't lightbox featured images
+- [x] Index — focus working properly
+- [ ] Index — light green hr (n/a)
+- [x] Index — combine sandbox CSS and JS
+- [ ] Index — add MR, glistening flats, reservoirs (in progress)
+- [x] Project page — make the page work
+- [x] Project page — move the brief and links
+- [x] About page — image size changes
+- [x] About page — footer (footer in general)
+- [ ] Responsiveness
+- [x] Index — hover image check
+- [x] Project page — remove tags and year
+- [ ] Tags don't show archived projects
+- [ ] Add XR work

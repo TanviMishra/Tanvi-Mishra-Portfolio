@@ -25,10 +25,16 @@
     background-color: var(--secondary);
 }
 
+html {
+    min-height: 100%;
+}
 body {
     background-color: var(--white);
     color: var(--black);
     overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
@@ -136,6 +142,7 @@ main{
     gap: var(--default_margin);
     margin: calc(2.5*var(--default_margin));
     margin-top: calc(var(--default_margin)*2)!important;
+    flex: 1;
 }
 menu a{
     font-size: 0.8em;

@@ -110,7 +110,7 @@ h2 {
   cursor: zoom-in;
 }
 
-/* Featured project images (inside links) should show arrow on hover */
+/* Featured project images (inside links): button "take a look →" on hover */
 .img-gallery a {
   position: relative;
   display: block;
@@ -122,20 +122,19 @@ h2 {
 }
 
 .img-gallery a::after {
-  content: "→";
+  content: "take a look →";
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: var(--hover-x, 50%);
+  top: var(--hover-y, 50%);
+  transform: none;
   font-size: 1em;
   opacity: 0;
   background-color: var(--primary);
   color: var(--white);
   border: var(--border) solid var(--primary);
   border-radius: var(--detail_padding);
-  padding: 5px var(--detail_padding);
-  width: fit-content;
-  height: fit-content;
+  padding: 8px calc(var(--detail_padding) * 1.2);
+  white-space: nowrap;
   transition: opacity 0.2s ease;
   pointer-events: none;
   z-index: 2;
@@ -208,21 +207,26 @@ h2 {
 .toggle-experiments,
 .toggle-archived {
   /* background-color: var(--white); */
+  font-family: "Eiko";
+  font-weight: lighter;
+  font-size: 1.3em;
   z-index: 5;
+  border: none;
+  padding: 0 var(--detail_padding);
 }
 
 .toggle-featured-projects:focus,
 .toggle-experiments:focus,
 .toggle-archived:focus {
-  background-color: var(--primary);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--primary);
 }
 
 .toggle-featured-projects:hover,
 .toggle-experiments:hover,
 .toggle-archived:hover {
-  background-color: var(--primary);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--primary);
 }
 
 .experiments-projects,

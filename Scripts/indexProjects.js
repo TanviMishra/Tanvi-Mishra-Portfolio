@@ -144,6 +144,20 @@ function createProjectSection(project) {
     }
   });
 
+  // "take a look" label follows cursor on featured project image links
+  section.querySelectorAll(".img-gallery a").forEach((link) => {
+    link.addEventListener("mousemove", (e) => {
+      const x = (e.offsetX / link.offsetWidth) * 100;
+      const y = (e.offsetY / link.offsetHeight) * 100;
+      link.style.setProperty("--hover-x", `${x}%`);
+      link.style.setProperty("--hover-y", `${y}%`);
+    });
+    link.addEventListener("mouseleave", () => {
+      link.style.removeProperty("--hover-x");
+      link.style.removeProperty("--hover-y");
+    });
+  });
+
   return section;
 }
 

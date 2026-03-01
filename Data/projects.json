@@ -1,6 +1,6 @@
 [
   {
-    "project type": "featured",
+    "project type": "experiment",
     "search": "xrrnd",
     "title": "Mixed Reality R&D: Lab @ Rockwell",
     "year": "2025",
@@ -602,7 +602,7 @@
       {
         "alt": "gif -Mesh hanging from above with projections of rivers across the surface",
         "text": "gif - Mesh hanging from above with projections of rivers across the surface",
-        "url": "../Assets/imgs/Glistening Flats/xx.jpg",
+        "url": "../Assets/imgs/Glistening Flats/hand.gif",
         "type": [
           "gallery"
         ]
@@ -717,7 +717,7 @@
       {
         "alt": "Vase Being Made",
         "text": "Vase Being Made",
-        "url": "../Assets/imgs/Reservoirs/xx.jpg",
+        "url": "../Assets/imgs/Reservoirs/IMG_9589.jpg",
         "type": [
           "gallery"
         ]
@@ -725,7 +725,7 @@
       {
         "alt": "Vase Content",
         "text": "Vase Content",
-        "url": "../Assets/imgs/Reservoirs/xx.jpg",
+        "url": "../Assets/imgs/Reservoirs/content gif.gif",
         "type": [
           "gallery"
         ]
@@ -1678,7 +1678,7 @@
     "brief": "Responsive Landscapes was a quick, playful website I built using basic DOM elements. The site's responsiveness changes the generated scene. Watch the clouds drift by as you resize the website.",
     "links": [
       {
-        "text": "Visit Site",
+        "text": "Visit Webite",
         "url": "https://tanvimishra.github.io/net-art-0101/projects/reponsiveSite/ex2.html"
       }
     ],
@@ -1869,7 +1869,7 @@
     "long description": "Prompt: Create a website that is a proverb. Project: 'A rolling stone gathers no moss' <br>The website is the rolling stone within this metaphor, when you stop rolling, aka scrolling, some moss appears on the screen and the content fades away.The website content chronicles the usage of the proverb in rock music.",
     "links": [
       {
-        "text": "Visit website",
+        "text": "Visit Website",
         "url": "https://tanvimishra.github.io/Core_Studio_Systems/Extra_Credit_Website/"
       }
     ],

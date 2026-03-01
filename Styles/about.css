@@ -22,3 +22,19 @@ main {
   grid-template-columns: 1fr 1fr;
   gap: var(--default_padding);
 }
+
+#sparkle{
+  width: 30px;
+  height: 30px;
+  aspect-ratio: 1/1;
+  background-color: var(--none);
+  border: none;
+  border-radius: 0%;
+  margin-bottom: var(--detail_padding);
+}
+.flex-sparkle{
+  display: flex;
+  flex-direction: row;
+  gap: var(--default_padding);
+  align-items: flex-end;
+}
