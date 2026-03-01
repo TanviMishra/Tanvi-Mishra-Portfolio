@@ -1,0 +1,2823 @@
+[
+  {
+    "project type": "experiment",
+    "search": "xrrnd",
+    "title": "Mixed Reality R&D: Lab @ Rockwell",
+    "year": "2025",
+    "tags": [
+      "Multiplayer"
+    ],
+    "short description": "I worked on many collocated, multiplayer mixed reality experiences",
+    "long description": "I worked on many collocated, multiplayer mixed reality experiences",
+    "links": [
+      {
+        "text": "Lab @ Rockwell Group",
+        "url": "https://www.labatrockwellgroup.com/"
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Andrew Cotter",
+        "url": "https://andrewcotter.io/"
+      },
+      {
+        "name": " Jeff Barbieris",
+        "url": "https://www.linkedin.com/in/jeffbarbieri"
+      }
+    ],
+    "role": "Rnd development, unity game development, programming, testing",
+    "image description": "",
+    "image": [
+      {
+        "alt": "",
+        "text": "",
+        "url": "../Assets/imgs/Thumbnails/mr.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "",
+        "text": "",
+        "url": "../",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "",
+        "text": "",
+        "url": "../",
+        "type": [
+          "progress-big"
+        ]
+      },
+      {
+        "alt": "",
+        "text": "",
+        "url": "../",
+        "type": [
+          "progress-small"
+        ]
+      }
+    ],
+    "video description": "",
+    "video": [
+      {
+        "alt": "",
+        "url": ""
+      }
+    ],
+    "image_gallery": "single"
+  },
+  {
+    "project type": "featured",
+    "search": "tridal",
+    "title": "Tridal: A multiplayer collaborative game",
+    "year": "2023",
+    "tags": [
+      "Game Design", "Multiplayer", "Climate Crisis"
+    ],
+    "short description": "Tridal is a multiplayer, cooperative game that advocates for responsible land use.",
+    "long description": "Tridal is a multiplayer, cooperative environment that advocates responsible land use. The game is built with socket.io and vanilla javascript using the FAO's statistical database across categories like 'Forestry Production and Trade’, and ‘Temperature change on land’. Tridal reprioritises current resources– forests, farms, urban land, etc. – using mechanics that shift thinking paradigms. Every in-game action has multitudinous consequences, illustrating the scale of human damage. This project was supported by Rhizome Microgrants 2023.",
+    "links": [
+      {
+        "text": "Further Documentation",
+        "url": "https://parsons.edu/dt-2023/tridal/"
+      },
+      {
+        "text": "Publication",
+        "url": "https://parsons.edu/dt-2023/publication_entry/tridal/"
+      }
+    ],
+    "collaborators": [],
+    "role": "Project management, prototyping user testing,  coding, fabrication, academic writing",
+    "image description": "The game was formed from multiple stages of user testing, development and recalibration using low-fidelity, physical, grey box and high-fidelity prototypes.",
+    "image": [
+      {
+        "alt": "Exhibit - audience playing tridal",
+        "text": "Playing Tridal at Entropy: BFA/MFA Design & Technology Thesis Show.",
+        "url": "../Assets/imgs/Tridal/featured webp/Exhibit.webp",
+        "type": [
+          "featured"
+        ]
+      },
+      {
+        "alt": "Tridal game",
+        "text": "Each in-game action has multiple repurcussions.",
+        "url": "../Assets/imgs/Tridal/featured webp/Land transformation.gif",
+        "type": [
+          "featured"
+        ]
+      },
+      {
+        "alt": "Tridal game",
+        "text": "The land data was drawn from FAO's statistical database and players have to try and beat the rising sea levels",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Interface - close up.webp",
+        "type": [
+          "featured"
+        ]
+      },
+      {
+        "alt": "Altitude view close up",
+        "text": "Altitude view close up",
+        "url": "../Assets/imgs/Tridal/final images webp/Altitude view close up.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "Altitude view",
+        "text": "Altitude view",
+        "url": "../Assets/imgs/Tridal/final images webp/Altitude view.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "Board game close up",
+        "text": "Board game close up",
+        "url": "../Assets/imgs/Tridal/final images webp/Board game close up.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "Board game",
+        "text": "Board game",
+        "url": "../Assets/imgs/Tridal/final images webp/Board game.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "Game map close up",
+        "text": "Game map close up",
+        "url": "../Assets/imgs/Tridal/final images webp/Game map close up.webp",
+        "type": [
+          "final",
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Features - water levels rising",
+        "text": "Features - water levels rising",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Features - water levels rising.gif",
+        "type": [
+          "progress-big"
+        ]
+      },
+      {
+        "alt": "Features - altitude view",
+        "text": "Features - altitude view",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Features - altitude view.webp",
+        "type": [
+          "progress-big"
+        ]
+      },
+      {
+        "alt": "Features - each player accesses only one landform",
+        "text": "Features - each player accesses only one landform",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Features - each player accesses only one landform.gif",
+        "type": [
+          "progress-big"
+        ]
+      },
+      {
+        "alt": "Features - map generation",
+        "text": "Features - map generation",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Features - map generation.gif",
+        "type": [
+          "progress-big"
+        ]
+      },
+      {
+        "alt": "Features - land information",
+        "text": "Features - land information",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Features - land information.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Features - land type",
+        "text": "Features - land type",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Features - land type.gif",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Interface - close up",
+        "text": "Interface - close up",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Interface - close up.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Interface design",
+        "text": "Interface design",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Interface - design setup.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Game map - bug",
+        "text": "Game map - bug",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Game map - bug.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Game map - bug",
+        "text": "Game map - bug",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Game map - bug 2.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Game map - colour tests",
+        "text": "Game map - colour tests",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Game map - colour tests.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Game map - colour tests",
+        "text": "Game map - colour tests",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Game map - colour tests 2.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Playtesting - board game",
+        "text": "Playtesting - board game",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Playtesting - board game 2.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Playtesting - board game",
+        "text": "Playtesting - board game",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Playtesting - board game.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Playtesting - video game",
+        "text": "Playtesting - video game",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Playtesting - video game  2.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Playtesting - video game",
+        "text": "Playtesting - video game",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Playtesting - video game 1.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Sketchbook pages",
+        "text": "Sketchbook pages",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Sketches 1.gif",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Sketchbook pages",
+        "text": "Sketchbook pages",
+        "url": "../Assets/imgs/Tridal/working gallery webp/Sketches 2.gif",
+        "type": [
+          "progress-small"
+        ]
+      }
+    ],
+    "video description": "This video is the detailed explanation of the game as presented at the Entropy symposium, moderated by Paolo Pedercini (Molleindustria).",
+    "video": ["https://vimeo.com/930839412?fl=pl&fe=sh"],
+    "image_gallery": "single"
+  },
+  {
+    "project type": "featured",
+    "search": "neo",
+    "title": "Neo-TCH 1.3: Wearable Technology",
+    "year": "2022",
+    "tags": [
+      "Fabrication"
+    ],
+    "short description": "Neo-TCH 1.3 uses wearable tech to build a tactile, experimental, and performative installation piece.",
+    "long description": "Neo-TCH 1.3 uses wearable tech to build a tactile, experimental, and performative installation piece. With soft sensors and found materials, we created a garment that was an intervention model in a speculative future. This piece challenges the importance of touch to the human experience and considers different ways of reimagining connection. Visit the website for an in-depth explanation and further documentation.",
+    "links": [
+      {
+        "text": "Further Documentation",
+        "url": "https://tanvimishra.github.io/neoTCH_1.3/"
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Krithi Nalla",
+        "url": "https://krithinalla.com/"
+      },
+      {
+        "name": "Anna Pragman",
+        "url": "https://www.instagram.com/annapragman/"
+      }
+    ],
+    "role": "Project development, circuit testing & coding, website development",
+    "image description": "The fabrication of the project involved lots of sewing, crocheting and stitching both conductive and not conductive materials to form the garment. We also need to do a lot of soldering, circuit testing and debugging to build the computational aspects.",
+    "image": [
+      {
+        "alt": "Stroke Sensor",
+        "text": "Sensors built with conductive thread and foraged waste materials to encourage subjects to touch one another",
+        "url": "../Assets/imgs/Sheer Contact/Featured/Gif1.gif",
+        "type": [
+          "featured"
+        ]
+      },
+      {
+        "alt": "IR Transmission",
+        "text": "Garments were built as an intervention model to improve non-verbal communication",
+        "url": "../Assets/imgs/Sheer Contact/Featured/Gif2.gif",
+        "type": [
+          "featured"
+        ]
+      },
+      {
+        "alt": "Pixelmouth Exhbition",
+        "text": "The project was exhibited at enter here_ exhibition at the Pixelmouth gallery in NYC (2024)",
+        "url": "../Assets/imgs/Sheer Contact/Featured/IMG_0161.webp",
+        "type": [
+          "featured"
+        ]
+      },
+      {
+        "alt": "Test Subjects Views",
+        "text": "Test Subjects Views",
+        "url": "../Assets/imgs/Sheer Contact/Final/testSubjects.gif",
+        "type": [
+          "final", "gallery"
+        ]
+      },
+      {
+        "alt": "Test Subject Reaching Out",
+        "text": "Test Subject Reaching Out",
+        "url": "../Assets/imgs/Sheer Contact/Final/reaching.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "Push Sensor",
+        "text": "Push Sensor",
+        "url": "../Assets/imgs/Sheer Contact/Final/push.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "Test Subject Interactions",
+        "text": "Test Subject Interactions",
+        "url": "../Assets/imgs/Sheer Contact/Final/pose2.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "Exhibtion Views",
+        "text": "Exhibtion Views",
+        "url": "../Assets/imgs/Sheer Contact/Final/Exhibition 1.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "Exhibtion Views",
+        "text": "Exhibtion Views",
+        "url": "../Assets/imgs/Sheer Contact/Final/Exhibition 2.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "Exhibtion Views",
+        "text": "Exhibtion Views",
+        "url": "../Assets/imgs/Sheer Contact/Final/Exhibition 3.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "Close up - neopixels under crochet flowers",
+        "text": "Close up - neopixels under crochet flowers.webp",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Close up - neopixels under crochet flowers.webp",
+        "type": [
+          "progress-big"
+        ]
+      },
+      {
+        "alt": "Close up - stroke sensor with white conductive thread",
+        "text": "Close up - stroke sensor with white conductive thread",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Close up - stroke sensor with white conductive thread.webp",
+        "type": [
+          "progress-big"
+        ]
+      },
+      {
+        "alt": "Close up - resistor detailing",
+        "text": "Close up - resistor detailing",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Close up - resistor detailing.webp",
+        "type": [
+          "progress-big"
+        ]
+      },
+      {
+        "alt": "Close up - some details",
+        "text": "Close up - some details",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Close up - some details.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Close up - detachable components to hide wiring underneath",
+        "text": "Close up - detachable components to hide wiring underneath",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Close up - detachable components to hide wiring underneath.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Pixelmouth Exhibtion",
+        "text": "Pixelmouth Exhibtion",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/IMG_0176.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Pixelmouth Exhibtion",
+        "text": "Pixelmouth Exhibtion",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/IMG_0314.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Parts - custom bendable safety pin wires",
+        "text": "Parts - custom bendable safety pin wires",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Parts - custom bendable safety pin wires.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Parts - custom wires and crocheted casing",
+        "text": "Parts - custom wires and crocheted casing",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Parts - custom wires and crocheted casing.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Fabrication - building on a dress form",
+        "text": "Fabrication - building on a dress form",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Fabrication - building on a dress form.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Fabrication - template for the garment",
+        "text": "Fabrication - template for the garment",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Fabrication - template for the garment.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Workstation for building",
+        "text": "Workstation for building",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Workstation for building 1.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Workstation for building",
+        "text": "Workstation for building",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Workstation for building 1.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Disassembly of printer part",
+        "text": "Disassembly of printer part",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Disassembly of printer parts 1.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Disassembly of printer part",
+        "text": "Disassembly of printer part",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Disassembly of printer parts 2.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Testing the ciruit",
+        "text": "Testing the ciruit",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Testing the ciruit 1.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Testing the ciruit",
+        "text": "Testing the ciruit",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Testing the ciruit 1.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Sketches of all the sensors across the two garment",
+        "text": "Sketches of all the sensors across the two garment",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Sketches - of all the sensors across the two garments.gif",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Sketches of some of the circuits and their working",
+        "text": "Sketches of some of the circuits and their working",
+        "url": "../Assets/imgs/Sheer Contact/Working Gallery/Sketches - some of the circuits and their working.gif",
+        "type": [
+          "progress-small"
+        ]
+      }
+    ],
+    "video description": "This video is one of the final outputs of the project. As a part of the documentation, we created a surveillance video of two test subjects wearing neoTCH 1.3 for the first time.",
+    "video": ["https://vimeo.com/710274684?fl=pl&fe=sh"],
+    "image_gallery": "single"
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Glistening Flats",
+    "year": "2025",
+    "tags": [
+      "Fabrication"
+    ],
+    "short description": "Experiments in the poetics of display technology: Esoteric explorations of screens that enable unexpected and tactile encounters with rivers.",
+    "long description": "Experiments in the poetics of display technology: Esoteric explorations of screens that enable unexpected and tactile encounters with rivers.",
+    "links": [
+      {
+        "text": "",
+        "url": ""
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Vedika Modi",
+        "url": "https://vedikamodistudio.com/"
+      }
+    ],
+    "role": "Conceptual, Fabrication, Programming",
+    "image description": "",
+    "image": [
+      {
+        "alt": "gif -Mesh hanging from above with projections of rivers across the surface",
+        "text": "gif - Mesh hanging from above with projections of rivers across the surface",
+        "url": "../Assets/imgs/Glistening Flats/hand.gif",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Mesh hanging from above with projections of rivers across the surface",
+        "text": "Mesh hanging from above with projections of rivers across the surface",
+        "url": "../Assets/imgs/Glistening Flats/DSCF0061.jpg",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Mesh hanging from above with projections of rivers across the surface",
+        "text": "Mesh hanging from above with projections of rivers across the surface",
+        "url": "../Assets/imgs/Glistening Flats/DSCF0069.jpg",
+        "type": [
+          "gallery"
+        ]
+      },{
+        "alt": "Mesh hanging tests",
+        "text": "Mesh hanging tests",
+        "url": "../Assets/imgs/Glistening Flats/PXL_20251126_213910138.jpg",
+        "type": [
+          "gallery"
+        ]
+      },{
+        "alt": "Mesh projection studies",
+        "text": "Mesh projection studies",
+        "url": "../Assets/imgs/Glistening Flats/Metallic Fabric Large.jpg",
+        "type": [
+          "gallery"
+        ]
+      },{
+        "alt": "Mesh material studies",
+        "text": "Mesh material studies",
+        "url": "../Assets/imgs/Glistening Flats/Material Test.jpg",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video description": "",
+    "video": [],
+    "image_gallery": "triple"
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Reservoirs",
+    "year": "2025",
+    "tags": [
+      "Fabrication"
+    ],
+    "short description": "Experiments in the poetics of display technology: Esoteric explorations of screens that enable unexpected and tactile encounters with rivers. Exploring embedded screens in objects, viewers can peer into a river within a vase to have an intimate encounter with the water.",
+    "long description": "Experiments in the poetics of display technology: Esoteric explorations of screens that enable unexpected and tactile encounters with rivers. Exploring embedded screens in objects, viewers can peer into a river within a vase to have an intimate encounter with the water.",
+    "links": [
+      {
+        "text": "",
+        "url": ""
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Vedika Modi",
+        "url": "https://vedikamodistudio.com/"
+      }
+    ],
+    "role": "Conceptual, Fabrication, Programming",
+    "image description": "",
+    "image": [
+      {
+        "alt": "Vase 1",
+        "text": "Vase 1",
+        "url": "../Assets/imgs/Reservoirs/DSCF0085.jpg",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Vase 1 Detail",
+        "text": "Vase 1 Detail",
+        "url": "../Assets/imgs/Reservoirs/DSCF0086.jpg",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Vase 2",
+        "text": "Vase 2",
+        "url": "../Assets/imgs/Reservoirs/DSCF0094.jpg",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Vase 2 Detail",
+        "text": "Vase 2 Detail",
+        "url": "../Assets/imgs/Reservoirs/DSCF0099.jpg",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Vase Progress",
+        "text": "Vase Progress",
+        "url": "../Assets/imgs/Reservoirs/PXL_20251205_172949784.jpg",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Vase Being Made",
+        "text": "Vase Being Made",
+        "url": "../Assets/imgs/Reservoirs/IMG_9589.jpg",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Vase Content",
+        "text": "Vase Content",
+        "url": "../Assets/imgs/Reservoirs/content gif.gif",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video description": "",
+    "video": [],
+    "image_gallery": "triple"
+  },
+  {
+    "project type": "experiment",
+    "search": "sfpc",
+    "title": "I'm not sure how to name home anymore",
+    "year": "2024",
+    "tags": [
+      "Game Design", "Multiplayer"
+    ],
+    "short description": "'I'm not sure how to name home anymore' is about how most of us live across many homes, tiny bits of our souls traced back to each place.",
+    "long description": "While attending Worlds in Conversation, I was at a crossroads in my personal life. Within three weeks I had to pinpoint wether to move back to Bangalore or not. Suffice it to say, I was thinking about home a lot. Specifically, I was thinking about how most of us live across many homes, tiny bits of our souls traced back to each place. I wanted to converse about the many homes we've inhabited and the stories we carry. This game also, more crucially, reflected the wayfinding once you've outgrown a home. It embodied my decision-making and my steps to a new home.",
+    "links": [
+      {
+        "text": "Game Presskit",
+        "url": "https://drive.google.com/drive/u/0/folders/1w3KmOOHTRvFzQBMsAxqABRiWlMYDaKVg"
+      }
+    ],
+    "collaborators": [],
+    "role": "game design, writing, fabrication",
+    "image description": "",
+    "image": [
+      {
+        "alt": "stitching peices",
+        "text": "Making something tactile was important since I was tired of pixel pushing and staring at a screen. Constructing this game was a labour of love.",
+        "url": "../Assets/imgs/SFPC/featured/IMG_9454.webp",
+        "type": [
+          "featured"
+        ]
+      },
+      {
+        "alt": "PLayers looking over the game",
+        "text": "This game is a worldbuilding game with a small ruleset. Players should feel free to make it their own.",
+        "url": "../Assets/imgs/SFPC/featured/Photo Sept 1 2024.webp",
+        "type": [
+          "featured", "gallery"
+        ]
+      },
+      {
+        "alt": "I'm not sure how to name home anymore documentation",
+        "text": "",
+        "url": "../Assets/imgs/SFPC/final/IMG_9441.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "I'm not sure how to name home anymore documentation",
+        "text": "",
+        "url": "../Assets/imgs/SFPC/final/IMG_9445.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "I'm not sure how to name home anymore documentation",
+        "text": "",
+        "url": "../Assets/imgs/SFPC/final/IMG_9446.webp",
+        "type": [
+          "final", "gallery"
+        ]
+      },
+      {
+        "alt": "I'm not sure how to name home anymore documentation",
+        "text": "",
+        "url": "../Assets/imgs/SFPC/final/IMG_9448.webp",
+        "type": [
+          "final", "gallery"
+        ]
+      },
+      {
+        "alt": "I'm not sure how to name home anymore documentation",
+        "text": "",
+        "url": "../Assets/imgs/SFPC/final/IMG_9450.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "Collation of many templates, tests and failed tiles",
+        "text": "Collation of many templates, tests and failed tiles",
+        "url": "../Assets/imgs/SFPC/working/test peices.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Countless tiles to test magnet placement and stitching",
+        "text": "Countless tiles to test magnet placement and stitching",
+        "url": "../Assets/imgs/SFPC/working/samples.webp",
+        "type": [
+          "progress-small",
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Initial prototype with tiles closed",
+        "text": "Initial prototype with tiles closed",
+        "url": "../Assets/imgs/SFPC/working/proto1.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "Initial prototype with tiles open",
+        "text": "Initial prototype with tiles open",
+        "url": "../Assets/imgs/SFPC/working/proto2.webp",
+        "type": [
+          "progress-small",
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Figuring out the mechanism to make tiles rotate",
+        "text": "Figuring out the mechanism to make tiles rotate",
+        "url": "../Assets/imgs/SFPC/working/test peices.webp",
+        "type": [
+          "progress-small",
+          "gallery"
+        ]
+      }
+    ],
+    "video description": "",
+    "video": [],
+    "image_gallery": "triple"
+  },
+  {
+    "project type": "experiment",
+    "search": "cons",
+    "title": "Consilience: AI Driven Learning Tool",
+    "year": "2025",
+    "tags": ["Web Design"],
+    "short description": "A Question-first AI canvas tool that uses interconnected fields of study to enable exploring, falling into rabbit holes and associative learning.",
+    "long description": "A Question-first AI canvas tool that uses interconnected fields of study to enable exploring, falling into rabbit holes and associative learning.",
+    "brief": "",
+    "links": [
+      {
+        "text": "",
+        "url": ""
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Malavika Srinivasan",
+        "url": "https://notes.malavikainmotion.com/about/"
+      },
+      {
+        "name": "Krithi Nalla",
+        "url": "https://krithinalla.com/"
+      }
+    ],
+    "role": "",
+    "image description": "",
+    "image": [
+      {
+        "alt": "",
+        "text": "",
+        "url": "../Assets/imgs/Thumbnails/Consilience.gif",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "image_gallery": "single"
+  },
+  {
+    "project type": "featured",
+    "search": "forestclearing",
+    "title": "Forest Clearing",
+    "year": "2022",
+    "tags": [
+      "Multiplayer", "Climate Crisis", "Game Design"
+    ],
+    "short description": "A Forest Clearing is a collaborative multiplayer game where players grow and maintain their forest.",
+    "long description": "A Forest Clearing is a collaborative multiplayer experience built using the p5 party library where players grow and maintain their forest. In this gamified view on deforestation, players are challenged by an increasing number of NPC lumberjacks that cut down the trees. The code is open-source and the game can be played in the browser.",
+    "links": [
+      {
+        "text": "Play Forest Clearing",
+        "url": "https://studio-degen.github.io/deforestation/"
+      },
+      {
+        "text": "Presskit",
+        "url": "https://www.notion.so/A-Forest-Clearing-Press-Kit-070bbdd4d91f4024a956e42bbb46eec2"
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Apurv Rayate",
+        "url": "https://apurvrayate.com/"
+      },
+      {
+        "name": "Hyacinth Weng",
+        "url": "https://www.hyacinthweng.com"
+      }
+    ],
+    "role": "Game development, front-end development, asset creation",
+    "image description": "Some of the challenges of building this game involved making sure all the player were on the same page - this required multiple iterations of how we were conveying information and instruction. These are some of the final screens of the game. ",
+    "image": [
+      {
+        "alt": "Forest Clearing Game Screengrab",
+        "text": "Forest Clearing Game Screengrab",
+        "url": "../Assets/imgs/Forest Clearing/final/Screenshot page 1.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "Forest Clearing Game Screengrab",
+        "text": "Forest Clearing Game Screengrab",
+        "url": "../Assets/imgs/Forest Clearing/final/Screenshot 2.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "Forest Clearing Game Screengrab",
+        "text": "Forest Clearing Game Screengrab",
+        "url": "../Assets/imgs/Forest Clearing/final/Screenshot 3.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "Forest Clearing Waiting Screen",
+        "text": "Forest Clearing Waiting Screen",
+        "url": "../Assets/imgs/Forest Clearing/final/players.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "Forest Clearing End Screen",
+        "text": "Forest Clearing End Screen",
+        "url": "../Assets/imgs/Forest Clearing/final/game end.webp",
+        "type": [
+          "final"
+        ]
+      },
+      {
+        "alt": "Forest assets",
+        "text": "Forest assets",
+        "url": "../Assets/imgs/Forest Clearing/Working gallery/featured-working copy.webp",
+        "type": [
+          "progress-big"
+        ]
+      },
+      {
+        "alt": "Planting Seeds",
+        "text": "Planting Seeds",
+        "url": "../Assets/imgs/Forest Clearing/Working gallery/ins_1.gif",
+        "type": [
+          "progress-small", "gallery"
+        ]
+      },
+      {
+        "alt": "Apples grow slowly",
+        "text": "Apples grow slowly",
+        "url": "../Assets/imgs/Forest Clearing/Working gallery/ins_3.gif",
+        "type": [
+          "progress-small", "gallery"
+        ]
+      },
+      {
+        "alt": "Plant more trees and grow the forest",
+        "text": "Plant more trees and grow the forest",
+        "url": "../Assets/imgs/Forest Clearing/Working gallery/ins_2.gif",
+        "type": [
+          "progress-small", "gallery" 
+        ]
+      },
+      {
+        "alt": "Loggers attack the trees",
+        "text": "Loggers attack the trees",
+        "url": "../Assets/imgs/Forest Clearing/Working gallery/ins_4_crop.gif",
+        "type": [
+          "progress-small", "gallery"
+        ]
+      },
+      {
+        "alt": "Sketchbook pages",
+        "text": "Sketchbook pages",
+        "url": "../Assets/imgs/Forest Clearing/Working gallery/sketchbook.webp",
+        "type": [
+          "progress-small"
+        ]
+      }
+    ],
+    "video description": "",
+    "video": [],
+    "image_gallery": "triple"
+  },
+  {
+    "project type": "experiment",
+    "search": "cssoch",
+    "title": "C S Soch: Visual Identity",
+    "year": "2021",
+    "tags": [
+      "Illustration"
+    ],
+    "short description": "Visual assets for an online program for primary school children to develop computational thinking skills through coding games, stories and puzzles.",
+    "long description": "CS Soch is an online program for primary school children to develop computational thinking skills through coding games, stories and puzzles. My brief was to create visual assets featuring quintessential Indian animals and landscapes familiar to young users. I worked with the company early on to build their visuals– game elements, character designs and the mascot. My illustrations informed the brand identity and company design system.",
+    "links": [
+      {
+        "text": "Visit C S Soch",
+        "url": "https://cssoch.in"
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Priyanka Thaker",
+        "url": "https://www.linkedin.com/in/priyanka-thaker-40168323/"
+      },
+      {
+        "name": "Sidharth Roy",
+        "url": "https://www.linkedin.com/in/sidharth-roy-0169ba1b3/"
+      }
+    ],
+    "role": "Visual assets development",
+    "image description": "These are some of the assets I worked on for games and puzzles.",
+    "image": [
+      {
+        "alt": "website screenshot",
+        "text": "website screenshot",
+        "url": "../Assets/imgs/cssoch/website screenshot.webp",
+        "type": [
+          "progress-big"
+        ]
+      },
+      {
+        "alt": "wallpapers",
+        "text": "wallpapers",
+        "url": "../Assets/imgs/cssoch/Final wallpaper 1.webp",
+        "type": [
+          "progress-small", "gallery"
+        ]
+      },
+      {
+        "alt": "wallpapers",
+        "text": "wallpapers",
+        "url": "../Assets/imgs/cssoch/Final wallpaper 2.webp",
+        "type": [
+          "progress-small", "gallery"
+        ]
+      },
+      {
+        "alt": "fox character design",
+        "text": "fox character design",
+        "url": "../Assets/imgs/cssoch/Fox design.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "sheep character design",
+        "text": "sheep character design",
+        "url": "../Assets/imgs/cssoch/Sheep design.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "game overview",
+        "text": "game overview",
+        "url": "../Assets/imgs/cssoch/Game 2 overview.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "game overview",
+        "text": "game overview",
+        "url": "../Assets/imgs/cssoch/Game overview.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "company mascot",
+        "text": "company masco",
+        "url": "../Assets/imgs/cssoch/Mascot.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "space themed game assets",
+        "text": "space themed game assets",
+        "url": "../Assets/imgs/cssoch/Space Themed Game Assets.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "train puzzle",
+        "text": "train puzzle",
+        "url": "../Assets/imgs/cssoch/Puzzle 1.webp",
+        "type": [
+          "progress-small"
+        ]
+      },
+      {
+        "alt": "bead pattern puzzle",
+        "text": "bead pattern puzzle",
+        "url": "../Assets/imgs/cssoch/Puzzle 3.webp",
+        "type": [
+          "progress-small"
+        ]
+      }
+    ],
+    "video description": "",
+    "video": [],
+    "image_gallery": "double"
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Bakery Collection",
+    "year": "2024",
+    "tags": [
+      "Fabrication"
+    ],
+    "short description": "A collection of magnets made using oven-bake clay featuring classic baked goods",
+    "long description": "A collection of magnets made using oven-bake clay featuring classic baked goods",
+    "brief": "A collection of magnets made using oven-bake clay featuring classic baked goods",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": "Baked Magnet Collection",
+        "text": "",
+        "url": "../Assets/imgs/Magnets/SFPC-17.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Baked Magnet Collection",
+        "text": "",
+        "url": "../Assets/imgs/Magnets/SFPC-18.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Baked Magnet Collection",
+        "text": "",
+        "url": "../Assets/imgs/Magnets/SFPC-19.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Baked Magnet Collection",
+        "text": "",
+        "url": "../Assets/imgs/Magnets/SFPC-34.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Baked Magnet Collection",
+        "text": "",
+        "url": "../Assets/imgs/Magnets/SFPC-35.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Baked Magnet Collection",
+        "text": "",
+        "url": "../Assets/imgs/Magnets/SFPC-37.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Cellular Automata Workshop",
+    "year": "2024",
+    "tags": [
+      "Workshops",
+      "Creative Coding"
+    ],
+    "short description": "Hosted a workshop on Cellular Automata for high schoolers at Lower Eastside Girls Club.",
+    "long description": "Hosted a workshop on Cellular Automata for high schoolers at Lower Eastside Girls Club.",
+    "brief": "Hosted a workshop on Cellular Automata for high schoolers at Lower Eastside Girls Club.",
+    "links": [
+      {
+        "text": "Slides",
+        "url": "https://www.figma.com/deck/om1eez8WZ2E6Jv3Jinm3HF/Cellular-Automata-Workshop?node-id=1-25&viewport=52%2C-39%2C0.32&t=cDrykoiHWxiKGxD7-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
+      },
+      {
+        "text": "p5.js sketch",
+        "url": "https://editor.p5js.org/TanviMishra5786/sketches/fmlHxjLVz"
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Lower Eastside Girls Club",
+        "url": "https://www.girlsclub.org/"
+      }
+    ],
+    "resources": [],
+    "image_gallery": "double",
+    "image": [
+      {
+        "alt": "Cellular Automata ",
+        "text": "",
+        "url": "../Assets/imgs/LESGC/Cellular Automata Workshop.gif",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Creative Tech Almanac",
+    "year": "2024",
+    "tags": [
+      "Web Design"
+    ],
+    "short description": "The Creative Tech Almanac  was created for the Creative Tech vertical for LAB @ Rockwell Group. This involved collating documentation, creating notes and forming the structure of the website. The notes are written in Obsidian and the site is built with Quartz.",
+    "long description": "The Creative Tech Almanac  was created for the Creative Tech vertical for LAB @ Rockwell Group. This involved collating documentation, creating notes and forming the structure of the website. The notes are written in Obsidian and the site is built with Quartz.",
+    "brief": "The Creative Tech Almanac  was created for the Creative Tech vertical for LAB @ Rockwell Group. This involved collating documentation, creating notes and forming the structure of the website. The notes are written in Obsidian and the site is built with Quartz.",
+    "links": [],
+    "collaborators": [
+      {
+        "name": "LAB @ Rockwell Group",
+        "url": "https://www.labatrockwellgroup.com/"
+      }
+    ],
+    "resources": [],
+    "image_gallery": "double",
+    "image": [
+      {
+        "alt": "Almanac tags",
+        "text": "",
+        "url": "../Assets/imgs/Almanac/AR Toolkit 3.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Almanac tags",
+        "text": "",
+        "url": "../Assets/imgs/Almanac/AR Toolkit 4.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Almanac local graph",
+        "text": "",
+        "url": "../Assets/imgs/Almanac/Graph1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Almanac styling",
+        "text": "",
+        "url": "../Assets/imgs/Almanac/Tags1.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": [
+      {
+        "alt": "Almanac styling",
+        "url": "../Assets/videos/almanac/AR Toolkit.mov",
+        "type": "video"
+      }
+    ]
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "House Brush",
+    "year": "2024",
+    "tags": [
+      "Creative Coding"
+    ],
+    "short description": "The brush draws houses as you move your mouse across the screen. It was built as a quick exercise at reacquainting myself with p5.js.",
+    "long description": "The brush draws houses as you move your mouse across the screen. It was built as a quick exercise at reacquainting myself with p5.js.",
+    "brief": "The brush draws houses as you move your mouse across the screen. It was built as a quick exercise at reacquainting myself with p5.js.",
+    "links": [
+      {
+        "text": "Open Sketch",
+        "url": "https://editor.p5js.org/TanviMishra/sketches/zvzvN-aB1"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": "House brush v1 trials",
+        "text": "",
+        "url": "../Assets/imgs/House Brush/brush v1 trial 1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "House brush v1 trials",
+        "text": "",
+        "url": "../Assets/imgs/House Brush/brush v1 trial 3.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "House brush tests",
+        "text": "",
+        "url": "../Assets/imgs/House Brush/Getting started.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "House brush v2 trials",
+        "text": "",
+        "url": "../Assets/imgs/House Brush/brush v2 trial 1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "House brush v2 trials",
+        "text": "",
+        "url": "../Assets/imgs/House Brush/brush v2 trial 2.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "House brush v2 trials",
+        "text": "",
+        "url": "../Assets/imgs/House Brush/brush v2 trial 3.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "p5 party workshop",
+    "year": "2024",
+    "tags": [
+      "Workshops"
+    ],
+    "short description": "Hosted a series of workshop for kids on the javascript library p5 party in Paper Crane Lab in Bangalore, India. Attended by a gaggle of ten year olds, we covered topics like write conflicts and shared variables.",
+    "long description": "Hosted a series of workshop for kids on the javascript library p5 party in Paper Crane Lab in Bangalore, India. Attended by a gaggle of ten year olds, we covered topics like write conflicts and shared variables.",
+    "brief": "Hosted a series of workshop for kids on the javascript library p5 party in Paper Crane Lab in Bangalore, India. Attended by a gaggle of ten year olds, we covered topics like write conflicts and shared variables.",
+    "links": [
+      {
+        "text": "Curriculum",
+        "url": "https://www.notion.so/tanvimishra/Write-conflicts-582b156b37524a9dad743b345b0beeb5?pvs=4"
+      },
+      {
+        "text": "Class promo",
+        "url": "https://www.instagram.com/p/C3Ab8BVy6-f/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+      },
+      {
+        "text": "p5.js sketch",
+        "url": "https://editor.p5js.org/TanviMishra/sketches/gU1wUoO-k"
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Paper Crane Lab",
+        "url": "https://www.instagram.com/papercranelab/?hl=en"
+      }
+    ],
+    "resources": [],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": "Workshop in session",
+        "text": "",
+        "url": "../Assets/imgs/p5 party workshop/Set Up.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Workshop in session",
+        "text": "",
+        "url": "../Assets/imgs/p5 party workshop/Shared Host.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Workshop in session",
+        "text": "",
+        "url": "../Assets/imgs/p5 party workshop/Threads.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Workshop in session",
+        "text": "",
+        "url": "../Assets/imgs/p5 party workshop/PCL class 1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Workshop in session",
+        "text": "",
+        "url": "../Assets/imgs/p5 party workshop/PCL class 2.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Shape Generator",
+    "year": "2024",
+    "tags": [
+      "Workshops",
+      "Creative Coding"
+    ],
+    "short description": "This shape generator was built as a part of a quick workshop on building using random, 2D shapes, colour and bezier curves.",
+    "long description": "This shape generator was built as a part of a quick workshop on building using random, 2D shapes, colour and bezier curves.",
+    "brief": "This shape generator was built as a part of a quick workshop on building using random, 2D shapes, colour and bezier curves.",
+    "links": [
+      {
+        "text": "Open Sketch",
+        "url": "https://editor.p5js.org/TanviMishra/sketches/FERdfqYX6"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": "Generative Shapes",
+        "text": "",
+        "url": "../Assets/imgs/Shape Generator/2.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Generative Shapes",
+        "text": "",
+        "url": "../Assets/imgs/Shape Generator/4.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Generative Shapes",
+        "text": "",
+        "url": "../Assets/imgs/Shape Generator/1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Generative Shapes",
+        "text": "",
+        "url": "../Assets/imgs/Shape Generator/7.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Generative Shapes",
+        "text": "",
+        "url": "../Assets/imgs/Shape Generator/6.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Generative Shapes",
+        "text": "",
+        "url": "../Assets/imgs/Shape Generator/shape gen.gif",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Entropy Reader",
+    "year": "2023",
+    "tags": [ "Climate Crisis"
+    ],
+    "short description": "I was co-editor and did the layout design for Entropy Reader, a publication in my final year at Parsons.",
+    "long description": "I was co-editor and did the layout design for Entropy Reader, a publication in my final year at Parsons.",
+    "brief": "I was co-editor and did the layout design for Entropy Reader, a publication in my final year at Parsons.",
+    "links": [
+      {
+        "text": "Tridal: Game Mechanics and Climate Science",
+        "url": "https://parsons.edu/dt-2023/publication_entry/tridal/"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "double",
+    "image": [
+      {
+        "alt": " ",
+        "text": "",
+        "url": "../Assets/imgs/Entropy Book.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Landscapes",
+    "year": "2023",
+    "tags": [
+      "Illustration"
+    ],
+    "short description": "Learning how to use procreate with these landscapes.",
+    "long description": "Learning how to use procreate with these landscapes.",
+    "brief": "Learning how to use procreate with these landscapes.",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": "Landscape 1",
+        "text": "",
+        "url": "../Assets/imgs/Illustrations/Landscapes 1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Landscape 2",
+        "text": "",
+        "url": "../Assets/imgs/Illustrations/Landscapes 2.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Landscape 3",
+        "text": "",
+        "url": "../Assets/imgs/Illustrations/Landscapes 3.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Landscape 4",
+        "text": "",
+        "url": "../Assets/imgs/Illustrations/Landscapes 4.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Grapple",
+    "year": "2023",
+    "tags": [
+      "Illustration"
+    ],
+    "short description": "'Grapple juice' illustrations",
+    "long description": "'Grapple juice' illustrations",
+    "brief": "'Grapple juice' illustrations",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": "Grapples",
+        "text": "",
+        "url": "../Assets/imgs/Illustrations/Grapple.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Grapple Juice",
+        "text": "",
+        "url": "../Assets/imgs/Illustrations/Grapple juice.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Grapple Factory",
+        "text": "",
+        "url": "../Assets/imgs/Illustrations/Grapple Factory.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Responsive Landscapes",
+    "year": "2022",
+    "tags": [
+      "Web Design",
+      "Creative Coding"
+    ],
+    "short description": "Responsive Landscapes was a quick, playful website I built using basic DOM elements. The site's responsiveness changes the generated scene. Watch the clouds drift by as you resize the website.",
+    "long description": "Responsive Landscapes was a quick, playful website I built using basic DOM elements. The site's responsiveness changes the generated scene. Watch the clouds drift by as you resize the website.",
+    "brief": "Responsive Landscapes was a quick, playful website I built using basic DOM elements. The site's responsiveness changes the generated scene. Watch the clouds drift by as you resize the website.",
+    "links": [
+      {
+        "text": "Visit Webite",
+        "url": "https://tanvimishra.github.io/net-art-0101/projects/reponsiveSite/ex2.html"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "double",
+    "image": [
+      {
+        "alt": "Responsive Landscape Site",
+        "text": "",
+        "url": "../Assets/imgs/Responsive landscapes/Responsive landscape 1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Responsive Landscape Site",
+        "text": "",
+        "url": "../Assets/imgs/Responsive landscapes/Responsive landscape 2.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Responsive Landscape Site",
+        "text": "",
+        "url": "../Assets/imgs/Responsive landscapes/Responsive landscape 3.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Responsive Landscape Site",
+        "text": "",
+        "url": "../Assets/imgs/Responsive landscapes/Responsive landscape 4.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Responsive Landscape Site",
+        "text": "",
+        "url": "../Assets/imgs/Responsive landscapes/Responsive site.gif",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Sheepish",
+    "year": "2022",
+    "tags": [
+      "Game Design", "Multiplayer"
+    ],
+    "short description": "You are a border collie (woof) and you have only one job: herd all the sheep back into the pen! Call your other border collie friends to help you out and try to get all them sheeps fenced before the time runs out.",
+    "long description": "You are a border collie (woof) and you have only one job: herd all the sheep back into the pen! Call your other border collie friends to help you out and try to get all them sheeps fenced before the time runs out.",
+    "brief": "You are a border collie (woof) and you have only one job: herd all the sheep back into the pen! Call your other border collie friends to help you out and try to get all them sheeps fenced before the time runs out.",
+    "links": [
+      {
+        "text": "Play Sheepish",
+        "url": "https://tanvimishra.github.io/gameB/"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": "Final Interface",
+        "text": "",
+        "url": "../Assets/imgs/Sheepish/Final interface 2.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Game Screengrab",
+        "text": "",
+        "url": "../Assets/imgs/Sheepish/Game screengrab 1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Game Screengrab",
+        "text": "",
+        "url": "../Assets/imgs/Sheepish/Game screengrab 2.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Win Condition",
+        "text": "",
+        "url": "../Assets/imgs/Sheepish/win condition.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Instructions Callout",
+        "text": "",
+        "url": "../Assets/imgs/Sheepish/Instruction callout.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Silver Lining",
+    "year": "2022",
+    "tags": [
+      "Game Design","Multiplayer"
+    ],
+    "short description": "In Silver Lining, players had to draw non-intersecting lines. It is an abstraction of simple paper games I played in school while pretending to take notes.",
+    "long description": "In Silver Lining, players had to draw non-intersecting lines. It is an abstraction of simple paper games I played in school while pretending to take notes.",
+    "brief": "In Silver Lining, players had to draw non-intersecting lines. It is an abstraction of simple paper games I played in school while pretending to take notes.",
+    "links": [
+      {
+        "text": "Play Silver Lining",
+        "url": "https://tanvimishra.github.io/p5_party_classwork/silver_lining_code/"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": "Silver Lining Game",
+        "text": "",
+        "url": "../Assets/imgs/Silver Lining/final interface 1.png",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Silver Lining Game",
+        "text": "",
+        "url": "../Assets/imgs/Silver Lining/game in progress.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Silver Lining instructions",
+        "text": "",
+        "url": "../Assets/imgs/Silver Lining/instructions.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Silver Lining lose condition screen",
+        "text": "",
+        "url": "../Assets/imgs/Silver Lining/lose condition.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Silver Lining ",
+        "text": "",
+        "url": "../Assets/imgs/Silver Lining/paper_prototype.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Rolling Stones",
+    "year": "2022",
+    "tags": [
+      "Web Design"
+    ],
+    "short description": "Prompt: Create a website that is a proverb. Project: 'A rolling stone gathers no moss' <br>The website is the rolling stone within this metaphor, when you stop rolling, aka scrolling, some moss appears on the screen and the content fades away.The website content chronicles the usage of the proverb in rock music.",
+    "long description": "Prompt: Create a website that is a proverb. Project: 'A rolling stone gathers no moss' <br>The website is the rolling stone within this metaphor, when you stop rolling, aka scrolling, some moss appears on the screen and the content fades away.The website content chronicles the usage of the proverb in rock music.",
+    "links": [
+      {
+        "text": "Visit Website",
+        "url": "https://tanvimishra.github.io/Core_Studio_Systems/Extra_Credit_Website/"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "double",
+    "image": [
+      {
+        "alt": "Rolling Stones Site Landing",
+        "text": "",
+        "url": "../Assets/imgs/Rolling Stones/Landing.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Rolling Stones Site Screengrab",
+        "text": "",
+        "url": "../Assets/imgs/Rolling Stones/Screengrab 1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Rolling Stones Site Screengrab",
+        "text": "",
+        "url": "../Assets/imgs/Rolling Stones/Screengrab 2.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Rolling Stones Site Callout",
+        "text": "",
+        "url": "../Assets/imgs/Rolling Stones/Callout.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Rolling Stones Site Design",
+        "text": "",
+        "url": "../Assets/imgs/Rolling Stones/Design.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Q-sweeper",
+    "year": "2022",
+    "tags": [
+      "Game Design", "Multiplayer"
+    ],
+    "short description": "Q-sweeper (quantum minesweeper) applies quantum concepts (noise and entanglement) and visualises data from the Bernstein-Vazirani algorithm to enhance the player's understanding of quantum mechanics.",
+    "long description": "Q-sweeper (quantum minesweeper) applies quantum concepts (noise and entanglement) and visualises data from the Bernstein-Vazirani algorithm to enhance the player's understanding of quantum mechanics.",
+    "links": [
+      {
+        "text": "Play Q-sweeper",
+        "url": "https://studio-degen.github.io/q-sweeper/"
+      },
+      {
+        "text": "Further Documentation",
+        "url": "https://studio-degen.github.io/studio-degen/projects/q-sweeper.html"
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Apurv Rayate",
+        "url": "https://apurvrayate.com/"
+      },
+      {
+        "name": "Hyacinth Weng",
+        "url": "https://www.hyacinthweng.com"
+      },
+      {
+        "name": "Yiping Dong",
+        "url": "https://wuyuyipi.github.io/portfolio/index.html"
+      },
+      {
+        "name": "Shangshang Li",
+        "url": "https://shangshangli.com/"
+      }
+    ],
+    "resources": [],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": "q-sweeper screengrabs",
+        "text": "",
+        "url": "../Assets/imgs/q-sweeper/ent1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "q-sweeper screengrabs",
+        "text": "",
+        "url": "../Assets/imgs/q-sweeper/ent2.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "q-sweeper screengrabs",
+        "text": "",
+        "url": "../Assets/imgs/q-sweeper/flag1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "q-sweeper screengrabs",
+        "text": "",
+        "url": "../Assets/imgs/q-sweeper/noiseNew.gif",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "q-sweeper screengrabs",
+        "text": "",
+        "url": "../Assets/imgs/q-sweeper/players5.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "archived",
+    "search": "",
+    "title": "b[q]attleship",
+    "year": "2022",
+    "tags": [
+      "Game Design", "Multiplayer"
+    ],
+    "short description": "B[q]attleship is a quantum version of the traditional board game battleship. It builds upon the ideas of Q-sweeper in a multiplayer context using the p5.party library to create a two-player game played across computers.",
+    "long description": "B[q]attleship is a quantum version of the traditional board game battleship. It builds upon the ideas of Q-sweeper in a multiplayer context using the p5.party library to create a two-player game played across computers.",
+    "links": [
+      {
+        "text": "Play B[q]attlesihip",
+        "url": "https://studio-degen.github.io/q-battleship/"
+      },
+      {
+        "text": "Further Documentation",
+        "url": "https://studio-degen.github.io/studio-degen/projects/battleship.html"
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Apurv Rayate",
+        "url": "https://apurvrayate.com/"
+      },
+      {
+        "name": "Hyacinth Weng",
+        "url": "https://www.hyacinthweng.com"
+      }
+    ],
+    "resources": [],
+    "image_gallery": "double",
+    "image": [
+      {
+        "alt": "q-sweeper screengrabs",
+        "text": "",
+        "url": "../Assets/imgs/b[q]attleship/entangled.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "q-sweeper screengrabs",
+        "text": "",
+        "url": "../Assets/imgs/b[q]attleship/regularboard.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "q-sweeper screengrabs",
+        "text": "",
+        "url": "../Assets/imgs/b[q]attleship/keyboard.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "q-sweeper screengrabs",
+        "text": "",
+        "url": "../Assets/imgs/b[q]attleship/gameplay.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Animals",
+    "year": "2021",
+    "tags": [
+      "Illustration"
+    ],
+    "short description": "These illustrations are inspired by imagery found in a story about Buddhist teachings, titled 'Roaring Bulls With No Fight'. Both illustrations highlight the unthinking consumption of one's surrounding. They chronicle living on a damaged land and being in a perpetuating, vicious cycle of harm.",
+    "long description": "These illustrations are inspired by imagery found in a story about Buddhist teachings, titled 'Roaring Bulls With No Fight'. Both illustrations highlight the unthinking consumption of one's surrounding. They chronicle living on a damaged land and being in a perpetuating, vicious cycle of harm.",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": "Horse Final",
+        "text": "",
+        "url": "../Assets/imgs/Illustrations/HorseFInal.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Cow Final",
+        "text": "",
+        "url": "../Assets/imgs/Illustrations/CowsFinal.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "archived",
+    "search": "",
+    "title": "Tetris -2.0",
+    "year": "2021",
+    "tags": [
+      "Game Design"
+    ],
+    "short description": "Tetris -2.0 is a typographic reimagining of the classic Tetris game, where letterforms serve as the falling blocks. The letters were constructed from a 9x9 matrix system, allowing for rotation and movement while stacking them.",
+    "long description": "Tetris -2.0 is a typographic reimagining of the classic Tetris game, where letterforms serve as the falling blocks. The letters were constructed from a 9x9 matrix system, allowing for rotation and movement while stacking them.",
+    "links": [
+      {
+        "text": "Play Tetris -2.0",
+        "url": "https://editor.p5js.org/TanviMishra/embed/FofmFQ3K6"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": " ",
+        "text": "",
+        "url": "../Assets/imgs/tetris/tetris 2.jpg",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": " ",
+        "text": "",
+        "url": "../Assets/imgs/tetris/tetris 3.jpg",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": " ",
+        "text": "",
+        "url": "../Assets/imgs/tetris/tetris 4.gif",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": " ",
+        "text": "",
+        "url": "../Assets/imgs/tetris/tetris 1.gif",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": " ",
+        "text": "",
+        "url": "../Assets/imgs/tetris/letter b.png",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": " ",
+        "text": "",
+        "url": "../Assets/imgs/tetris/letter x.png",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Validata.js",
+    "year": "2021",
+    "tags": [
+      "Creative Coding"
+    ],
+    "short description": "Validata.js is a data visualisation library that easily creates charts from CSV files. It is built as an add-on to p5.js to help new coders quickly make fun data-viz.",
+    "long description": "Validata.js is a data visualisation library that easily creates charts from CSV files. It is built as an add-on to p5.js to help new coders quickly make fun data-viz.",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": "",
+        "text": "",
+        "url": "../Assets/imgs/validata.js/abstract-1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "",
+        "text": "",
+        "url": "../Assets/imgs/validata.js/abstract-2.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "",
+        "text": "",
+        "url": "../Assets/imgs/validata.js/abstract-3.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "",
+        "text": "",
+        "url": "../Assets/imgs/validata.js/abstract-4.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "",
+        "text": "",
+        "url": "../Assets/imgs/validata.js/abstract-5.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "",
+        "text": "",
+        "url": "../Assets/imgs/validata.js/abstract-6.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "",
+        "text": "",
+        "url": "../Assets/imgs/validata.js/sketchbook.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "archived",
+    "search": "",
+    "title": "Night Sky",
+    "year": "2021",
+    "tags": [
+      "Illustration"
+    ],
+    "short description": "This was a personal project and an introduction to animation. I created this animation loop to celebrate a friend's birthday using after-effects for the first time.",
+    "long description": "This was a personal project and an introduction to animation. I created this animation loop to celebrate a friend's birthday using after-effects for the first time.",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": "Night Sky scenes",
+        "text": "",
+        "url": "../Assets/imgs/Fine Art/Night sky 1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Night Sky scenes",
+        "text": "",
+        "url": "../Assets/imgs/Fine Art/Night sky 2.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Night Sky scenes",
+        "text": "",
+        "url": "../Assets/imgs/Fine Art/Night sky 3.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Leaves floating",
+        "text": "",
+        "url": "../Assets/imgs/Fine Art/leaves floating.gif",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Crow flying",
+        "text": "",
+        "url": "../Assets/imgs/Fine Art/crow flying.gif",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "archived",
+    "title": "Wordplay",
+    "year": "2021",
+    "tags": [
+      "Creative Coding"
+    ],
+    "short description": "This is a collection of interactive words animated using p5.js. Interactions reflect the meaning of the specific word.",
+    "long description": "This is a collection of interactive words animated using p5.js. Interactions reflect the meaning of the specific word.",
+    "links": [
+      {
+        "text": "p5 sketches collection",
+        "url": "https://editor.p5js.org/TanviMishra/collections/Va791Qe5b"
+      } 
+    ],
+    "collaborators": [],
+    "resources": [
+      {
+        "text": "Coding Train: Steering Behaviours",
+        "url": "https://www.youtube.com/watch?v=4hA7G3gup-4"
+      },
+      {
+        "text": "textToPoints(), classes and objects by Xin Xin",
+        "url": "https://editor.p5js.org/xinxin/sketches/4nfqUfNC"
+      }
+    ],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": "Jump",
+        "text": "",
+        "url": "../Assets/imgs/Wordplay/jump.gif",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Atom",
+        "text": "",
+        "url": "../Assets/imgs/Wordplay/atom.gif",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Wire",
+        "text": "",
+        "url": "../Assets/imgs/Wordplay/wire.gif",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Jump 2",
+        "text": "",
+        "url": "../Assets/imgs/Wordplay/game 1.gif",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Game wordplay",
+        "text": "",
+        "url": "../Assets/imgs/Wordplay/game 2.gif",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Game wordplay",
+        "text": "",
+        "url": "../Assets/imgs/Wordplay/wire 2.gif",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Touch me not",
+    "year": "2020",
+    "tags": [
+      "Fabrication"
+    ],
+    "short description": "The 'Touch me not' is something enticing that you want to touch, even though you probably should not. It emphasises how we can reach out to someone/thing, against their wishes, just because it elicits a response.",
+    "long description": "The 'Touch me not' is something enticing that you want to touch, even though you probably should not. It emphasises how we can reach out to someone/thing, against their wishes, just because it elicits a response.",
+    "links": [],
+    "collaborators": [],
+    "resources": [
+      {
+        "text": "Nitinol Wire",
+        "url": "https://makezine.com/article/craft/skill-builder-working-with-shape-memory-alloy/"
+      }
+    ],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": " ",
+        "text": "",
+        "url": "../Assets/imgs/Touch me not/Concept.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": " ",
+        "text": "",
+        "url": "../Assets/imgs/Touch me not/Engineering diagram.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": " ",
+        "text": "",
+        "url": "../Assets/imgs/Touch me not/Final.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "archived",
+    "search": "",
+    "title": "ID Card",
+    "year": "2020",
+    "tags": [
+      "Graphic Design"
+    ],
+    "short description": "This project was my introduction to working with typography. The monogram manipulates the typeface Vortice to form my initials: TM. Using a light colour palette and sharp geometric lines, I made a student ID card that seamlessly incorporated the monogram. ",
+    "long description": "This project was my introduction to working with typography. The monogram manipulates the typeface Vortice to form my initials: TM. Using a light colour palette and sharp geometric lines, I made a student ID card that seamlessly incorporated the monogram. ",
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "double",
+    "image": [
+      {
+        "alt": "Sketchbook pages",
+        "text": "",
+        "url": "../Assets/imgs/ID Card/sketchbook1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Sketchbook pages",
+        "text": "",
+        "url": "../Assets/imgs/ID Card/sketchbook2.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "ID Card mockup",
+        "text": "",
+        "url": "../Assets/imgs/ID Card/ID Card Mockup.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "archived",
+    "search": "",
+    "title": "Taskmaster Newsletter",
+    "year": "2020",
+    "tags": [
+      "Graphic Design"
+    ],
+    "short description": "Taskmaster is a British panel show that has 5 comedians participate in a series of absurd tasks. The show's tone is nonsensical. For my newsletter, I wanted to pay homage to the show.",
+    "long description": "Taskmaster is a British panel show that has 5 comedians participate in a series of absurd tasks. The show's tone is nonsensical. For my newsletter, I wanted to pay homage to the show.",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": " ",
+        "text": "",
+        "url": "../Assets/imgs/Taskmaster/tm concept.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": " ",
+        "text": "",
+        "url": "../Assets/imgs/Taskmaster/tm front 1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": " ",
+        "text": "",
+        "url": "../Assets/imgs/Taskmaster/tm front 2.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": " ",
+        "text": "",
+        "url": "../Assets/imgs/Taskmaster/tm front 3.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Beta Game",
+    "year": "2020",
+    "tags": [
+      "Game Design"
+    ],
+    "short description": "Beta is an autobiographical story based on a picturebook collection.",
+    "long description": "Beta is an autobiographical story based on a picturebook collection.",
+    "links": [
+      {
+        "text": "Play Beta Game",
+        "url": "https://tanvimishra.github.io/betagame.github.io/BitMapGame/"
+      },
+      {
+        "text": "Game Walkthrough",
+        "url": "https://vimeo.com/manage/videos/531037459"
+      }
+    ],
+    "collaborators": [],
+    "resources": [
+      {
+        "text": "Article by Paolo Pedercini",
+        "url": "https://www.molleindustria.org/blog/videogames-and-the-spirit-of-capitalism/"
+      }
+    ],
+    "image_gallery": "double",
+    "image": [
+      {
+        "alt": "Game Scene 1",
+        "text": "",
+        "url": "../Assets/imgs/Beta Game/Scene 1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Game Scene 1",
+        "text": "",
+        "url": "../Assets/imgs/Beta Game/Scene 2.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Game Scene 1",
+        "text": "",
+        "url": "../Assets/imgs/Beta Game/Scene 3.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Grey Boxing",
+        "text": "",
+        "url": "../Assets/imgs/Beta Game/Grey boxing.gif",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "archived",
+    "search": "",
+    "title": "Manifesto design",
+    "year": "2020",
+    "tags": [
+      "Graphic Design"
+    ],
+    "short description": "For a class on typography, I had to select a manifesto and design an all typographical poster, that interprets the text and amplifies the text’s voice, tone, and word selection.",
+    "long description": "For a class on typography, I had to select a manifesto and design an all typographical poster, that interprets the text and amplifies the text’s voice, tone, and word selection.",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": "Final Poster",
+        "text": "",
+        "url": "../Assets/imgs/Manifesto/Final Poster.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Portfolio Version 1",
+        "text": "",
+        "url": "../Assets/imgs/Manifesto/Portfolio Version 1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Portfolio Version 2",
+        "text": "",
+        "url": "../Assets/imgs/Manifesto/Portfolio Version 2.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Sketchbook pages",
+        "text": "",
+        "url": "../Assets/imgs/Manifesto/sketchbook.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Central Park Paintings",
+    "year": "2019",
+    "tags": [
+      "Illustration"
+    ],
+    "short description": "A series of watercolor paintings focussing on textures I saw at Central Park",
+    "long description": "A series of watercolor paintings focussing on textures I saw at Central Park",
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": "Central Park Paintings",
+        "text": "",
+        "url": "../Assets/imgs/Fine Art/Central Park Painting 1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Central Park Paintings",
+        "text": "",
+        "url": "../Assets/imgs/Fine Art/Central Park Painting 3.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Central Park Paintings",
+        "text": "",
+        "url": "../Assets/imgs/Fine Art/Central Park Painting 4.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Central Park Paintings",
+        "text": "",
+        "url": "../Assets/imgs/Fine Art/Central Park Painting 5.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Central Park Paintings",
+        "text": "",
+        "url": "../Assets/imgs/Fine Art/Central Park Painting 6.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "archived",
+    "search": "",
+    "title": "Central Park Collage",
+    "year": "2019",
+    "tags": [
+      "Illustration"
+    ],
+    "short description": "In New York, we are surrounded by buildings, pollution, people and constructions. Amongst this construction, finding a natural spot seems like a breath of fresh air. However, these spots, like parks and gardens, have also been constructed.' My project focussed on Central Park: a seemingly untainted natural space that's a product of intense construction and gentrification.",
+    "long description": "In New York, we are surrounded by buildings, pollution, people and constructions. Amongst this construction, finding a natural spot seems like a breath of fresh air. However, these spots, like parks and gardens, have also been constructed.' My project focussed on Central Park: a seemingly untainted natural space that's a product of intense construction and gentrification.",
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "double",
+    "image": [
+      {
+        "alt": "Central Park Collage",
+        "text": "",
+        "url": "../Assets/imgs/Fine Art/Collage 2.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Central Park Collage",
+        "text": "",
+        "url": "../Assets/imgs/Fine Art/Collage 1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Central Park Collage",
+        "text": "",
+        "url": "../Assets/imgs/Fine Art/Collage 3.jpg",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "archived",
+    "search": "",
+    "title": "Project Last Straw",
+    "year": "2019",
+    "tags": [
+      "Graphic Design"
+    ],
+    "short description": "Project Last Straw is a zine that imagines the tenth avatar of Vishnu. In the zine, his last avatar is in the form of an AI virus using technological interfaces to control and communicate with us. Vishnu’s pessimism and resigned tone in the zine mirror a bleak world. Writing this zine was my reckoning with how pervasive and god-like technology is becoming.",
+    "long description": "Project Last Straw is a zine that imagines the tenth avatar of Vishnu. In the zine, his last avatar is in the form of an AI virus using technological interfaces to control and communicate with us. Vishnu’s pessimism and resigned tone in the zine mirror a bleak world. Writing this zine was my reckoning with how pervasive and god-like technology is becoming.",
+    "links": [
+      {
+        "text": "Zine PDF",
+        "url": "https://www.dropbox.com/s/o6wn1r834ns2odz/ProjectLastStraw.pdf?dl=0"
+      }
+    ],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "default",
+    "image": [
+      {
+        "alt": "Project Last Straw Digital Spreads",
+        "text": "",
+        "url": "../Assets/imgs/Project Last Straw/Project Last Straw 1.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Project Last Straw Digital Spreads",
+        "text": "",
+        "url": "../Assets/imgs/Project Last Straw/Project Last Straw 2.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Project Last Straw Digital Spreads",
+        "text": "",
+        "url": "../Assets/imgs/Project Last Straw/Project Last Straw 3.webp",
+        "type": [
+          "gallery"
+        ]
+      },
+      {
+        "alt": "Project Last Straw Digital Spreads",
+        "text": "",
+        "url": "../Assets/imgs/Project Last Straw/Project Last Straw Overall.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  },
+  {
+    "project type": "experiment",
+    "search": "",
+    "title": "Mapping Time",
+    "year": "2019",
+    "tags": [
+      "Illustration"
+    ],
+    "short description": "The time I spend during the night seems elastic, stretching for hours before I go to sleep. I wanted to capture the stillness of the night as it defied all logical forms of time-keeping.",
+    "long description": "The time I spend during the night seems elastic, stretching for hours before I go to sleep. I wanted to capture the stillness of the night as it defied all logical forms of time-keeping.",
+    "links": [],
+    "collaborators": [],
+    "resources": [],
+    "image_gallery": "single",
+    "image": [
+      {
+        "alt": "Mapping Time Painting",
+        "text": "",
+        "url": "../Assets/imgs/Fine Art/Mapping TIme.webp",
+        "type": [
+          "gallery"
+        ]
+      }
+    ],
+    "video": []
+  }
+]

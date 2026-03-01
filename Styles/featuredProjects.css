@@ -1,20 +1,26 @@
+/* Featured Project Pages Specific Styles */
+
 * {
   box-sizing: border-box;
   /* border: 1px solid var(--secondary); */
 }
+
 button {
   all: unset;
   cursor: pointer;
   font-size: 2em;
 }
+
 button:hover {
   background-color: transparent;
   color: var(--primary);
 }
+
 section img {
   width: 100%;
   object-fit: cover;
 }
+
 header {
   width: fit-content;
   margin: auto;
@@ -27,35 +33,70 @@ header div {
   justify-content: space-between;
 }
 
+.project-brief {
+  justify-content: space-between !important;
+}
+
 #classification {
   color: var(--primary);
 }
+
 #date {
   color: var(--primary); 
 }
+
 #brief {
   width: 100%;
 }
-#links{
+
+#links {
   display: flex;
   flex-direction: column;
   gap: var(--default_padding);
 }
+
 #description {
   width: 150%;
 }
+
+.left-content {
+  max-width: 60%;
+}
+
 .featured-image {
+  display: flex;
+  flex-direction: column;
+  gap: var(--default_padding);
   align-items: flex-end;
 }
+
 .featured-image img {
-  width: 40vw;
+  width: calc((100vw - 5*var(--default_margin)) * 0.5);
 }
+
+.featured-image-container {
+  display: flex;
+  flex-direction: row;
+  gap: var(--default_padding);
+  /* width: calc((100vw - 5*var(--default_margin)) * 0.5); */
+}
+
+.featured-image-container img {
+  width: 50%;
+  height: auto;
+}
+
+.featured-image-container h2 {
+  align-self: flex-end;
+}
+
 #arrowContainer {
   display: flex;
   gap: var(--default_margin);
   margin: auto;
   width: fit-content;
 }
+
 .sliderContainer {
   width: 100%;
   overflow: hidden;
@@ -74,32 +115,37 @@ header div {
   flex-direction: column;
   align-items: center;
 }
+
 .slide img {
   width: 70%;
   height: auto;
   object-fit: cover;
   justify-self: center;
 }
+
 .slide-caption {
   width: 100%;
   text-align: center;
   margin: 10px 0 0 0;
   font-size: 0.7em;
 }
+
 #content {
   display: flex;
   flex-direction: row;
   gap: var(--default_padding);
 }
+
 #content a {
   font-size: 0.7em;
 }
+
 #processVidContainer #video-div {
   width: 40vw;
 }
 
-
-#videos-container {
+#videos-container,
+#video-container {
   display: flex;
   flex-direction: column;
   gap: var(--default_padding);
@@ -107,7 +153,6 @@ header div {
   position: relative;
 }
 
-/* Add this new style for the video wrapper */
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
@@ -124,6 +169,7 @@ header div {
   height: 100%;
   border-radius: var(--small_padding);
 }
+
 #processImgSection #img_div {
   width: 40vw;
 }
@@ -131,6 +177,7 @@ header div {
 #processImgSection #processImgDiv {
   width: 100%;
 }
+
 #progress-small {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -138,26 +185,6 @@ header div {
   gap: var(--default_padding);
 }
 
-.featured-image {
-  display: flex;
-  flex-direction: column;
-  gap: var(--default_padding);
-}
-
-.featured-image-container {
-  display: flex;
-  flex-direction: row;
-  gap: var(--default_padding);
-}
-
-.featured-image-container img {
-  width: 40vw;
-  height: auto;
-}
-
-.featured-image-container h2{
-  align-self: flex-end;
-}
 #progress-big {
   display: flex;
   flex-direction: column;
@@ -172,45 +199,10 @@ header div {
 .big-image-container img {
   width: 100%;
   height: auto;
-  
 }
-.image-caption{
+
+.image-caption {
   font-size: 0.7em;
   text-align: center;
   margin: 4px 0 0 0;
-}
-@media only screen and (max-width: 900px) {
-  .flex-div {
-      flex-direction: column;
-  }
-  #description {
-      width: 100%;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  main {
-      margin-top: 130px !important;
-  }
-  section {
-      flex-direction: column;
-  }
-  .featured-image img {
-      width: 40vw;
-      height: auto;
-  }
-  .featured-image h2{
-    font-size: 1em;
-  }
-  #arrowContainer {
-      flex-direction: row;
-  }
-  #processImgSection #img_div {
-    width: 80%;
-  }
-  .slide img {
-    width: 100%;
-  }
-
-
 }

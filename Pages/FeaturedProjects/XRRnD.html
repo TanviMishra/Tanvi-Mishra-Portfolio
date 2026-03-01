@@ -4,18 +4,19 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Tanvi Mishra Portfolio</title>
-   <link rel="stylesheet" href="../Styles/style.css">
-   <link rel="stylesheet" href="../Styles/work.css">
-   <link rel="icon" type="image/x-icon" href="../Assets/imgs/favicon.png">
+   <link rel="stylesheet" href="../../Styles/style.css">
+   <link rel="stylesheet" href="../../Styles/featuredProjects.css">
+   <link rel="stylesheet" href="../../Styles/responsive.css">
+   <link rel="icon" type="image/x-icon" href="../../Assets/imgs/favicon.png">
 </head>
 <body>
    <menu>
        <object>
-           <h1><a href="../index.html">Tanvi Mishra</a></h1>
+           <h1><a href="../../index.html">Tanvi<br>Mishra</a></h1>
        </object>  
        <div>
-        <a href="../Pages/sandbox.html">Sandbox</a>
-           <a href="../Pages/about.html">About</a>
+           <a href="../sandbox.html">Sandbox</a>
+           <a href="../about.html">About</a>
        </div>
    </menu>
 
@@ -23,8 +24,8 @@
        <header class="flex-column">
            <h1 id="title"></h1>
            <div>
-              <p id="classification"></p>
-              <p id="date"></p> 
+              <p id="tags"></p>
+              <p id="year"></p> 
            </div> 
        </header>
        
@@ -34,7 +35,7 @@
                <p id="collaborators"></p>
                <p id="role"></p>
            </div> 
-           <p id="description"></p>
+           <p id="long description"></p>
        </section>
        <section class="featured-image flex-responsive">
 
@@ -57,7 +58,7 @@
                <h2>Video Documentation  &#8594;</h2>
                <p id="video-description"></p>
            </div>
-           <div id="videos-container">
+           <div id="video-container">
                <!-- Videos will be inserted here -->
            </div>
        </section>
@@ -89,15 +90,15 @@
    <button id="toTop">&#8648;</button>
    <section class="shapes"></section>
 
-   <script src="../Scripts/scrollToTop.js"></script>
-   <script src="../Scripts/slider.js"></script>
-   <script src="../Scripts/work.js"></script>
+   <script src="../../Scripts/scrollToTop.js"></script>
+   <script src="../../Scripts/slider.js"></script>
+   <script src="../../Scripts/featuredProjects.js"></script>
    <script>
        document.addEventListener('DOMContentLoaded', async () => {
-           await loadProjectContent("sfpc");
+           await loadProjectContent("xrrnd");
        });
    </script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
-   <script src="../Scripts/blocks.js"></script>
+   <script src="../../Scripts/blocks.js"></script>
 </body>
 </html>
